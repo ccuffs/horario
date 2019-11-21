@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.4em;
+  color: #b3b3b3;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #f5f5f5;
+}
+
+h2 i {
+  color: #bebebe;
+  margin-right: 0.5em;
+}
+
+div.card-header a {
+  font-size: 0.7em;
+  margin: -0.5em 0 0 0.5em;
+}
+
+.schedule-block {
+  margin-bottom: 2em;
+}
+
+.gridster ul {
+  
+}
+
+.gridster .gs-w {
+  background: #5e5e5e;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.gridster li header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.gridster li.fixed {
+  background-color: transparent;
+  border: 1px #6b6b6b solid;
+  vertical-align: middle;
+  color: #838383;
+  font-size: 1.0em;
+  padding-top: 2.0em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gridster li.fixed header {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.gridster li.readonly header {
+  pointer-events: none;
+}
+
+#buttonProgramSelector {
+  font-weight: bold;
+}
+
+/* Course node */
+
+.course-node {
+  height: 100%;
+  border: 1px solid #858585;
+  vertical-align: middle;
+}
+
+.course-node div.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 30px;
+  height: 30px;
+}
+
+.course-node div.header.readonly {
+  display: none;
+}
+
+.course-node div.header .btn-group button.dropdown-toggle {
+  padding: 0 1px 1px 0;
+  margin-right: -3px;
+  margin-top: 3px;
+  height: 20px;
+  width: 20px;
+}
+
+.course-node div.side {
+  width: 20px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.course-node div.content {
+  pointer-events: none;  
+  position: absolute;
+  width: 85%;
+  left: 1em;
+  top: 1em;
+  color: rgb(204, 204, 204);
+  text-align: center;
+}
+
+.course-node div.content strong {
+  font-size: 1em;
+  color: rgb(200, 200, 200);
+}
+
+.course-node div.content small {
+  font-size: 0.85em;
+  color: rgb(160, 160, 160);
+}
+
+.course-node.clash {
+  background-color: rgb(255, 176, 183);
+  border: solid 2px;
+}
+
+.course-node.impediment {
+  background-color: #fff3cd;
+  border: solid 2px;
+}
+
+.course-node.clash div.content strong {
+  color: #721c24;
+}
+
+.course-node.clash div.content small {
+  color: #721c24;
+}
+
+.course-node.impediment div.content strong {
+  color: #856404;
+}
+
+.course-node.impediment div.content small {
+  color: #856404;
+}
+
+.clash, .impediment {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.clash {
+  animation-name: color-clash;
+}
+
+.impediment {
+  animation-name: color-impediment;
+}
+
+.clash.impediment {
+  animation-name: color-clash-impediment;
+}
+
+@keyframes color-clash {
+  0% {
+    border-color: rgb(255, 176, 183);
+  }
+  50% {
+    border-color: #ff4c5e;
+  }
+  100% {
+    border-color: rgb(255, 176, 183);
+  }
+}
+
+@keyframes color-impediment {
+  0% {
+    border-color: #fff3cd;
+  }
+  50% {
+    border-color: #fdc200;
+  }
+  100% {
+    border-color: #fff3cd;
+  }
+}
+
+@keyframes color-clash-impediment {
+  0% {
+    background-color: rgb(255, 176, 183);
+    border: solid 2px #ff4c5e;
+    color: #721c24;
+  }
+  75% {
+    background-color: #fff3cd;
+    border: solid 2px #ffcc24;
+    color: #856404;
+  }
+  100% {
+    background-color: rgb(255, 176, 183);
+    border: solid 2px #ff4c5e;
+    color: #721c24;
+  }
+}
+
+.navbar .brand img {
+  width: 100px;
+  height: auto;
+}
+
+.user-avatar {
+  width: 50px;
+  height: auto;
+}
+
+.user-info {
+  line-height: 1.2em;
+}
+
+.user-info strong {
+  color: rgb(242, 242, 242);
+}
+
+.user-info span {
+  font-size: 0.8em;
+}
+
+.user-menu i {
+  color: #00bc8c;
+  font-size: 1em;
+  margin-right: 0.3em;
+}
+
+.user-menu a:active,
+.user-menu a:hover,
+.user-menu a:visited,
+.user-menu a:link {
+  color: rgb(235, 235, 235);
+}
+
+.user-menu .nav-link:hover {
+  background: #00bc8c;
+  color: #fff;
+}
+
+.user-menu .nav-link:hover i {
+  color: #fff;
+}
+
+.card-header {
+  font-weight: bold;
+  color: rgb(199, 199, 199);
+}
+
+.meta-block {
+  margin-bottom: 30px;
+}
+
+.meta-block .card-body {
+  height: 70px;
+  padding-top: 10px;
+  color: rgb(233, 233, 233);
+}
+
+.meta-block .card-body button {
+  font-size: 1.2em;  
+  color: #00bc8c;
+  border-color: #00bc8c;
+}
+
+.meta-block .card-body button:hover {
+  background: #00bc8c;
+  color: #fff;
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  line-height: 1.2em;
+}
+
+footer h3 {
+  color: rgb(242, 242, 242);
+  font-size: 1.3em;
+}
+
+footer p {
+  font-size: 0.8em;
+  color :#8892a0;
+}
