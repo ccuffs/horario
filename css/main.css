@@ -35,6 +35,11 @@ body {
   background: #e0ffe0;
 }
 
+.st {
+  text-decoration: line-through;
+  color: #ff0000;
+}
+
 a:link,
 a:active,
 a:visited {
