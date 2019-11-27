@@ -13,7 +13,26 @@
 
 body {
   padding-top: 40px;
-  text-align: center;
+  margin-right: 80px;
+  margin-left: 80px;
+  text-align: left;
+}
+
+
+.seletor-pediodo label {
+  font-size: 0.8em;
+  display: block;
+  color: #585858;
+  text-transform: uppercase;
+}
+
+.seletor-pediodo select {
+  font-size: 4em;
+  font-weight: bold;
+  border: 2px solid #003f00;
+  padding: 15px;
+  color: #003f00;
+  background: #e0ffe0;
 }
 
 a:link,
@@ -36,7 +55,6 @@ p.back {
 }
 
 .hero {
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -73,7 +91,6 @@ p.back {
 }
 
 ul {
-  width: 80%;
   text-align: center;
   margin: 0 auto;
   list-style-position: inside;
@@ -100,7 +117,6 @@ table {
   page-break-inside: avoid;
   margin-left: auto;
   margin-right: auto;
-  width: 80% !important;
 }
 
 td {

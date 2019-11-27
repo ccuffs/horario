@@ -1,784 +1,874 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
-  <head>
-    <title>UFFS - Ciência da Computação</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" media="all" href="../css/main.css?20190815" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" media="all" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  </head>
 
-  <body id="top">
-    <div class="hero">
-      <div class="icon"><i class="fa fa-calendar"></i></div>
-      <div class="content">
-        <h2>Horários 2019/02</h2>
+<head>
+  <title>UFFS - Ciência da Computação</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" media="all"
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" media="all" href="../css/main.css?20191127" type="text/css" />
+</head>
+
+<body id="top">
+
+  <div class="container-fluid">
+    <div class="row hero">
+      <div class="col-9 content">
+        <div class="icon" style="float:left; height: 100%; margin-right: 25px;"><i class="fa fa-calendar" style="font-size: 90px; margin-top: 20px;"></i></div>
+        <h2>Horários</h2>
         <strong>Ciência da Computação</strong>
         <p>Universidade Federal da Fronteira Sul</p>
-        <p><i class="fa fa-envelope-open-o" title="Em caso de dúvidas, escreva para o e-mail computacao.ch@uffs.edu.br"></i> <a href="mailto:computacao.ch@uffs.edu.br">computacao.ch@uffs.edu.br</a></p>
+        <p>
+          <i class="fa fa-envelope-open-o" title="Em caso de dúvidas, escreva para o e-mail computacao.ch@uffs.edu.br"></i>
+          <a href="mailto:computacao.ch@uffs.edu.br">computacao.ch@uffs.edu.br</a>
+        </p>
+      </div>
+      <div class="col-3 text-right seletor-pediodo">
+          <label for="periodo">Período</label>
+          <select name="periodo" id="periodo">
+              <option value="2019.2">2019.2</option>
+              <option value="2020.1">2020.1</option>
+          </select>
       </div>
     </div>
+  </div>
 
-    <ul>
-      <li><strong>Vespertino:</strong></li>
-      <li>
+  <div class="row">
+    <div class="col-12">
+      <ul>
+        <li><strong>Vespertino:</strong></li>
+        <li>
           <i class="fa fa-chevron-right"></i><a href="#table_2">2ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i><a href="#table_5">4ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i><a href="#table_8">6ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i><a href="#table_11">8ª Fase</a>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-    <ul>
-      <li><strong>Noturno:</strong></li>
-      <li>
+  <div class="row">
+    <div class="col-12">
+      <ul>
+        <li><strong>Noturno:</strong></li>
+        <li>
           <i class="fa fa-chevron-right"></i><a href="#table_14">1ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i> <a href="#table_17">3ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i> <a href="#table_20">5ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i> <a href="#table_23">7ª Fase</a>
-      </li>
-      <li>
+        </li>
+        <li>
           <i class="fa fa-chevron-right"></i> <a href="#table_26">9ª Fase</a>
-      </li>
-    </ul>
-    <p>&nbsp;</p>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-    <table id="table_2" border="1" class="odd_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">2ª Fase<br />Sala 401 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <th class="yAxis">8h20</th>
-          <td>---</td>
-          <td>---</td>
-          <td rowspan="4">Cálculo 1<br />Edson R. Santos<br /></td>
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">9h10</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">10h20</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">11h10</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        
-        
-        
-        <tr>
-          <th class="yAxis">13h30</th>
-          <td>---</td>
-          <td rowspan="5">Probabilidade e Estatística<br />Leandro Bordin<br /></td>
-          <td>---</td>
-          <td rowspan="3">Circuitos Digitais<br />Caimi, Padilha<br /></td>
-          <td rowspan="3">Estrutura de Dados<br />Pavan, Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i> Professores novos</strong></td>
-        </tr>
-        <tr>
-          <th class="yAxis">14h20</th>
-          <td rowspan="4">Produção Textual Acadêmica<br />Claudia F. Kratochvil<br /></td>
-          <td rowspan="4">Geometria Analítica<br />Divane Marcon<br /></td>
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">15h10</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">16h00</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td rowspan="2">Estrutura de Dados<br />Pavan, Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i> Professores novos</strong></td>
-          <td rowspan="2">Circuitos Digitais<br />Caimi, Padilha<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">16h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        
-        
-        
-        
-        
-        
-        
-      </tbody>
-    </table>
+  <div class="row">
+    <div class="col-12">
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+      <table id="table_2" border="1" class="odd_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">2ª Fase<br />Sala 401 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
 
-    <table id="table_5" border="1" class="even_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">4ª Fase<br />Matutino: Sala 401 B --- Vespertino: Sala 310 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th class="yAxis">7h30</th>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <td rowspan="3">Iniciação à Prática Científica<br />Grazi<br /></td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">8h20</th>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">9h10</th>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">10h20</th>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <td rowspan="2">Organização de Computadores<br />Caimi<br /></td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">11h10</th>
-          <td>---</td>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        
-        
-        
-        <tr>
-          <th class="yAxis">13h30</th>
-          <td rowspan="3">Banco de Dados 1<br />Denio<br /></td>
-          <td rowspan="5">Engenharia de Software 1<br />Raquel<br /></td>
-          <td rowspan="3">Programação II<br />Andressa<br /></td>
-          <td rowspan="3">Grafos<br />Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong></td>
-          <td rowspan="3">Organização de Computadores<br />Caimi<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">14h20</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">15h10</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">16h00</th>
-          <td rowspan="2">Programação II<br />Andressa<br /></td>
-          <!-- span -->
-          <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
-          <td rowspan="2">Banco de Dados 1<br />Denio<br /></td>
-          <td rowspan="2">Grafos<br />Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong></td>
-        </tr>
-        <tr>
-          <th class="yAxis">16h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        
-        
-        
-        
-        
-        
-        
-      </tbody>
-    </table>
+          <tr>
+            <th class="yAxis">8h20</th>
+            <td>---</td>
+            <td>---</td>
+            <td rowspan="4">Cálculo 1<br />Edson R. Santos<br /></td>
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">9h10</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">10h20</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">11h10</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_8" border="1" class="odd_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">6ª Fase<br />Sala 309 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        <tr>
-          <th class="yAxis">8h20</th>
-          <td>---</td>
-          <td>---</td>
-          <td rowspan="4">História da Fronteira Sul<br />Radin<br /><br />(Sala 207 A)<br /></td>
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">9h10</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">10h20</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">11h10</th>
-          <td>---</td>
-          <td>---</td>
-          <!-- span -->
-          <td>---</td>
-          <td>---</td>
-        </tr>
-        
-        
-        
-        <tr>
-          <th class="yAxis">13h30</th>
-          <td rowspan="5">Planejamento e Gestão de Projetos<br />Raquel<br /></td>
-          <td rowspan="3">Compiladores<br />Braulio<br /></td>
-          <td>---</td>
-          <td rowspan="3">Engenharia de Software 2<br />Grazi<br /></td>
-          <td rowspan="3">Redes de Computadores<br />Marco<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">14h20</th>
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">15h10</th>
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">16h00</th>
-          <!-- span -->
-          <td rowspan="2">Engenharia de Software 2<br />Grazi<br /></td>
-          <td>---</td>
-          <td rowspan="2">Redes de Computadores<br />Marco<br /></td>
-          <td rowspan="2">Compiladores<br />Braulio<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">16h50</th>
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        
-        
-        
-        
-        
-        
-        
-      </tbody>
-    </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+          <tr>
+            <th class="yAxis">13h30</th>
+            <td>---</td>
+            <td rowspan="5">Probabilidade e Estatística<br />Leandro Bordin<br /></td>
+            <td>---</td>
+            <td rowspan="3">Circuitos Digitais<br />Caimi, Padilha<br /></td>
+            <td rowspan="3">Estrutura de Dados<br />Pavan, Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i>
+                Professores novos</strong></td>
+          </tr>
+          <tr>
+            <th class="yAxis">14h20</th>
+            <td rowspan="4">Produção Textual Acadêmica<br />Claudia F. Kratochvil<br /></td>
+            <td rowspan="4">Geometria Analítica<br />Divane Marcon<br /></td>
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">15h10</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">16h00</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td rowspan="2">Estrutura de Dados<br />Pavan, Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i>
+                Professores novos</strong></td>
+            <td rowspan="2">Circuitos Digitais<br />Caimi, Padilha<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">16h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
 
-    <table id="table_11" border="1" class="even_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">8ª Fase<br />Sala 308 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">13h30</th>
-          <td>---</td>
-          <td rowspan="5">Meio Ambiente Econômia e Sociedade<br />Tatiane S. Mattei<br /></td>
-          <td rowspan="3">Tópicos Especiais I<br />Pavan<br /></td>
-          <td rowspan="3">Tópicos Especiais XVII<br />Marco<br /></td>
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">14h20</th>
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">15h10</th>
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">16h00</th>
-          <td>---</td>
-          <!-- span -->
-          <td rowspan="2">Tópicos Especiais XVII<br />Marco<br /></td>
-          <td>---</td>
-          <td rowspan="2">Tópicos Especiais I<br />Pavan<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">16h50</th>
-          <td>---</td>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        
-        
-        
-        
-        
-        
-        
-      </tbody>
-    </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_14" border="1" class="odd_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">1ª Fase<br />Sala 401 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">19h10</th>
-          <td rowspan="2">Algoritmos<br />Denio, Guilherme<br /></td>
-          <td rowspan="2">Informática Básica<br />Caimi<br /></td>
-          <td rowspan="4">Introdução à Filosofia<br />Elsio Cora<br /></td>
-          <td rowspan="4">Estatística Básica<br />Leandro Bordin<br /></td>
-          <td rowspan="4">Matemática C<br />Josiane M. Hoffmann<br /><strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> Nova sala: 306A</strong></td>
-        </tr>
-        <tr>
-          <th class="yAxis">19h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h00</th>
-          <td rowspan="2">Informática Básica<br />Caimi<br /></td>
-          <td rowspan="2">Algoritmos<br />Denio, Guilherme<br /></td>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-      </tbody>
-    </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_17" border="1" class="even_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">3ª Fase<br />Sala 310 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">19h10</th>
-          <td rowspan="2">Sistemas Digitais<br />Padilha<br /></td>
-          <td rowspan="4">Pesquisa e Ordenação de Dados<br />Andressa<br /></td>
-          <td rowspan="2">Programação I<br />Fernando<br /></td>
-          <td rowspan="4">Matemática Discreta<br />Antônio Neri<br /></td>
-          <td rowspan="4">Cálculo 2<br />Milton Kist<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">19h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h00</th>
-          <td rowspan="2">Programação I<br />Fernando<br /></td>
-          <!-- span -->
-          <td rowspan="2">Sistemas Digitais<br />Padilha<br /></td>
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-      </tbody>
-    </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_20" border="1" class="odd_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">5ª Fase<br />Sala 309 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">19h10</th>
-          <td rowspan="4">Engenharia de Software 1<br />Raquel<br /></td>
-          <td rowspan="2">Banco de Dados 2<br />Guilherme<br /></td>
-          <td rowspan="2">Grafos<br />Emilio<br /></td>
-          <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
-          <td rowspan="2">Teoria da Computação<br />Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong></td>
-        </tr>
-        <tr>
-          <th class="yAxis">19h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h00</th>
-          <!-- span -->
-          <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
-          <td rowspan="2">Teoria da Computação<br />Braulio, Giancarlo<br/><strong class="badge badge-warning"><i class="fa fa-exclamation-triangle" title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i> Professores novos</strong></td>
-          <td rowspan="2">Banco de Dados 2<br />Guilherme<br /></td>
-          <td rowspan="2">Grafos<br />Emilio<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">21h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_23" border="1" class="even_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">7ª Fase<br />Sala 308 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">19h10</th>
-          <td rowspan="2">Computação Gráfica<br />Fernando<br /></td>
-          <td rowspan="2">Sistemas Operacionais<br />Marco<br /></td>
-          <td rowspan="4">Fundamentos da Crítica Social<br />Nedilso Brugnera<br /></td>
-          <td rowspan="2">Compiladores<br />Braulio<br /></td>
-          <td rowspan="2">Inteligência Artificial<br />Bins<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">19h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-        <tr>
-          <th class="yAxis">21h00</th>
-          <td rowspan="2">Compiladores<br />Braulio<br /></td>
-          <td rowspan="2">Inteligência Artificial<br />Bins<br /></td>
-          <!-- span -->
-          <td rowspan="2">Computação Gráfica<br />Fernando<br /></td>
-          <td rowspan="2">Sistemas Operacionais<br />Marco<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">21h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-        </tr>
-      </tbody>
-    </table>
+      <table id="table_5" border="1" class="even_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">4ª Fase<br />Matutino: Sala 401 B --- Vespertino: Sala 310 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="yAxis">7h30</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td rowspan="3">Iniciação à Prática Científica<br />Grazi<br /></td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">8h20</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">9h10</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">10h20</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td rowspan="2">Organização de Computadores<br />Caimi<br /></td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">11h10</th>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+          </tr>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
 
-    <table id="table_26" border="1" class="odd_table  table table-striped">
-      <caption>UFFS - Ciência da Computação</caption>
-      <thead>
-        <tr><td rowspan="2"></td><th colspan="5" class="header">9ª Fase<br />Sala 305 B<br /></th></tr>
-        <tr>
-          <!-- span -->
-          <th class="xAxis">Segunda-feira</th>
-          <th class="xAxis">Terça-feira</th>
-          <th class="xAxis">Quarta-feira</th>
-          <th class="xAxis">Quinta-feira</th>
-          <th class="xAxis">Sexta-feira</th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <tr>
-          <th class="yAxis">19h10</th>
-          <td>---</td>
-          <td rowspan="2">Computação Distribuída<br />Emilio<br /></td>
-          <td rowspan="2">Tópicos Especiais II<br />Bins<br /></td>
-          <td rowspan="2">Tópicos Especiais III<br />Guilherme<br /></td>
-          <td rowspan="2">Segurança e Auditoria de Sistemas<br />Emilio<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">19h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-        </tr>
-        <tr>
-          <th class="yAxis">21h00</th>
-          <td rowspan="2">Tópicos Especiais II<br />Bins<br /></td>
-          <td rowspan="2">Segurança e Auditoria de Sistemas<br />Emilio<br /></td>
-          <td rowspan="2">Computação Distribuída<br />Emilio<br /></td>
-          <td>---</td>
-          <td rowspan="2">Tópicos Especiais III<br />Guilherme<br /></td>
-        </tr>
-        <tr>
-          <th class="yAxis">21h50</th>
-          <!-- span -->
-          <!-- span -->
-          <!-- span -->
-          <td>---</td>
-        </tr>
-      </tbody>
-    </table>
 
-    <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+          <tr>
+            <th class="yAxis">13h30</th>
+            <td rowspan="3">Banco de Dados 1<br />Denio<br /></td>
+            <td rowspan="5">Engenharia de Software 1<br />Raquel<br /></td>
+            <td rowspan="3">Programação II<br />Andressa<br /></td>
+            <td rowspan="3">Grafos<br />Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong>
+            </td>
+            <td rowspan="3">Organização de Computadores<br />Caimi<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">14h20</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">15h10</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">16h00</th>
+            <td rowspan="2">Programação II<br />Andressa<br /></td>
+            <!-- span -->
+            <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
+            <td rowspan="2">Banco de Dados 1<br />Denio<br /></td>
+            <td rowspan="2">Grafos<br />Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong>
+            </td>
+          </tr>
+          <tr>
+            <th class="yAxis">16h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+
+
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_8" border="1" class="odd_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">6ª Fase<br />Sala 309 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <th class="yAxis">8h20</th>
+            <td>---</td>
+            <td>---</td>
+            <td rowspan="4">História da Fronteira Sul<br />Radin<br /><br />(Sala 207 A)<br /></td>
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">9h10</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">10h20</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">11h10</th>
+            <td>---</td>
+            <td>---</td>
+            <!-- span -->
+            <td>---</td>
+            <td>---</td>
+          </tr>
+
+
+
+          <tr>
+            <th class="yAxis">13h30</th>
+            <td rowspan="5">Planejamento e Gestão de Projetos<br />Raquel<br /></td>
+            <td rowspan="3">Compiladores<br />Braulio<br /></td>
+            <td>---</td>
+            <td rowspan="3">Engenharia de Software 2<br />Grazi<br /></td>
+            <td rowspan="3">Redes de Computadores<br />Marco<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">14h20</th>
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">15h10</th>
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">16h00</th>
+            <!-- span -->
+            <td rowspan="2">Engenharia de Software 2<br />Grazi<br /></td>
+            <td>---</td>
+            <td rowspan="2">Redes de Computadores<br />Marco<br /></td>
+            <td rowspan="2">Compiladores<br />Braulio<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">16h50</th>
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+          </tr>
+
+
+
+
+
+
+
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_11" border="1" class="even_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">8ª Fase<br />Sala 308 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">13h30</th>
+            <td>---</td>
+            <td rowspan="5">Meio Ambiente Econômia e Sociedade<br />Tatiane S. Mattei<br /></td>
+            <td rowspan="3">Tópicos Especiais I<br />Pavan<br /></td>
+            <td rowspan="3">Tópicos Especiais XVII<br />Marco<br /></td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">14h20</th>
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">15h10</th>
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">16h00</th>
+            <td>---</td>
+            <!-- span -->
+            <td rowspan="2">Tópicos Especiais XVII<br />Marco<br /></td>
+            <td>---</td>
+            <td rowspan="2">Tópicos Especiais I<br />Pavan<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">16h50</th>
+            <td>---</td>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+          </tr>
+
+
+
+
+
+
+
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_14" border="1" class="odd_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">1ª Fase<br />Sala 401 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">19h10</th>
+            <td rowspan="2">Algoritmos<br />Denio, Guilherme<br /></td>
+            <td rowspan="2">Informática Básica<br />Caimi<br /></td>
+            <td rowspan="4">Introdução à Filosofia<br />Elsio Cora<br /></td>
+            <td rowspan="4">Estatística Básica<br />Leandro Bordin<br /></td>
+            <td rowspan="4">Matemática C<br />Josiane M. Hoffmann<br /><strong class="badge badge-danger"><i
+                  class="fa fa-exclamation-triangle"></i> Nova sala: 306A</strong></td>
+          </tr>
+          <tr>
+            <th class="yAxis">19h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h00</th>
+            <td rowspan="2">Informática Básica<br />Caimi<br /></td>
+            <td rowspan="2">Algoritmos<br />Denio, Guilherme<br /></td>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_17" border="1" class="even_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">3ª Fase<br />Sala 310 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">19h10</th>
+            <td rowspan="2">Sistemas Digitais<br />Padilha<br /></td>
+            <td rowspan="4">Pesquisa e Ordenação de Dados<br />Andressa<br /></td>
+            <td rowspan="2">Programação I<br />Fernando<br /></td>
+            <td rowspan="4">Matemática Discreta<br />Antônio Neri<br /></td>
+            <td rowspan="4">Cálculo 2<br />Milton Kist<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">19h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h00</th>
+            <td rowspan="2">Programação I<br />Fernando<br /></td>
+            <!-- span -->
+            <td rowspan="2">Sistemas Digitais<br />Padilha<br /></td>
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_20" border="1" class="odd_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">5ª Fase<br />Sala 309 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">19h10</th>
+            <td rowspan="4">Engenharia de Software 1<br />Raquel<br /></td>
+            <td rowspan="2">Banco de Dados 2<br />Guilherme<br /></td>
+            <td rowspan="2">Grafos<br />Emilio<br /></td>
+            <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
+            <td rowspan="2">Teoria da Computação<br />Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professor novo em virtude de processo de contração de substituto."></i> Professor novo</strong>
+            </td>
+          </tr>
+          <tr>
+            <th class="yAxis">19h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h00</th>
+            <!-- span -->
+            <td rowspan="2">Iniciação à Prática Científica<br />Grazi<br /></td>
+            <td rowspan="2">Teoria da Computação<br />Braulio, Giancarlo<br /><strong class="badge badge-warning"><i
+                  class="fa fa-exclamation-triangle"
+                  title="Professores novos em virtude de processo de contração de substituto e re-organização interna."></i>
+                Professores novos</strong></td>
+            <td rowspan="2">Banco de Dados 2<br />Guilherme<br /></td>
+            <td rowspan="2">Grafos<br />Emilio<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">21h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_23" border="1" class="even_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">7ª Fase<br />Sala 308 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">19h10</th>
+            <td rowspan="2">Computação Gráfica<br />Fernando<br /></td>
+            <td rowspan="2">Sistemas Operacionais<br />Marco<br /></td>
+            <td rowspan="4">Fundamentos da Crítica Social<br />Nedilso Brugnera<br /></td>
+            <td rowspan="2">Compiladores<br />Braulio<br /></td>
+            <td rowspan="2">Inteligência Artificial<br />Bins<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">19h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+          <tr>
+            <th class="yAxis">21h00</th>
+            <td rowspan="2">Compiladores<br />Braulio<br /></td>
+            <td rowspan="2">Inteligência Artificial<br />Bins<br /></td>
+            <!-- span -->
+            <td rowspan="2">Computação Gráfica<br />Fernando<br /></td>
+            <td rowspan="2">Sistemas Operacionais<br />Marco<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">21h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+      <table id="table_26" border="1" class="odd_table  table table-striped">
+        <caption>UFFS - Ciência da Computação</caption>
+        <thead>
+          <tr>
+            <td rowspan="2"></td>
+            <th colspan="5" class="header">9ª Fase<br />Sala 305 B<br /></th>
+          </tr>
+          <tr>
+            <!-- span -->
+            <th class="xAxis">Segunda-feira</th>
+            <th class="xAxis">Terça-feira</th>
+            <th class="xAxis">Quarta-feira</th>
+            <th class="xAxis">Quinta-feira</th>
+            <th class="xAxis">Sexta-feira</th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <tr>
+            <th class="yAxis">19h10</th>
+            <td>---</td>
+            <td rowspan="2">Computação Distribuída<br />Emilio<br /></td>
+            <td rowspan="2">Tópicos Especiais II<br />Bins<br /></td>
+            <td rowspan="2">Tópicos Especiais III<br />Guilherme<br /></td>
+            <td rowspan="2">Segurança e Auditoria de Sistemas<br />Emilio<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">19h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+          </tr>
+          <tr>
+            <th class="yAxis">21h00</th>
+            <td rowspan="2">Tópicos Especiais II<br />Bins<br /></td>
+            <td rowspan="2">Segurança e Auditoria de Sistemas<br />Emilio<br /></td>
+            <td rowspan="2">Computação Distribuída<br />Emilio<br /></td>
+            <td>---</td>
+            <td rowspan="2">Tópicos Especiais III<br />Guilherme<br /></td>
+          </tr>
+          <tr>
+            <th class="yAxis">21h50</th>
+            <!-- span -->
+            <!-- span -->
+            <!-- span -->
+            <td>---</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p class="back"><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></p>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function(){
+        $('#periodo').on('change', function () {
+            window.location = '../' + $(this).val();
+            return false;
+        });
+    });
+  </script>
+</body>
+
 </html>
