@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "Vespertino - 1a fase",
+        "grid": ""
+    },
+    {
+        "id": 2,
+        "name": "Vespertino - 3a fase",
+        "grid": null
+    },
+    {
+        "id": 3,
+        "name": "Vespertino - 5a fase",
+        "grid": null
+    },
+    {
+        "id": 4,
+        "name": "Vespertino - 7a fase",
+        "grid": null
+    },
+    {
+        "id": 5,
+        "name": "Noturno - 2a fase",
+        "grid": null
+    },
+    {
+        "id": 6,
+        "name": "Noturno - 4a fase",
+        "grid": null
+    },
+    {
+        "id": 7,
+        "name": "Noturno - 6a fase",
+        "grid": null
+    },
+    {
+        "id": 8,
+        "name": "Noturno - 8a fase",
+        "grid": null
+    },
+    {
+        "id": 9,
+        "name": "Noturno - 10a fase",
+        "grid": null
+    },
+    {
+        "id": 10,
+        "name": "Matematica",
+        "hidden": true,
+        "grid": null
+    },
+    {
+        "id": 11,
+        "name": "Ambiental",
+        "hidden": true,
+        "grid": null
+    }
+]

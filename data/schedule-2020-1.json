@@ -1,0 +1,1298 @@
+[
+    {
+        "id": 1,
+        "code": "",
+        "name": "Inform\u00e1tica B\u00e1sica",
+        "program": 1,
+        "group": 1,
+        "weekDay": 2,
+        "period": 5,
+        "members": [
+            "padilha"
+        ]
+    },
+    {
+        "id": 2,
+        "code": "",
+        "name": "Matem\u00e1tica C",
+        "program": 1,
+        "group": 1,
+        "weekDay": 3,
+        "period": 5,
+        "members": [
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 3,
+        "code": "",
+        "name": "Introdu\u00e7\u00e3o a Filosofia",
+        "program": 1,
+        "group": 1,
+        "weekDay": 4,
+        "period": 4,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 4,
+        "code": "",
+        "name": "Algoritmos e Programa\u00e7\u00e3o",
+        "program": 1,
+        "group": 1,
+        "weekDay": 2,
+        "period": 4,
+        "members": [
+            "duarte",
+            "guilherme.dalbianco"
+        ]
+    },
+    {
+        "id": 5,
+        "code": "",
+        "name": "Estat\u00edstica B\u00e1sica",
+        "program": 1,
+        "group": 1,
+        "weekDay": 6,
+        "period": 4,
+        "members": [
+            "glaucio.fontana"
+        ]
+    },
+    {
+        "id": 6,
+        "code": "",
+        "name": "Inform\u00e1tica B\u00e1sica",
+        "program": 1,
+        "group": 1,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "padilha"
+        ]
+    },
+    {
+        "id": 7,
+        "code": "",
+        "name": "Matem\u00e1tica C",
+        "program": 1,
+        "group": 1,
+        "weekDay": 5,
+        "period": 4,
+        "members": [
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 8,
+        "code": "",
+        "name": "Introdu\u00e7\u00e3o a Filosofia",
+        "program": 1,
+        "group": 1,
+        "weekDay": 4,
+        "period": 5,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 9,
+        "code": "",
+        "name": "Algoritmos e Programa\u00e7\u00e3o",
+        "program": 1,
+        "group": 1,
+        "weekDay": 5,
+        "period": 5,
+        "members": [
+            "duarte",
+            "guilherme.dalbianco"
+        ]
+    },
+    {
+        "id": 10,
+        "code": "",
+        "name": "Estat\u00edstica B\u00e1sica",
+        "program": 1,
+        "group": 1,
+        "weekDay": 6,
+        "period": 5,
+        "members": [
+            "glaucio.fontana"
+        ]
+    },
+    {
+        "id": 11,
+        "code": "",
+        "name": "Sistemas Digitais",
+        "program": 1,
+        "group": 2,
+        "weekDay": 5,
+        "period": 5,
+        "members": [
+            "padilha"
+        ]
+    },
+    {
+        "id": 12,
+        "code": "",
+        "name": "Mat\u00e1tica Discreta",
+        "program": 1,
+        "group": 2,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 13,
+        "code": "",
+        "name": "Pesquisa e Ordena\u00e7\u00e3o de Dados",
+        "program": 1,
+        "group": 2,
+        "weekDay": 4,
+        "period": 5,
+        "members": [
+            "asebben"
+        ]
+    },
+    {
+        "id": 14,
+        "code": "",
+        "name": "Programa\u00e7\u00e3o I",
+        "program": 1,
+        "group": 2,
+        "weekDay": 2,
+        "period": 3,
+        "members": [
+            "fernando.bevilacqua"
+        ]
+    },
+    {
+        "id": 15,
+        "code": "",
+        "name": "Algebra Linear",
+        "program": 1,
+        "group": 2,
+        "weekDay": 6,
+        "period": 5,
+        "members": [
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 16,
+        "code": "",
+        "name": "Calculo II",
+        "program": 1,
+        "group": 2,
+        "weekDay": 2,
+        "period": 4,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 17,
+        "code": "",
+        "name": "Sistemas Digitais",
+        "program": 1,
+        "group": 2,
+        "weekDay": 2,
+        "period": 2,
+        "members": [
+            "padilha"
+        ]
+    },
+    {
+        "id": 18,
+        "code": "",
+        "name": "Mat\u00e1tica Discreta",
+        "program": 1,
+        "group": 2,
+        "weekDay": 6,
+        "period": 4,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 19,
+        "code": "",
+        "name": "Pesquisa e Ordena\u00e7\u00e3o de Dados",
+        "program": 1,
+        "group": 2,
+        "weekDay": 5,
+        "period": 4,
+        "members": [
+            "asebben"
+        ]
+    },
+    {
+        "id": 20,
+        "code": "",
+        "name": "Programa\u00e7\u00e3o I",
+        "program": 1,
+        "group": 2,
+        "weekDay": 4,
+        "period": 4,
+        "members": [
+            "fernando.bevilacqua"
+        ]
+    },
+    {
+        "id": 21,
+        "code": "",
+        "name": "Algebra Linear",
+        "program": 1,
+        "group": 2,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 22,
+        "code": "",
+        "name": "Calculo II",
+        "program": 1,
+        "group": 2,
+        "weekDay": 2,
+        "period": 5,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 23,
+        "code": "",
+        "name": "Meio Ambiente, Economia e Sociedade",
+        "program": 1,
+        "group": 3,
+        "weekDay": 3,
+        "period": 5,
+        "members": [
+            "pericles"
+        ]
+    },
+    {
+        "id": 24,
+        "code": "",
+        "name": "Banco de Dados II",
+        "program": 1,
+        "group": 3,
+        "weekDay": 2,
+        "period": 2,
+        "members": [
+            "guilherme.dalbianco"
+        ]
+    },
+    {
+        "id": 25,
+        "code": "",
+        "name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+        "program": 1,
+        "group": 3,
+        "weekDay": 2,
+        "period": 3,
+        "members": [
+            "jose.bins"
+        ]
+    },
+    {
+        "id": 26,
+        "code": "",
+        "name": "Linguagens Formais e Automatos",
+        "program": 1,
+        "group": 3,
+        "weekDay": 2,
+        "period": 5,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 27,
+        "code": "",
+        "name": "Engenharia de Software II",
+        "program": 1,
+        "group": 3,
+        "weekDay": 2,
+        "period": 4,
+        "members": [
+            "graziela.tonin"
+        ]
+    },
+    {
+        "id": 28,
+        "code": "",
+        "name": "Sistemas Operacionais",
+        "program": 1,
+        "group": 3,
+        "weekDay": 4,
+        "period": 5,
+        "members": [
+            "marco.spohn"
+        ]
+    },
+    {
+        "id": 29,
+        "code": "",
+        "name": "Meio Ambiente, Economia e Sociedade",
+        "program": 1,
+        "group": 3,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "pericles"
+        ]
+    },
+    {
+        "id": 30,
+        "code": "",
+        "name": "Banco de Dados II",
+        "program": 1,
+        "group": 3,
+        "weekDay": 6,
+        "period": 5,
+        "members": [
+            "guilherme.dalbianco"
+        ]
+    },
+    {
+        "id": 31,
+        "code": "",
+        "name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+        "program": 1,
+        "group": 3,
+        "weekDay": 5,
+        "period": 4,
+        "members": [
+            "jose.bins"
+        ]
+    },
+    {
+        "id": 32,
+        "code": "",
+        "name": "Linguagens Formais e Automatos",
+        "program": 1,
+        "group": 3,
+        "weekDay": 4,
+        "period": 4,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 33,
+        "code": "",
+        "name": "Engenharia de Software II",
+        "program": 1,
+        "group": 3,
+        "weekDay": 5,
+        "period": 5,
+        "members": [
+            "graziela.tonin"
+        ]
+    },
+    {
+        "id": 34,
+        "code": "",
+        "name": "Sistemas Operacionais",
+        "program": 1,
+        "group": 3,
+        "weekDay": 6,
+        "period": 4,
+        "members": [
+            "marcon.spohn"
+        ]
+    },
+    {
+        "id": 35,
+        "code": "",
+        "name": "Fundamentos da Cr\u00edtica Social",
+        "program": 1,
+        "group": 4,
+        "weekDay": 5,
+        "period": 4,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 36,
+        "code": "",
+        "name": "Inteligencia Artificial",
+        "program": 1,
+        "group": 4,
+        "weekDay": 2,
+        "period": 2,
+        "members": [
+            "jose.bins"
+        ]
+    },
+    {
+        "id": 37,
+        "code": "",
+        "name": "Computa\u00e7\u00e3o Distribu\u00edda",
+        "program": 1,
+        "group": 4,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 38,
+        "code": "",
+        "name": "TCC I",
+        "program": 1,
+        "group": 4,
+        "weekDay": 6,
+        "period": 4,
+        "members": [
+            "fernando.bevilacqua"
+        ]
+    },
+    {
+        "id": 39,
+        "code": "",
+        "name": "Opt I: Modelagem e Simula\u00e7\u00e3o",
+        "program": 1,
+        "group": 4,
+        "weekDay": 4,
+        "period": 5,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 40,
+        "code": "",
+        "name": "Opt II: Modelagem de T\u00f3picos (ingles)",
+        "program": 1,
+        "group": 4,
+        "weekDay": 4,
+        "period": 4,
+        "members": [
+            "duarte"
+        ]
+    },
+    {
+        "id": 41,
+        "code": "",
+        "name": "Fundamentos da Cr\u00edtica Social",
+        "program": 1,
+        "group": 4,
+        "weekDay": 5,
+        "period": 5,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 42,
+        "code": "",
+        "name": "Inteligencia Artificial",
+        "program": 1,
+        "group": 4,
+        "weekDay": 3,
+        "period": 5,
+        "members": [
+            "jose.bins"
+        ]
+    },
+    {
+        "id": 43,
+        "code": "",
+        "name": "Computa\u00e7\u00e3o Distribu\u00edda",
+        "program": 1,
+        "group": 4,
+        "weekDay": 6,
+        "period": 5,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 44,
+        "code": "",
+        "name": "TCC I",
+        "program": 1,
+        "group": 4,
+        "weekDay": 7,
+        "period": 2,
+        "members": [
+            "fernando.bevilacqua"
+        ]
+    },
+    {
+        "id": 45,
+        "code": "",
+        "name": "Opt I: Modelagem e Simula\u00e7\u00e3o",
+        "program": 1,
+        "group": 4,
+        "weekDay": 2,
+        "period": 4,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 46,
+        "code": "",
+        "name": "Opt II: Modelagem de T\u00f3picos (ingles)",
+        "program": 1,
+        "group": 4,
+        "weekDay": 2,
+        "period": 5,
+        "members": [
+            "duarte"
+        ]
+    },
+    {
+        "id": 47,
+        "code": "",
+        "name": "Calculo I",
+        "program": 1,
+        "group": 5,
+        "weekDay": 3,
+        "period": 6,
+        "members": [
+            "milton.kist"
+        ]
+    },
+    {
+        "id": 48,
+        "code": "",
+        "name": "Circuitos Digitais",
+        "program": 1,
+        "group": 5,
+        "weekDay": 4,
+        "period": 7,
+        "members": [
+            "padilha",
+            "lcaimi"
+        ]
+    },
+    {
+        "id": 49,
+        "code": "",
+        "name": "Estrutura de Dados",
+        "program": 1,
+        "group": 5,
+        "weekDay": 4,
+        "period": 6,
+        "members": [
+            "subst.pavan",
+            "vaga.zatesko"
+        ]
+    },
+    {
+        "id": 50,
+        "code": "",
+        "name": "Probabilidade e Estat\u00edstica",
+        "program": 1,
+        "group": 5,
+        "weekDay": 6,
+        "period": 6,
+        "members": [
+            "lbordin"
+        ]
+    },
+    {
+        "id": 51,
+        "code": "",
+        "name": "Produ\u00e7\u00e3o Textual Acad\u00eamica",
+        "program": 1,
+        "group": 5,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "mary.surdi"
+        ]
+    },
+    {
+        "id": 52,
+        "code": "",
+        "name": "Calculo I",
+        "program": 1,
+        "group": 5,
+        "weekDay": 3,
+        "period": 7,
+        "members": [
+            "milton.kist"
+        ]
+    },
+    {
+        "id": 53,
+        "code": "",
+        "name": "Circuitos Digitais",
+        "program": 1,
+        "group": 5,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "padilha",
+            "lcaimi"
+        ]
+    },
+    {
+        "id": 54,
+        "code": "",
+        "name": "Estrutura de Dados",
+        "program": 1,
+        "group": 5,
+        "weekDay": 5,
+        "period": 7,
+        "members": [
+            "subst.pavan",
+            "vaga.zatesko"
+        ]
+    },
+    {
+        "id": 55,
+        "code": "",
+        "name": "Probabilidade e Estat\u00edstica",
+        "program": 1,
+        "group": 5,
+        "weekDay": 6,
+        "period": 7,
+        "members": [
+            "lbordin"
+        ]
+    },
+    {
+        "id": 56,
+        "code": "",
+        "name": "Produ\u00e7\u00e3o Textual Acad\u00eamica",
+        "program": 1,
+        "group": 5,
+        "weekDay": 2,
+        "period": 7,
+        "members": [
+            "mary.surdi"
+        ]
+    },
+    {
+        "id": 57,
+        "code": "",
+        "name": "Organiza\u00e7\u00e3o de Computadores",
+        "program": 1,
+        "group": 6,
+        "weekDay": 5,
+        "period": 7,
+        "members": [
+            "lcaimi"
+        ]
+    },
+    {
+        "id": 58,
+        "code": "",
+        "name": "Banco de Dados I",
+        "program": 1,
+        "group": 6,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "duarte"
+        ]
+    },
+    {
+        "id": 59,
+        "code": "",
+        "name": "Grafos",
+        "program": 1,
+        "group": 6,
+        "weekDay": 4,
+        "period": 7,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 60,
+        "code": "",
+        "name": "Geometria Anal\u00edtica",
+        "program": 1,
+        "group": 6,
+        "weekDay": 3,
+        "period": 7,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 61,
+        "code": "",
+        "name": "Engenharia de Software I",
+        "program": 1,
+        "group": 6,
+        "weekDay": 3,
+        "period": 6,
+        "members": [
+            "raquel.pegoraro"
+        ]
+    },
+    {
+        "id": 62,
+        "code": "",
+        "name": "Organiza\u00e7\u00e3o de Computadores",
+        "program": 1,
+        "group": 6,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "lcaimi"
+        ]
+    },
+    {
+        "id": 63,
+        "code": "",
+        "name": "Banco de Dados I",
+        "program": 1,
+        "group": 6,
+        "weekDay": 2,
+        "period": 7,
+        "members": [
+            "duarte"
+        ]
+    },
+    {
+        "id": 64,
+        "code": "",
+        "name": "Grafos",
+        "program": 1,
+        "group": 6,
+        "weekDay": 6,
+        "period": 7,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 65,
+        "code": "",
+        "name": "Geometria Anal\u00edtica",
+        "program": 1,
+        "group": 6,
+        "weekDay": 4,
+        "period": 6,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 66,
+        "code": "",
+        "name": "Engenharia de Software I",
+        "program": 1,
+        "group": 6,
+        "weekDay": 6,
+        "period": 6,
+        "members": [
+            "raquel.pegoraro"
+        ]
+    },
+    {
+        "id": 67,
+        "code": "",
+        "name": "Hist\u00f3ria da Fronteira Sul",
+        "program": 1,
+        "group": 7,
+        "weekDay": 6,
+        "period": 7,
+        "members": [
+            "fernando.vojniak"
+        ]
+    },
+    {
+        "id": 68,
+        "code": "",
+        "name": "Engenharia de Software II",
+        "program": 1,
+        "group": 7,
+        "weekDay": 2,
+        "period": 7,
+        "members": [
+            "graziela.tonin"
+        ]
+    },
+    {
+        "id": 69,
+        "code": "",
+        "name": "Linguagens Formais e Automatos",
+        "program": 1,
+        "group": 7,
+        "weekDay": 5,
+        "period": 7,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 70,
+        "code": "",
+        "name": "Direitos e Cidadania",
+        "program": 1,
+        "group": 7,
+        "weekDay": 4,
+        "period": 7,
+        "members": [
+            "isis.matos"
+        ]
+    },
+    {
+        "id": 71,
+        "code": "",
+        "name": "Calculo Num\u00e9rico",
+        "program": 1,
+        "group": 7,
+        "weekDay": 3,
+        "period": 7,
+        "members": [
+            "paulo.bosin"
+        ]
+    },
+    {
+        "id": 72,
+        "code": "",
+        "name": "Hist\u00f3ria da Fronteira Sul",
+        "program": 1,
+        "group": 7,
+        "weekDay": 6,
+        "period": 6,
+        "members": [
+            "fernando.vojniak"
+        ]
+    },
+    {
+        "id": 73,
+        "code": "",
+        "name": "Engenharia de Software II",
+        "program": 1,
+        "group": 7,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "graziela.tonin"
+        ]
+    },
+    {
+        "id": 74,
+        "code": "",
+        "name": "Linguagens Formais e Automatos",
+        "program": 1,
+        "group": 7,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "braulio"
+        ]
+    },
+    {
+        "id": 75,
+        "code": "",
+        "name": "Direitos e Cidadania",
+        "program": 1,
+        "group": 7,
+        "weekDay": 4,
+        "period": 6,
+        "members": [
+            "isis.matos"
+        ]
+    },
+    {
+        "id": 76,
+        "code": "",
+        "name": "Calculo Num\u00e9rico",
+        "program": 1,
+        "group": 7,
+        "weekDay": 3,
+        "period": 6,
+        "members": [
+            "paulo.bosin"
+        ]
+    },
+    {
+        "id": 77,
+        "code": "",
+        "name": "Meio Ambiente, Economia e Sociedade",
+        "program": 1,
+        "group": 8,
+        "weekDay": 6,
+        "period": 6,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 78,
+        "code": "",
+        "name": "Redes de Computadores",
+        "program": 1,
+        "group": 8,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "marco.spohn"
+        ]
+    },
+    {
+        "id": 79,
+        "code": "",
+        "name": "Planejamento e Gest\u00e3o de Projetos",
+        "program": 1,
+        "group": 8,
+        "weekDay": 2,
+        "period": 7,
+        "members": [
+            "raquel.pegoraro"
+        ]
+    },
+    {
+        "id": 80,
+        "code": "",
+        "name": "Introdu\u00e7\u00e3o ao Pensamento Social",
+        "program": 1,
+        "group": 8,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "ubi.vieira"
+        ]
+    },
+    {
+        "id": 81,
+        "code": "",
+        "name": "Opt III: Redes Opticas El\u00e1sticas",
+        "program": 1,
+        "group": 8,
+        "weekDay": 4,
+        "period": 6,
+        "members": [
+            "claunir.pavan"
+        ]
+    },
+    {
+        "id": 82,
+        "code": "",
+        "name": "Meio Ambiente, Economia e Sociedade",
+        "program": 1,
+        "group": 8,
+        "weekDay": 6,
+        "period": 7,
+        "members": [
+            "na"
+        ]
+    },
+    {
+        "id": 83,
+        "code": "",
+        "name": "Redes de Computadores",
+        "program": 1,
+        "group": 8,
+        "weekDay": 4,
+        "period": 7,
+        "members": [
+            "marco.spohn"
+        ]
+    },
+    {
+        "id": 84,
+        "code": "",
+        "name": "Planejamento e Gest\u00e3o de Projetos",
+        "program": 1,
+        "group": 8,
+        "weekDay": 3,
+        "period": 7,
+        "members": [
+            "raquel.pegoraro"
+        ]
+    },
+    {
+        "id": 85,
+        "code": "",
+        "name": "Introdu\u00e7\u00e3o ao Pensamento Social",
+        "program": 1,
+        "group": 8,
+        "weekDay": 5,
+        "period": 7,
+        "members": [
+            "ubi.vieira"
+        ]
+    },
+    {
+        "id": 86,
+        "code": "",
+        "name": "Opt III: Redes Opticas El\u00e1sticas",
+        "program": 1,
+        "group": 8,
+        "weekDay": 3,
+        "period": 6,
+        "members": [
+            "claunir.pavan"
+        ]
+    },
+    {
+        "id": 87,
+        "code": "",
+        "name": "Opt IV: T\u00f3picos em Automa\u00e7\u00e3o de projeto de circuitos eletr\u00f4nicos (EDA)",
+        "program": 1,
+        "group": 9,
+        "weekDay": 3,
+        "period": 7,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 88,
+        "code": "",
+        "name": "TCC II",
+        "program": 1,
+        "group": 9,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "raquel.pegoraro"
+        ]
+    },
+    {
+        "id": 89,
+        "code": "",
+        "name": "Opt IV: T\u00f3picos em Automa\u00e7\u00e3o de projeto de circuitos eletr\u00f4nicos (EDA)",
+        "program": 1,
+        "group": 9,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "emilio.wuerges"
+        ]
+    },
+    {
+        "id": 90,
+        "code": "",
+        "name": "Fundamentos",
+        "program": 1,
+        "group": 10,
+        "weekDay": 6,
+        "period": 6,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 91,
+        "code": "",
+        "name": "Fundamentos",
+        "program": 1,
+        "group": 10,
+        "weekDay": 6,
+        "period": 7,
+        "members": [
+            "acneri"
+        ]
+    },
+    {
+        "id": 92,
+        "code": "",
+        "name": "Algebra Linear",
+        "program": 1,
+        "group": 10,
+        "weekDay": 5,
+        "period": 6,
+        "members": [
+            "acneri",
+            "paulo.bosin",
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 93,
+        "code": "",
+        "name": "Algebra Linear",
+        "program": 1,
+        "group": 10,
+        "weekDay": 5,
+        "period": 7,
+        "members": [
+            "acneri",
+            "paulo.bosin",
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 94,
+        "code": "",
+        "name": "EDO",
+        "program": 1,
+        "group": 10,
+        "weekDay": 2,
+        "period": 6,
+        "members": [
+            "paulo.bosin"
+        ]
+    },
+    {
+        "id": 95,
+        "code": "",
+        "name": "EDO",
+        "program": 1,
+        "group": 10,
+        "weekDay": 2,
+        "period": 7,
+        "members": [
+            "paulo.bosin"
+        ]
+    },
+    {
+        "id": 96,
+        "code": "",
+        "name": "Opt II",
+        "program": 1,
+        "group": 10,
+        "weekDay": 4,
+        "period": 6,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 97,
+        "code": "",
+        "name": "Opt II",
+        "program": 1,
+        "group": 10,
+        "weekDay": 4,
+        "period": 7,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 98,
+        "code": "",
+        "name": "Introdu\u00e7\u00e3o Ambienta",
+        "program": 1,
+        "group": 11,
+        "weekDay": 2,
+        "period": 2,
+        "members": [
+            "lbordin"
+        ]
+    },
+    {
+        "id": 99,
+        "code": "",
+        "name": "Calculo IV",
+        "program": 1,
+        "group": 11,
+        "weekDay": 2,
+        "period": 4,
+        "members": [
+            "paulo.bosin",
+            "lbordin"
+        ]
+    },
+    {
+        "id": 100,
+        "code": "",
+        "name": "Calculo IV",
+        "program": 1,
+        "group": 11,
+        "weekDay": 2,
+        "period": 5,
+        "members": [
+            "paulo.bosin"
+        ]
+    },
+    {
+        "id": 101,
+        "code": "",
+        "name": "Proba",
+        "program": 1,
+        "group": 11,
+        "weekDay": 3,
+        "period": 2,
+        "members": [
+            "lbordin"
+        ]
+    },
+    {
+        "id": 102,
+        "code": "",
+        "name": "Meio Ambiente, Economia e Sociedade",
+        "program": 1,
+        "group": 11,
+        "weekDay": 3,
+        "period": 4,
+        "members": [
+            "lbordin",
+            "asebben"
+        ]
+    },
+    {
+        "id": 103,
+        "code": "",
+        "name": "Mat C",
+        "program": 1,
+        "group": 11,
+        "weekDay": 4,
+        "period": 3,
+        "members": [
+            "edson.santos"
+        ]
+    },
+    {
+        "id": 104,
+        "code": "",
+        "name": "Calculo II",
+        "program": 1,
+        "group": 11,
+        "weekDay": 5,
+        "period": 4,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 105,
+        "code": "",
+        "name": "Calculo II",
+        "program": 1,
+        "group": 11,
+        "weekDay": 5,
+        "period": 5,
+        "members": [
+            "janice"
+        ]
+    },
+    {
+        "id": 106,
+        "code": "",
+        "name": "Comp B\u00e1sica",
+        "program": 1,
+        "group": 11,
+        "weekDay": 6,
+        "period": 2,
+        "members": [
+            "asebben"
+        ]
+    },
+    {
+        "id": 107,
+        "code": "",
+        "name": "Comp B\u00e1sica",
+        "program": 1,
+        "group": 11,
+        "weekDay": 3,
+        "period": 5,
+        "members": [
+            "asebben"
+        ]
+    }
+]
