@@ -205,6 +205,10 @@ div.DESCRIPTION {
   margin-top: 2em;
 }
 
+#banner {
+  margin-top: 2em;
+}
+
 /* https://stackoverflow.com/a/27250648/29827 */
 
 @keyframes glow {

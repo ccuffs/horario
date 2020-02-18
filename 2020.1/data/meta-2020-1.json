@@ -28,5 +28,8 @@
         "vaga.zatesko": {
             "notice": ""
         }
+    },
+    "banner": {
+        "html": "<div class=\"alert alert-warning\" role=\"alert\"><strong><i class=\"fa fa-info-circle\"></i> Atenção!</strong> Em virtude de mudanças no quadro docente do curso, algumas disciplinas sofrerão troca de professores. <strong>O horário das disciplinas permanecerá exatamente o mesmo</strong> (não haverá trocas de dia/hora das disciplinas).</div>"
     }
 }

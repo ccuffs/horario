@@ -38,6 +38,10 @@ Horarios.Viewer = function() {
         
         this.waitUntilLoaded(['groups', 'schedule', 'meta'], function() {
             this.render('viewer');
+
+            if(this.meta.banner) {
+                this.renderBanner(this.meta.banner);
+            }
         }, this);
     };
 
@@ -61,6 +65,18 @@ Horarios.Viewer = function() {
                 callback.call(context);
             }
         }, 500);    
+    };
+
+    this.renderBanner = function(banner) {
+        var element = document.getElementById('banner');
+
+        if(!element) {
+            return;
+        }
+
+        if(banner.html) {
+            element.innerHTML = banner.html;
+        }
     };
 
     this.load = function(url, prop, callback, context) {
