@@ -77,8 +77,33 @@ Horarios.Viewer = function() {
         });
     };
 
+    this.findCoursesByGroupId = function(groupId) {
+        var items = [];
+        
+        this.schedule.forEach(function(course) {
+            if(course.group == groupId) {
+                items.push(course);
+            }
+        });
+    
+        return items;
+    };
+
+    this.getCourseByGroupPeriodWeekDay = function(groupId, periodId, weekDayId) {
+        var items = [];
+        
+        this.schedule.forEach(function(course) {
+            if(course.group == groupId && course.period == periodId && course.weekDay == weekDayId) {
+                items.push(course);
+            }
+        });
+    
+        return items.length > 0 ? items[0] : null;
+    };    
+
     this.render = function(containerId) {
         var container = document.getElementById(containerId);
+        var self = this;
         var content;
 
         container.innerHTML = '';
@@ -92,23 +117,33 @@ Horarios.Viewer = function() {
                         content += '<th colspan="6" class="header">' + group.name +'<br /><span class="st">Sala 401 B</span></th>';
                     content += '</tr>';
                     content += '<tr>';
-                        content += '<th></th>';            
-                        content += '<th>Segunda-feira</th>';
-                        content += '<th>Terça-feira</th>';
-                        content += '<th>Quarta-feira</th>';
-                        content += '<th>Quinta-feira</th>';
-                        content += '<th>Sexta-feira</th>';
+                        content += '<th style="width: 5%;"></th>';
+                        content += '<th style="width: 19%;">Segunda-feira</th>';
+                        content += '<th style="width: 19%;">Terça-feira</th>';
+                        content += '<th style="width: 19%;">Quarta-feira</th>';
+                        content += '<th style="width: 19%;">Quinta-feira</th>';
+                        content += '<th style="width: 19%;">Sexta-feira</th>';
                     content += '</tr>';
                 content += '</thead>';
                 content += '<tbody>';
-                    content += '<tr>';
-                        content += '<th class="yAxis">8h20</th>';
-                        content += '<td>---</td>';
-                        content += '<td>---</td>';
-                        content += '<td rowspan="4">Cálculo I<br />Edson R. Santos<br /><strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> Nova sala: 310B</strong></td>';
-                        content += '<td>---</td>';
-                        content += '<td>---</td>';
-                    content += '</tr>';
+                    for(var p in periods) {
+                        var period = periods[p];
+
+                        content += '<tr>';
+                        content += '<td>' + period.name + '</td>';
+
+                        for(var w in weekDays) {
+                            var weekDay = weekDays[w];
+                            var course = self.getCourseByGroupPeriodWeekDay(group.id, period.id, weekDay.id);
+
+                            if(course) {
+                                content += '<td>'+ course.name + '<br />' + course.members.join(', ') + '<br /><strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> Nova sala: 310B</strong></td>';
+                            } else {
+                                content += '<td>---</td>';
+                            }
+                        }
+                        content += '</tr>';
+                    }
                 content += '</tbody>';
             content += '</table>';
 
