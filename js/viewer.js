@@ -22,6 +22,7 @@ var Horarios = {};
 Horarios.Viewer = function() {
     this.groups = null;
     this.schedule = null;
+    this.meta = null;
 
     this.init = function() {
         $('#periodo').on('change', function () {
@@ -31,8 +32,9 @@ Horarios.Viewer = function() {
 
         this.load('./data/schedule-2020-1.json', 'schedule');
         this.load('./data/groups-2020-1.json', 'groups');
+        this.load('./data/meta-2020-1.json', 'meta');
         
-        this.waitUntilLoaded(['groups', 'schedule'], function() {
+        this.waitUntilLoaded(['groups', 'schedule', 'meta'], function() {
             this.render('viewer');
         }, this);
     };
@@ -101,6 +103,42 @@ Horarios.Viewer = function() {
         return items.length > 0 ? items[0] : null;
     };    
 
+    this.displayMembers = function(members) {
+        var items = [];
+        var self = this;
+        
+        members.forEach(function(member) {
+            var memberMeta = self.meta.members[member];
+            items.push(memberMeta ? self.displayItemMeta(memberMeta) : '<span class="member"><i class="fa fa-user"></i> ' + member + '</span>');
+        });
+
+        return items.join('<br />');
+    };
+
+    this.displayItemMeta = function(itemMeta) {
+        var content = '';
+
+        itemMeta = itemMeta || {};
+
+        if(itemMeta.notice) {
+            console.log(itemMeta.notice);
+            content +=  itemMeta.notice;
+        }
+        if (itemMeta.alert) {
+            content += '<strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.alert + '</strong>';
+        }
+        
+        if (itemMeta.warn) {
+            content += '<strong class="badge badge-warning"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.warn + '</strong>';
+        } 
+        
+        if (itemMeta.info) {
+            content += '<strong class="badge badge-info"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.info + '</strong>';
+        }
+        
+        return '<span class="item-meta">' + content + '</span>';
+    };
+
     this.render = function(containerId) {
         var container = document.getElementById(containerId);
         var self = this;
@@ -109,12 +147,14 @@ Horarios.Viewer = function() {
         container.innerHTML = '';
 
         this.groups.map(function(group, index) {
+            var groupMeta = self.meta.groups[group.id] || {};
+
             content = '';
             content += '<table id="table_' + group.id + '" border="1" class="odd_table  table table-striped">';
                 content += '<caption><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></caption>';
                 content += '<thead>';
                     content += '<tr>';
-                        content += '<th colspan="6" class="header">' + group.name +'<br /><span class="st">Sala 401 B</span></th>';
+                        content += '<th colspan="6" class="header">' + group.name + '<br />' + self.displayItemMeta(groupMeta) + '</th>';
                     content += '</tr>';
                     content += '<tr>';
                         content += '<th style="width: 5%;"></th>';
@@ -137,7 +177,9 @@ Horarios.Viewer = function() {
                             var course = self.getCourseByGroupPeriodWeekDay(group.id, period.id, weekDay.id);
 
                             if(course) {
-                                content += '<td>'+ course.name + '<br />' + course.members.join(', ') + '<br /><strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> Nova sala: 310B</strong></td>';
+                                var courseMeta = self.meta.courses[course.id] || {};
+                                console.log(course.name, course.id, self.meta.courses, courseMeta);
+                                content += '<td>'+ course.name + '<br />' + self.displayMembers(course.members) + '<br />' + self.displayItemMeta(courseMeta) +'</td>';
                             } else {
                                 content += '<td>---</td>';
                             }
