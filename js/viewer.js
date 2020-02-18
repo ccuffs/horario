@@ -148,6 +148,7 @@ Horarios.Viewer = function() {
 
         this.groups.map(function(group, index) {
             var groupMeta = self.meta.groups[group.id] || {};
+            var groupHidePeriods = groupMeta.hidePeriods || [];
 
             content = '';
             content += '<table id="table_' + group.id + '" border="1" class="odd_table  table table-striped">';
@@ -168,6 +169,11 @@ Horarios.Viewer = function() {
                 content += '<tbody>';
                     for(var p in periods) {
                         var period = periods[p];
+                        var shouldHidePeriod = groupHidePeriods.indexOf(period.id) != -1;
+
+                        if(shouldHidePeriod) {
+                            continue;
+                        }
 
                         content += '<tr>';
                         content += '<td>' + period.name + '</td>';
@@ -178,8 +184,7 @@ Horarios.Viewer = function() {
 
                             if(course) {
                                 var courseMeta = self.meta.courses[course.id] || {};
-                                console.log(course.name, course.id, self.meta.courses, courseMeta);
-                                content += '<td>'+ course.name + '<br />' + self.displayMembers(course.members) + '<br />' + self.displayItemMeta(courseMeta) +'</td>';
+                                content += '<td>'+ (courseMeta.name || course.name) + '<br />' + self.displayMembers(course.members) + '<br />' + self.displayItemMeta(courseMeta) +'</td>';
                             } else {
                                 content += '<td>---</td>';
                             }
