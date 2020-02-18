@@ -35,6 +35,12 @@ body {
   background: #e0ffe0;
 }
 
+.seletor-pediodo select.old {
+  border: 2px solid #790303;
+  color: #5a0000;
+  background: #ff8989;
+}
+
 .st {
   text-decoration: line-through;
   color: #ff0000;
@@ -189,6 +195,34 @@ th.yAxis {
 div.DESCRIPTION {
   text-align: left;
   font-size: smaller;
+}
+
+.course-name {
+  font-size: 1.1em;
+}
+
+#viewer {
+  margin-top: 2em;
+}
+
+/* https://stackoverflow.com/a/27250648/29827 */
+
+@keyframes glow {
+  to {
+    border-color: #ff5050;
+    -webkit-box-shadow: 0 0 5px #ff5050;
+    -moz-box-shadow: 0 0 5px #ff5050;
+    box-shadow: 0 0 5px #ff5050;
+  }
+}
+
+.glower {
+  border: 2px solid transparent;
+  animation: glow 1.0s infinite alternate;  
+  -webkit-animation: glow 1.0s infinite alternate;  
+  -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+  -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+  transition: border 1.0s linear, box-shadow 1.0s linear;
 }
 
 /* Final do arquivo. */

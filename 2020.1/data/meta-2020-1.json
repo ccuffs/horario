@@ -1,0 +1,32 @@
+{
+    "groups": {
+        "1": {
+            "notice": "<span class=\"st\"></span>",
+            "hidePeriods": []
+        }
+    },
+    "courses": {
+        "1": {
+            "info": "",
+            "warn": "",
+            "alert": "",
+            "notice": "",
+            "hidePeriods": []
+        },
+        "40": {
+            "warn": "Ministrado no idioma Inglês",
+            "hidePeriods": []
+        }
+    },
+    "members": {
+        "jose.bins": {
+            "alert": "Atualmente sem professor"
+        },
+        "subst.pavan": {
+            "info": "Aguardando contratação de substituto"
+        },
+        "vaga.zatesko": {
+            "notice": ""
+        }
+    }
+}

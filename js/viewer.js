@@ -24,15 +24,17 @@ Horarios.Viewer = function() {
     this.schedule = null;
     this.meta = null;
 
-    this.init = function() {
+    this.init = function(config) {
+        config = config || {};
+
         $('#periodo').on('change', function () {
             window.location = './' + $(this).val();
             return false;
         });
 
-        this.load('./data/schedule-2020-1.json', 'schedule');
-        this.load('./data/groups-2020-1.json', 'groups');
-        this.load('./data/meta-2020-1.json', 'meta');
+        this.load(config.schedule || './data/schedule-2020-1.json', 'schedule');
+        this.load(config.groups || './data/groups-2020-1.json', 'groups');
+        this.load(config.meta || './data/meta-2020-1.json', 'meta');
         
         this.waitUntilLoaded(['groups', 'schedule', 'meta'], function() {
             this.render('viewer');
@@ -121,19 +123,23 @@ Horarios.Viewer = function() {
         itemMeta = itemMeta || {};
 
         if(itemMeta.notice) {
-            console.log(itemMeta.notice);
             content +=  itemMeta.notice;
         }
+
+        if (itemMeta.secondary) {
+            content += '<span class="badge badge-secondary">'+ itemMeta.secondary + '</span>';
+        }
+
         if (itemMeta.alert) {
             content += '<strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.alert + '</strong>';
         }
         
         if (itemMeta.warn) {
-            content += '<strong class="badge badge-warning"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.warn + '</strong>';
+            content += '<strong class="badge badge-warning"><i class="fa fa-exclamation-circle"></i> '+ itemMeta.warn + '</strong>';
         } 
         
         if (itemMeta.info) {
-            content += '<strong class="badge badge-info"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.info + '</strong>';
+            content += '<strong class="badge badge-info"><i class="fa fa-info-circle"></i> '+ itemMeta.info + '</strong>';
         }
         
         return '<span class="item-meta">' + content + '</span>';
@@ -158,12 +164,12 @@ Horarios.Viewer = function() {
                         content += '<th colspan="6" class="header">' + group.name + '<br />' + self.displayItemMeta(groupMeta) + '</th>';
                     content += '</tr>';
                     content += '<tr>';
-                        content += '<th style="width: 5%;"></th>';
-                        content += '<th style="width: 19%;">Segunda-feira</th>';
-                        content += '<th style="width: 19%;">Terça-feira</th>';
-                        content += '<th style="width: 19%;">Quarta-feira</th>';
-                        content += '<th style="width: 19%;">Quinta-feira</th>';
-                        content += '<th style="width: 19%;">Sexta-feira</th>';
+                        content += '<td style="width: 5%;"></th>';
+                        content += '<td style="width: 19%;">Segunda-feira</th>';
+                        content += '<td style="width: 19%;">Terça-feira</th>';
+                        content += '<td style="width: 19%;">Quarta-feira</th>';
+                        content += '<td style="width: 19%;">Quinta-feira</th>';
+                        content += '<td style="width: 19%;">Sexta-feira</th>';
                     content += '</tr>';
                 content += '</thead>';
                 content += '<tbody>';
@@ -184,7 +190,7 @@ Horarios.Viewer = function() {
 
                             if(course) {
                                 var courseMeta = self.meta.courses[course.id] || {};
-                                content += '<td>'+ (courseMeta.name || course.name) + '<br />' + self.displayMembers(course.members) + '<br />' + self.displayItemMeta(courseMeta) +'</td>';
+                                content += '<td><strong class="course-name">'+ (courseMeta.name || course.name) + '</strong>' + self.displayItemMeta(courseMeta) + '<br /><span class="text-muted">' + self.displayMembers(course.members) + '</span></td>';
                             } else {
                                 content += '<td>---</td>';
                             }
