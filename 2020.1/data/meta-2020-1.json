@@ -1,9 +1,37 @@
 {
     "groups": {
         "1": {
-            "notice": "<span class=\"st\"></span>",
+            "notice": "<span style=\"color:red;\"> Sala: 310 B</span>",
             "hidePeriods": []
-        }
+        },
+        "2": {
+            "notice": "<span style=\"color:red;\"> Sala: 309 B</span>",
+            "hidePeriods": []
+        },
+        "3": {
+            "notice": "<span style=\"color:red;\"> Sala: 308 B</span>",
+            "hidePeriods": []
+        },   
+        "4": {
+            "notice": "<span style=\"color:red;\"> Sala: 210 B</span>",
+            "hidePeriods": []
+        },    
+        "5": {
+            "notice": "<span style=\"color:red;\"> Sala: 310 B</span>",
+            "hidePeriods": []
+        }, 
+        "6": {
+            "notice": "<span style=\"color:red;\"> Sala: 309 B</span>",
+            "hidePeriods": []
+        },  
+        "7": {
+            "notice": "<span style=\"color:red;\"> Sala: 308 B</span>",
+            "hidePeriods": []
+        },
+        "8": {
+            "notice": "<span style=\"color:red;\"> Sala: 305 B</span>",
+            "hidePeriods": []
+        }             
     },
     "courses": {
         "1": {
