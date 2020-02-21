@@ -41,18 +41,18 @@
             "notice": "",
             "hidePeriods": []
         },
-        "11": {
-            "info": "Sala 310 B",
-            "warn": "",
-            "alert": "",
-            "notice": "",
-            "hidePeriods": []
-        }, 
         "14": {
             "info": "Sala 310 B",
             "warn": "",
             "alert": "",
-            "notice": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }, 
+        "17": {
+            "info": "Sala 310 B",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
             "hidePeriods": []
         },           
         "40": {
