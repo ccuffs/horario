@@ -130,7 +130,7 @@
         "weekDay": 5,
         "period": 5,
         "members": [
-            "padilha"
+            "emilio.wuerges"
         ]
     },
     {
@@ -154,7 +154,8 @@
         "weekDay": 4,
         "period": 5,
         "members": [
-            "asebben"
+            "asebben",
+            "geomar.schreiner"
         ]
     },
     {
@@ -166,7 +167,8 @@
         "weekDay": 2,
         "period": 3,
         "members": [
-            "fernando.bevilacqua"
+            "fernando.bevilacqua",
+            "andrei.braga"
         ]
     },
     {
@@ -202,7 +204,7 @@
         "weekDay": 2,
         "period": 2,
         "members": [
-            "padilha"
+            "emilio.wuerges"
         ]
     },
     {
@@ -226,7 +228,8 @@
         "weekDay": 5,
         "period": 4,
         "members": [
-            "asebben"
+            "asebben",
+            "geomar.schreiner"
         ]
     },
     {
@@ -238,7 +241,8 @@
         "weekDay": 4,
         "period": 4,
         "members": [
-            "fernando.bevilacqua"
+            "fernando.bevilacqua",
+            "andrei.braga"
         ]
     },
     {
@@ -298,7 +302,7 @@
         "weekDay": 2,
         "period": 3,
         "members": [
-            "sem.professor"
+            "geomar.schreiner"
         ]
     },
     {
@@ -370,7 +374,7 @@
         "weekDay": 5,
         "period": 4,
         "members": [
-            "sem.professor"
+            "geomar.schreiner"
         ]
     },
     {
@@ -418,7 +422,7 @@
         "weekDay": 5,
         "period": 4,
         "members": [
-            "cora"
+            "jose.mendonca"
         ]
     },
     {
@@ -442,7 +446,7 @@
         "weekDay": 3,
         "period": 4,
         "members": [
-            "emilio.wuerges"
+            "andrei.braga"
         ]
     },
     {
@@ -472,7 +476,7 @@
     {
         "id": 40,
         "code": "",
-        "name": "Opt II: Modelagem de T\u00f3picos (ingles)",
+        "name": "Opt II: Modelagem de T\u00f3picos",
         "program": 1,
         "group": 4,
         "weekDay": 4,
@@ -490,7 +494,7 @@
         "weekDay": 5,
         "period": 5,
         "members": [
-            "cora"
+            "jose.mendonca"
         ]
     },
     {
@@ -514,7 +518,7 @@
         "weekDay": 6,
         "period": 5,
         "members": [
-            "emilio.wuerges"
+            "andrei.braga"
         ]
     },
     {
@@ -544,7 +548,7 @@
     {
         "id": 46,
         "code": "",
-        "name": "Opt II: Modelagem de T\u00f3picos (ingles)",
+        "name": "Opt II: Modelagem de T\u00f3picos",
         "program": 1,
         "group": 4,
         "weekDay": 2,
@@ -581,14 +585,14 @@
     {
         "id": 49,
         "code": "",
-        "name": "Estrutura de Dados",
+        "name": "Estruturas de Dados",
         "program": 1,
         "group": 5,
         "weekDay": 4,
         "period": 6,
         "members": [
-            "emilio.wuerges",
-            "guilherme.dalbianco"
+            "andrei.braga",
+            "geomar.schreiner"
         ]
     },
     {
@@ -643,14 +647,14 @@
     {
         "id": 54,
         "code": "",
-        "name": "Estrutura de Dados",
+        "name": "Estruturas de Dados",
         "program": 1,
         "group": 5,
         "weekDay": 5,
         "period": 7,
         "members": [
-            "emilio.wuerges",
-            "guilherme.dalbianco"
+            "andrei.braga",
+            "geomar.schreiner"
         ]
     },
     {
@@ -842,7 +846,7 @@
         "weekDay": 4,
         "period": 7,
         "members": [
-            "isis.matos"
+            "joviles.trevisol"
         ]
     },
     {
@@ -902,7 +906,7 @@
         "weekDay": 4,
         "period": 6,
         "members": [
-            "isis.matos"
+            "joviles.trevisol"
         ]
     },
     {

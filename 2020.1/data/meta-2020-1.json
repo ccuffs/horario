@@ -1,60 +1,151 @@
 {
     "groups": {
         "1": {
-            "notice": "<span style=\"color:red;\"> Sala: 310 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },
         "2": {
-            "notice": "<span style=\"color:red;\"> Sala: 309 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },
         "3": {
-            "notice": "<span style=\"color:red;\"> Sala: 308 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },   
         "4": {
-            "notice": "<span style=\"color:red;\"> Sala: 210 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },    
         "5": {
-            "notice": "<span style=\"color:red;\"> Sala: 310 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         }, 
         "6": {
-            "notice": "<span style=\"color:red;\"> Sala: 309 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },  
         "7": {
-            "notice": "<span style=\"color:red;\"> Sala: 308 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         },
         "8": {
-            "notice": "<span style=\"color:red;\"> Sala: 305 B</span>",
+            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
             "hidePeriods": []
         }             
     },
     "courses": {
-        "1": {
-            "info": "",
+        "13": {
+            "info": "Professor adicional",
             "warn": "",
             "alert": "",
-            "notice": "",
+            "notice": "<br>",
             "hidePeriods": []
         },
         "14": {
-            "info": "Sala 310 B",
+            "info": "Professor adicional",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "19": {
+            "info": "Professor adicional",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "20": {
+            "info": "Professor adicional",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "25": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "31": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "35": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "37": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "38": {
+            "info": "",
+            "warn": "Sem aulas (converse com orientador/a)",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "41": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "43": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "44": {
+            "info": "",
+            "warn": "Sem aulas (converse com orientador/a)",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "49": {
+            "info": "Novos professores",
             "warn": "",
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
         }, 
-        "17": {
-            "info": "Sala 310 B",
+        "54": {
+            "info": "Novos professores",
             "warn": "",
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
         },           
+        "70": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },  
+        "75": {
+            "info": "Novo professore",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },   
         "40": {
             "warn": "Ministrado no idioma Inglês",
             "hidePeriods": []
@@ -76,6 +167,6 @@
         }
     },
     "banner": {
-        "html": "<div class=\"alert alert-warning\" role=\"alert\"><strong><i class=\"fa fa-info-circle\"></i> Atenção!</strong> Em virtude de mudanças no quadro docente do curso, algumas disciplinas sofrerão troca de professores. <strong>O horário das disciplinas permanecerá exatamente o mesmo</strong> (não haverá trocas de dia/hora das disciplinas).</div>"
+        "html": "<div class=\"alert alert-info\" role=\"alert\"><strong><i class=\"fa fa-info-circle\"></i> Atenção!</strong> Houve troca de professores para algumas disciplinas em virtude da contratação de substitutos. <strong>O horário das disciplinas é exatamente o mesmo do período pré-pandemia</strong>. Todas as aulas serão 100% online. Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br/noticias/2020/09/04/retomada-das-aulas-2020-1/\">https://cc.uffs.edu.br</a></div>"
     }
 }
