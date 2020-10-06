@@ -42,7 +42,44 @@ Horarios.Viewer = function() {
             if(this.meta.banner) {
                 this.renderBanner(this.meta.banner);
             }
+
+            console.debug('Allocated personel: ', this.findEmailsFromAllocatedPersonel());
         }, this);
+    };
+
+    this.findEmailsFromAllocatedPersonel = function() {
+        if(!this.schedule) {
+            console.error('Unable to find emails because nothing has been loaded yet.');
+            return;
+        }
+
+        var personel = this.findAllocatedPersonel();
+        var emails = [];
+
+        personel.map(function(memberId) {
+            emails.push(memberId + '@uffs.edu.br');
+        });
+
+        return emails;
+    };
+
+    this.findAllocatedPersonel = function() {
+        if(!this.schedule) {
+            console.error('Unable to find personel because nothing has been loaded yet.');
+            return;
+        }
+
+        var people = [];
+
+        for(var i in this.schedule) {
+            this.schedule[i].members.map(function(member) {
+                if(people.indexOf(member) == -1) {
+                    people.push(member);
+                }
+            });
+        }
+
+        return people;
     };
 
     this.waitUntilLoaded = function(props, callback, context) {
