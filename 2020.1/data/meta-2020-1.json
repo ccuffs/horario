@@ -131,14 +131,28 @@
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
-        },           
+        }, 
+        "67": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
         "70": {
             "info": "Novo professor",
             "warn": "",
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
-        },  
+        },
+        "72": {
+            "info": "Novo professor",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
         "75": {
             "info": "Novo professore",
             "warn": "",
