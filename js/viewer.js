@@ -43,7 +43,7 @@ Horarios.Viewer = function() {
                 this.renderBanner(this.meta.banner);
             }
 
-            console.debug('Allocated personel: ', this.findEmailsFromAllocatedPersonel());
+            console.debug('Allocated personel:', this.findEmailsFromAllocatedPersonel().join('; '));
         }, this);
     };
 
