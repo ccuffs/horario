@@ -2,5 +2,66 @@ body main {
   margin: 20px auto;
   max-width: 1270px;
   width: 100%;
-  background: #999;
 }
+
+body table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+tr td {
+  padding: 20px 0;
+}
+
+tr td.cell-active{
+  background: #2c2e33;
+  border-radius: 4px;
+}
+
+tr td div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+tr td div strong{
+  margin-bottom: 5px;
+}
+
+tr td div p{
+  display: flex;
+  align-items: center;
+
+  color: #E8F7EE;
+}
+
+tr td div span{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.info {
+  background: #869BEE;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.alert {
+  background: #B27C66;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.icon{
+  width: 12px;
+  height: auto;
+  margin-right: 4px;
+}
+
+
