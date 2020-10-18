@@ -23,49 +23,49 @@ Horarios.Viewer = function() {
 
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
 
-    this.handleCellPeriod = ({ id, name, members }, courses) => {
-        let boxInfo = ''; 
+    this.handleTagCourse = (idCourse) => {
+        const self = this;
+        const course = self.meta.courses[idCourse];
 
+        if(course) {
+            if(course.info) return `<span class="info">${ICON_INFO}${course.info}</span>`;
+            else if(course.warn) return `<span class="alert">${ICON_INFO}${course.warn}</span>`;
+        }
+
+        return '';
+    }
+
+    this.handleCellPeriod = ({ id, name, members }) => {
         const membersElement = `<p>${ICON_USER}${members.join(`</p><p>${ICON_USER}`)}</p>`;
         const nameElement = `<strong>${name}</strong>`;
         
-        const ttt = courses[id];
-        if(ttt) {
-            if(ttt.info) {
-                boxInfo = `<span class="info">${ICON_INFO}${ttt.info}</span>`;
-            } else {
-                boxInfo = `<span class="alert">${ICON_INFO}${ttt.warn}</span>`;
-            }
-        }
-        return `<td class='cell-active'><div>${nameElement}${boxInfo}${membersElement}</div></td>`;
+        const tagCourse = this.handleTagCourse(id);
+
+        return `<td class='cell-active'><div>${nameElement}${tagCourse}${membersElement}</div></td>`;
     }
 
-    this.handleNewPeriod = (period, subjects, courses) => {
+    this.handleNewPeriod = (period, subjects) => {
         const periodTime = weekDays[period - 2];
         const subjectsPeriods = subjects.filter( subject => subject.period === period );
             
-        const isEmptyPeriod = !subjectsPeriods.length;
         // Retorna uma linha sem matérias
+        const isEmptyPeriod = !subjectsPeriods.length;
         if(isEmptyPeriod) return this.handleEmptyPeriod(periodTime);
-
+        // Primeira coluna com os horários
         let periodLine = `<td>${periodTime}</td>`;
 
         for(let weekDay = 2; weekDay < 7; weekDay += 1) {
-            let value = '━';
-
-            const subjectPeriod = subjectsPeriods.findIndex( periods => periods.weekDay === weekDay );
-
-            const cellPeriod = subjectPeriod === -1 ? '<td>━</td>' : this.handleCellPeriod(subjectsPeriods[subjectPeriod], courses);
-
+            const idSubject = subjectsPeriods.findIndex( periods => periods.weekDay === weekDay );
+            const cellPeriod = idSubject === -1 ? '<td>━</td>' : this.handleCellPeriod(subjectsPeriods[idSubject]);
             periodLine += cellPeriod;
         }
         return periodLine;
     };
 
-    this.handleTableGroup = (tableId, subjects, courses) => {
+    this.handleTableGroup = (tableId, subjects) => {
         for(let period = 2; period < 8; period += 1){
             const trTable = document.createElement('tr');
-            trTable.innerHTML = this.handleNewPeriod(period, subjects, courses);
+            trTable.innerHTML = this.handleNewPeriod(period, subjects);
             document.getElementById(tableId).appendChild(trTable);
         }
     }
@@ -82,7 +82,7 @@ Horarios.Viewer = function() {
             document.getElementById(containerId).appendChild(sectionGroup);
 
             const subjectsGroup = self.schedule.filter( subject => subject.group === group.id);
-            self.handleTableGroup(`tbody-${tableId}`, subjectsGroup, self.meta.courses);
+            self.handleTableGroup(`tbody-${tableId}`, subjectsGroup);
         });
     };
 
