@@ -9,7 +9,7 @@ body table {
   text-align: center;
   border-spacing: 10px;
   padding: 10px 0;
-  border: 1px solid #2c2e33;
+  border: 1px solid #343433;
 }
 
 section {
@@ -21,7 +21,7 @@ section {
 }
 
 section h2{
-  background: #2c2e33;
+  background: #343433;
   text-align: center;
   padding: 20px 0;
   border-radius: 10px 10px 0 0;
@@ -32,16 +32,14 @@ tr td {
 }
 
 tr td.cell-active{
-  background: #2c2e33;
+  background: #343433;
   border-radius: 4px;
   transition: all ease 0.4s;
-  opacity: 0.8;
   width: 18vw;
 }
 
 tr td.cell-active:hover{
   cursor: pointer;
-  opacity: 1;
   border-radius: 8px;
 }
 
@@ -65,7 +63,7 @@ tr td div p{
   font-size: 15px;
   font-weight: 300;
 
-  color: #E8F7EE;
+  color: #e2e8f0;
 }
 
 tr td div span{
@@ -75,7 +73,7 @@ tr td div span{
 }
 
 .info {
-  background: #869BEE;
+  background: #4dab98;
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 5px;
@@ -83,7 +81,7 @@ tr td div span{
 }
 
 .alert {
-  background: #B27C66;
+  background: #bb8823;
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 5px;
