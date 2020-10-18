@@ -4,12 +4,71 @@ body main {
   width: 100%;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+header h1{
+  font-size: 54px;
+  padding-right: 120px;
+}
+
+#input-select-semester {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#input-select-semester label {
+  font-size: 18px;
+  font-style: italic;
+
+  margin-bottom: 5px;
+}
+
+#input-select-semester select{
+  flex: 1;
+  background: #444443;
+  font-size: 34px;
+  color: #f8f9fa;
+}
+
+#input-select-semester select option{
+  background: #444443;
+}
+
+#box-alert {
+  display: flex;
+  align-items: center;
+
+  background: #bb8823;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#box-alert img {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#box-alert a{
+  color: #444443;
+}
+
 body table {
   width: 100%;
   text-align: center;
   border-spacing: 10px;
   padding: 10px 0;
-  border: 1px solid #343433;
+  border: 1px solid #444443;
 }
 
 section {
@@ -21,7 +80,7 @@ section {
 }
 
 section h2{
-  background: #343433;
+  background: #444443;
   text-align: center;
   padding: 20px 0;
   border-radius: 10px 10px 0 0;
@@ -32,7 +91,7 @@ tr td {
 }
 
 tr td.cell-active{
-  background: #343433;
+  background: #444443;
   border-radius: 4px;
   transition: all ease 0.4s;
   width: 18vw;

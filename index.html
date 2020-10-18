@@ -11,7 +11,31 @@
 
   <body>
     
-    <main id="app"></main>
+    <main id="app">
+      <header>
+        <img src="./assets/logo-cc.svg" width="300" height="auto"/>
+        <h1>Horários</h1>
+        <div id="input-select-semester">
+          <label for="periodo">Escolha o período:</label>
+          <select name="periodo" id="periodo">
+              <option value="2020.1">2020.1</option>
+              <option value="2019.2">2019.2</option>
+          </select>
+        </div>
+      </header>
+
+      <div id="box-alert">
+        <img class="icon" src="./assets/icons/info.svg" />
+
+        <h3>
+          Atenção! Houve troca de professores para algumas disciplinas em virtude da contratação 
+          de substitutos. O horário das disciplinas é exatamente o mesmo do período pré-pandemia. 
+          Todas as aulas serão 100% online. Veja o site do curso para mais informações: 
+          <a href="https://cc.uffs.edu.br" target="_new">https://cc.uffs.edu.br</a>
+        </h3>
+      </div>
+
+    </main>
 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/viewer.js"></script>
