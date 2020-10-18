@@ -5,17 +5,19 @@
     <title>UFFS - Ciência da Computação</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
   </head>
 
   <body>
-    
-    <main id="app">
-      <header>
+    <div id="main-container">
+
+      <header class="header-container">
         <img src="./assets/logo-cc.svg" width="300" height="auto"/>
         <h1>Horários</h1>
-        <div id="input-select-semester">
+        <div>
           <label for="periodo">Escolha o período:</label>
           <select name="periodo" id="periodo">
               <option value="2020.1">2020.1</option>
@@ -35,11 +37,12 @@
         </h3>
       </div>
 
-    </main>
+      <main id="content"></main>
+
+    </div>
 
     <script src="../js/jquery.min.js"></script>
     <script src="../js/viewer.js"></script>
-
     <script>
       $(function(){
           var viewer = new Horarios.Viewer();
@@ -50,6 +53,5 @@
           });
       });
     </script>
-
   </body>
 </html>

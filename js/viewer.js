@@ -18,7 +18,7 @@ Horarios.Viewer = function() {
         this.load(config.groups || './data/groups-2020-1.json', 'groups');
         this.load(config.meta || './data/meta-2020-1.json', 'meta');
     
-        this.waitUntilLoaded(propsConfig, () => this.render('app'), this);
+        this.waitUntilLoaded(propsConfig, () => this.render('content'), this);
     };
 
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
@@ -28,8 +28,8 @@ Horarios.Viewer = function() {
         const course = self.meta.courses[idCourse];
 
         if(course) {
-            if(course.info) return `<span class="info">${ICON_INFO}${course.info}</span>`;
-            else if(course.warn) return `<span class="alert">${ICON_INFO}${course.warn}</span>`;
+            if(course.info) return `<span class="cell-tag info">${ICON_INFO}${course.info}</span>`;
+            else if(course.warn) return `<span class="cell-tag alert">${ICON_INFO}${course.warn}</span>`;
         }
 
         return '';

@@ -1,0 +1,90 @@
+#content table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+  padding: 10px 0;
+  border: 1px solid #444443;
+}
+
+#content section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  margin-bottom: 20px;
+}
+
+#content h2{
+  background: #444443;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+tr td {
+  padding: 20px 4px;
+}
+
+#content .cell-active{
+  background: #444443;
+  border-radius: 4px;
+  transition: all ease 0.4s;
+  width: 18vw;
+}
+/* Célula de tabela com uma matéria */
+#content .cell-active:hover{
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+#content .cell-active div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content .cell-active strong{
+  font-size: 16px;
+  letter-spacing: 1.5px;
+
+  margin-bottom: 5px;
+}
+
+#content .cell-active p{
+  display: flex;
+  align-items: center;
+
+  font-size: 15px;
+  font-weight: 300;
+
+  color: #e2e8f0;
+}
+
+#content .cell-active span{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+#content .cell-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+#content .cell-tag.info {
+  background: #4dab98;
+}
+
+#content .cell-tag.alert {
+  background: #bb8823;
+}
+
+.icon{
+  width: 11px;
+  height: auto;
+  margin-right: 4px;
+}
+
+
