@@ -4,6 +4,15 @@
   width: 100%;
 }
 
+#link-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #444443;
+  color: #f8f9fa;
+  padding: 10px;
+}
+
 #box-alert {
   display: flex;
   align-items: center;
@@ -24,3 +33,34 @@
   color: #444443;
 }
 
+#links-groups {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+#links-groups li{
+  border: 2px solid #444443;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all ease .4s;
+}
+
+#links-groups li a{
+  font-size: 14px;
+  color: #f8f9fa;
+}
+
+#links-groups li:hover{
+  cursor: pointer;
+  border-color: #f8f9fa;
+  background: #f8f9fa;
+}
+
+#links-groups li:hover a {
+  color: #444443;
+}

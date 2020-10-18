@@ -70,19 +70,36 @@ Horarios.Viewer = function() {
         }
     }
 
+    this.handleNewLinkGroup = (groupId, name) => {
+        const item = document.createElement('li');
+        item.innerHTML = `<a href="#${groupId}">${name}</a>`;
+        document.getElementById('links-groups').appendChild(item);
+    }
+
     this.render = function(containerId) {
         const self = this;
 
-        this.groups.map( group => {
-            const tableId = `group-${group.id}`;
+        self.groups.map( group => {
+            const groupId = `group-${group.id}`;
+            
+            self.handleNewLinkGroup(groupId, group.name);
 
             const sectionGroup = document.createElement('section');
+            sectionGroup.setAttribute('id', groupId);
+
             sectionGroup.innerHTML = 
-            `<h2>${group.name}</h2><table id="table-${tableId}"><thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead><tbody id="tbody-${tableId}"></tbody></table>`;
+            `<h2>${group.name}<span>Aulas 100% online</span></h2>
+            <table>
+                <thead>
+                    <tr>${DEFAULT_TABLE_HEADER}</tr>
+                </thead>
+                <tbody id="tbody-${groupId}"></tbody>
+            </table>`;
+            
             document.getElementById(containerId).appendChild(sectionGroup);
 
             const subjectsGroup = self.schedule.filter( subject => subject.group === group.id);
-            self.handleTableGroup(`tbody-${tableId}`, subjectsGroup);
+            self.handleTableGroup(`tbody-${groupId}`, subjectsGroup);
         });
     };
 

@@ -6,6 +6,9 @@
   outline: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #f8f9fa;
   background: #343433;
