@@ -3,6 +3,9 @@ var Horarios = {};
 const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda-feira</th><th>Terça-feira</th><th>Quarta-feira</th><th>Quinta-feira</th><th>Sexta-feira</th></tr>";
 const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
 
+const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
+const ICON_INFO = '<img class="icon" src="./assets/icons/info.svg" />';
+
 Horarios.Viewer = function() {
     this.groups = null;
     this.schedule = null;
@@ -18,52 +21,54 @@ Horarios.Viewer = function() {
         this.waitUntilLoaded(propsConfig, () => this.render('app'), this);
     };
 
+    this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
+
+    this.handleCellPeriod = ({ id, name, members }, courses) => {
+        let boxInfo = ''; 
+
+        const membersElement = `<p>${ICON_USER}${members.join(`</p><p>${ICON_USER}`)}</p>`;
+        const nameElement = `<strong>${name}</strong>`;
+        
+        const ttt = courses[id];
+        if(ttt) {
+            if(ttt.info) {
+                boxInfo = `<span class="info">${ICON_INFO}${ttt.info}</span>`;
+            } else {
+                boxInfo = `<span class="alert">${ICON_INFO}${ttt.warn}</span>`;
+            }
+        }
+        return `<td class='cell-active'><div>${nameElement}${boxInfo}${membersElement}</div></td>`;
+    }
+
+    this.handleNewPeriod = (period, subjects, courses) => {
+        const periodTime = weekDays[period - 2];
+        const subjectsPeriods = subjects.filter( subject => subject.period === period );
+            
+        const isEmptyPeriod = !subjectsPeriods.length;
+        // Retorna uma linha sem matérias
+        if(isEmptyPeriod) return this.handleEmptyPeriod(periodTime);
+
+        let periodLine = `<td>${periodTime}</td>`;
+
+        for(let weekDay = 2; weekDay < 7; weekDay += 1) {
+            let value = '━';
+
+            const subjectPeriod = subjectsPeriods.findIndex( periods => periods.weekDay === weekDay );
+
+            const cellPeriod = subjectPeriod === -1 ? '<td>━</td>' : this.handleCellPeriod(subjectsPeriods[subjectPeriod], courses);
+
+            periodLine += cellPeriod;
+        }
+        return periodLine;
+    };
+
     this.handleTableGroup = (tableId, subjects, courses) => {
-        // Percorrendo as linhas
         for(let period = 2; period < 8; period += 1){
             const trTable = document.createElement('tr');
-
-            const subjectsPeriods = subjects.filter( subject => subject.period === period );
-            
-            if(subjectsPeriods.length){
-
-                for(let weekDay = 1; weekDay < 7; weekDay += 1) {
-                    let value = '━';
-
-                    if(weekDay === 1) {
-                        value =  weekDays[period - 2];
-                    } else {
-                        const bb = subjectsPeriods.findIndex( periods => periods.weekDay === weekDay );
-                        if( bb !== -1 ) {
-                            let boxInfo = ''; 
-
-                            const members = `<p><img class="icon" src="./assets/icons/user.svg" />${subjectsPeriods[bb].members.join('</p><p><img class="icon" src="./assets/icons/user.svg" />')}</p>`;
-                            const name = `<strong>${subjectsPeriods[bb].name}</strong>`;
-                            
-                            const ttt = courses[subjectsPeriods[bb].id];
-                            if(ttt) {
-                                if(ttt.info) {
-                                    boxInfo = `<span class="info"><img class="icon" src="./assets/icons/info.svg" />${ttt.info}</span>`;
-                                } else {
-                                    boxInfo = `<span class="alert"><img class="icon" src="./assets/icons/info.svg" />${ttt.warn}</span>`;
-                                }
-                            }
-                            value = `<div>${name}${boxInfo}${members}</div>`;
-                        }
-                    }
-                    const classCell = value !== '━' && weekDay > 1 ? 'cell-active' : '';
-                    trTable.innerHTML += `<td class="${classCell}">${value}</td>`;
-                }
-            } else {
-                trTable.innerHTML = `<td>${weekDays[period - 2]}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
-            }
-
+            trTable.innerHTML = this.handleNewPeriod(period, subjects, courses);
             document.getElementById(tableId).appendChild(trTable);
         }
     }
-    // linhas: period -> 1: é o cabeçalho
-    // colunas: weekDay
-    // tabela: group
 
     this.render = function(containerId) {
         const self = this;
