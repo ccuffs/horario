@@ -1,6 +1,6 @@
 body main {
   margin: 20px auto;
-  max-width: 1270px;
+  max-width: 1350px;
   width: 100%;
 }
 
@@ -28,7 +28,7 @@ section h2{
 }
 
 tr td {
-  padding: 20px 0;
+  padding: 20px 4px;
 }
 
 tr td.cell-active{
@@ -36,6 +36,7 @@ tr td.cell-active{
   border-radius: 4px;
   transition: all ease 0.4s;
   opacity: 1;
+  width: 18vw;
 }
 
 /* tr td.cell-active:hover{
