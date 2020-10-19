@@ -160,7 +160,7 @@
       "description": ""
   },
   "GEX657": {
-      "name": "TCC 1",
+      "name": "TCC I",
       "description": "Escrever um projeto científico na área de computação. Defender um projeto perante uma banca."
   },
   "OPTATIVA4": {
@@ -172,11 +172,19 @@
       "description": ""
   },
   "GEX658": {
-      "name": "TCC 2",
+      "name": "TCC II",
       "description": "Executar o projeto proposto no TCC I. Desenvolver o produto proposto no TCC I. Defender o resultado obtido perante uma banca."
   },
   "GCS239": {
       "name": "Direito e cidadania",
       "description": "Permitir ao estudante uma compreensão adequada acerca dos interesses de classe, das ideologias e das elaborações retórico-discursivas subjacentes à categoria cidadania."
+  },
+  "GCH012": {
+      "name": "Fundamentos da crítica social",
+      "description": ""
+  },
+  "GCH291": {
+      "name": "Introdução ao pensamento social",
+      "description": ""
   }
 }

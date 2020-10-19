@@ -3,9 +3,17 @@
     "name": "Adriano Sanick Padilha",
     "email": "padilha@uffs.edu.br"
   },
+  "anambasei": {
+    "name": "Ana Maria Basei",
+    "email": "anambasei@uffs.edu.br"
+  },
   "asebben": {
     "name": "Andressa Sebben",
     "email": "asebben@uffs.edu.br"
+  },
+  "acneri": {
+    "name": "Antonio Marcos Correa Neri",
+    "email": "acneri@uffs.edu.br"
   },
   "braulio": {
     "name": "Braulio Adriano de Mello",
@@ -15,9 +23,17 @@
     "name": "Claunir Pavan",
     "email": "claunir.pavan@uffs.edu.br"
   },
+  "dckroth": {
+    "name": "Darlan Christiano Kroth",
+    "email": "dckroth@uffs.edu.br"
+  },
   "duarte": {
     "name": "Denio Duarte",
     "email": "duarte@uffs.edu.br"
+  },
+  "edson.santos": {
+    "name": "Edson Ribeiro dos Santos",
+    "email": "edson.santos@uffs.edu.br"
   },
   "emilio.wuerges": {
     "name": "Emilio Wuerges",
@@ -27,6 +43,10 @@
     "name": "Fernando Bevilacqua",
     "email": "fernando.bevilacqua@uffs.edu.br"
   },
+  "glaucio.fontana": {
+    "name": "Glaucio Adriano Fontana",
+    "email": "glaucio.fontana@uffs.edu.br"
+  },
   "graziela.tonin": {
     "name": "Graziela Simone Tonin",
     "email": "graziela.tonin@uffs.edu.br"
@@ -35,9 +55,21 @@
     "name": "Guilherme Dal Bianco",
     "email": "guilherme.dalbianco@uffs.edu.br"
   },
-  "jose.binsfilho": {
-    "name": "José Carlos Bins Filho (in memorian)",
-    "email": "jose.binsfilho@uffs.edu.br"
+  "janice.reichert": {
+    "name": "Janice Teresinha Reichert",
+    "email": "janice.reichert@uffs.edu.br"
+  },
+  "jose.mendonca": {
+    "name": "José Carlos Mendonça",
+    "email": "jose.mendonca@uffs.edu.br"
+  },
+  "joviles.trevisol": {
+    "name": "Joviles Vitório Trevisol",
+    "email": "joviles.trevisol@uffs.edu.br"
+  },
+  "lbordin": {
+    "name": "Leandro Bordin",
+    "email": "lbordin@uffs.edu.br"
   },
   "lcaimi": {
     "name": "Luciano Lores Caimi",
@@ -47,13 +79,29 @@
     "name": "Marco Aurelio Spohn",
     "email": "marco.spohn@uffs.edu.br"
   },
+  "mauricio": {
+    "name": "Mauricio Fernando Bozatski",
+    "email": "mauricio@uffs.edu.br"
+  },
   "milton.kist": {
     "name": "Milton Kist",
     "email": "milton.kist@uffs.edu.br"
   },
+  "paulo.bosing": {
+    "name": "Paulo Rafael Bosing",
+    "email": "paulo.bosing@uffs.edu.br"
+  },
+  "pericles": {
+    "name": "Péricles Luiz Brustolin",
+    "email": "pericles@uffs.edu.br"
+  },
   "raquel.pegoraro": {
     "name": "Raquel Aparecida Pegoraro",
     "email": "raquel.pegoraro@uffs.edu.br"
+  },
+  "ubi.vieira": {
+    "name": "Ubi Garcia Vieira",
+    "email": "ubi.vieira@uffs.edu.br"
   }
 }
 

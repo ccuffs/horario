@@ -10,13 +10,17 @@ Horarios.Viewer = function() {
     this.groups = null;
     this.schedule = null;
     this.meta = null;
+    this.courses = null;
+    this.members = null;
 
     this.init = function(config = {}) {
-        const propsConfig = ['groups', 'schedule', 'meta'];
+        const propsConfig = ['groups', 'schedule', 'meta', 'courses'];
 
         this.load(config.schedule || './data/schedule-2020-1.json', 'schedule');
         this.load(config.groups || './data/groups-2020-1.json', 'groups');
         this.load(config.meta || './data/meta-2020-1.json', 'meta');
+        this.load(config.courses || './data/courses.json', 'courses');
+        this.load(config.members || './data/members.json', 'members');
     
         this.waitUntilLoaded(propsConfig, () => this.render('content'), this);
     };
@@ -26,7 +30,7 @@ Horarios.Viewer = function() {
     this.handleTagCourse = (idCourse) => {
         const self = this;
         const course = self.meta.courses[idCourse];
-
+        
         if(course) {
             if(course.info) return `<span class="cell-tag info">${ICON_INFO}${course.info}</span>`;
             else if(course.warn) return `<span class="cell-tag alert">${ICON_INFO}${course.warn}</span>`;
@@ -35,13 +39,28 @@ Horarios.Viewer = function() {
         return '';
     }
 
-    this.handleCellPeriod = ({ id, name, members }) => {
-        const membersElement = `<p>${ICON_USER}${members.join(`</p><p>${ICON_USER}`)}</p>`;
-        const nameElement = `<strong>${name}</strong>`;
-        
-        const tagCourse = this.handleTagCourse(id);
+    this.handleCellPeriod = ({ id, name, code, members }) => {
+        const self = this;
 
-        return `<td class='cell-active'><div>${nameElement}${tagCourse}${membersElement}</div></td>`;
+        let nameElement = '', nameMembers = '';
+        if(self.courses[code]) {
+            nameElement = `<div class="box-tooltip"><h6>${self.courses[code].name}</h6><p class="box-tooltip-content">${self.courses[code].description}</p></div>`;
+        } else {
+            nameElement = `<h6>${name}</h6>`;
+        }
+
+        members.map( member => {
+            if(self.members[member]){
+                const {name, email} = self.members[member];
+                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><p class="box-tooltip-content email">${email}</p></div>`
+            } else {
+                nameMembers += `<p>${ICON_USER}${member}</p>`
+            }
+        });
+
+        const tagCourse = self.handleTagCourse(id);
+
+        return `<td class='cell-active'><div>${nameElement}${tagCourse}${nameMembers}</div></td>`;
     }
 
     this.handleNewPeriod = (period, subjects) => {
