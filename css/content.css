@@ -1,11 +1,3 @@
-#content table {
-  width: 100%;
-  text-align: center;
-  border-spacing: 10px;
-  padding: 10px 0;
-  border: 1px solid #444443;
-}
-
 #content section {
   display: flex;
   flex-direction: column;
@@ -13,7 +5,7 @@
 
   margin-bottom: 20px;
 }
-
+/* Titulo da tabela */
 #content h2{
   display: flex;
   flex-direction: column;
@@ -23,7 +15,7 @@
   padding: 20px 0;
   border-radius: 10px 10px 0 0;
 }
-
+/* Alert: Aulas 100% online */
 #content h2 span{
   font-size: 13px;
   background: #FB5012;
@@ -32,45 +24,44 @@
   border-radius: 4px;
 }
 
+#content table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+  padding: 10px 0;
+  border: 1px solid #444443;
+}
 tr td {
   padding: 20px 4px;
 }
-
+/* Box da disciplina */
 #content .cell-active{
   background: #444443;
   border-radius: 4px;
   transition: all ease 0.4s;
   width: 18vw;
 }
-/* Célula de tabela com uma matéria */
 #content .cell-active:hover{
   border-radius: 8px;
 }
-
+/* Content da disciplina */
 #content .cell-active div {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
-
-#content .cell-active h6{
+/* Nome da disciplina */
+#content .cell-active strong{
   font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
 }
-#content .box-tooltip {
-  display: flex;
-  width: 100%;
-}
-
-#content .box-tooltip:hover p{
-  visibility: visible;
-}
-
+/* Nome do docente e icone do user */
 #content .cell-active p{
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   font-size: 15px;
   line-height: 20px;
@@ -78,54 +69,11 @@ tr td {
   color: #e2e8f0;
 }
 
-.box-tooltip-content {
-  z-index: 10;
-  position: absolute;
-  top: 30px;
-  left: 0;
-  width: 100%;
-  background: #4dab98;
-  border-radius: 6px;
-  padding: 15px 8px;
-  display: block;
-  visibility: hidden;
-
-  font-weight: 400!important;
-}
-
-.box-tooltip-content.email {
-  display: inline!important;
-  font-size: 16px!important;
-  padding: 10px 0;
-  background: #bb8823!important;
-}
-
-.box-tooltip-content::before {
-  content: '';
-
-  position: absolute;
-  left: 0;
-  top: -12px;
-  right: 0;
-  margin: 0 auto;
-  width: 0;
-  height: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 12px solid #4dab98;
-}
-
-.box-tooltip-content.email::before {
-  border-bottom: 12px solid #bb8823!important;
-}
-
-#content .cell-active span{
+#content .cell-tag {
   display: flex;
   align-items: center;
   font-weight: 500;
-}
 
-#content .cell-tag {
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 5px;
@@ -145,5 +93,3 @@ tr td {
   height: auto;
   margin-right: 4px;
 }
-
-

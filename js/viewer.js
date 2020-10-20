@@ -44,7 +44,10 @@ Horarios.Viewer = function() {
 
         let nameElement = '', nameMembers = '';
         if(self.courses[code]) {
-            nameElement = `<div class="box-tooltip"><h6>${self.courses[code].name}</h6><p class="box-tooltip-content">${self.courses[code].description}</p></div>`;
+            const { name, description } = self.courses[code];
+            const descriptionElement = `<span class="box-tooltip-content description">${description}</span>`;
+
+            nameElement = `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
         } else {
             nameElement = `<h6>${name}</h6>`;
         }
@@ -52,7 +55,7 @@ Horarios.Viewer = function() {
         members.map( member => {
             if(self.members[member]){
                 const {name, email} = self.members[member];
-                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><p class="box-tooltip-content email">${email}</p></div>`
+                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><span class="box-tooltip-content email">${email}</span></div>`
             } else {
                 nameMembers += `<p>${ICON_USER}${member}</p>`
             }
