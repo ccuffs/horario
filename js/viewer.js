@@ -13,16 +13,20 @@ Horarios.Viewer = function() {
     this.courses = null;
     this.members = null;
 
-    this.init = function(config = {}) {
-        const propsConfig = ['groups', 'schedule', 'meta', 'courses'];
+    this.init = function(semester) {
 
-        this.load(config.schedule || './data/schedule-2020-1.json', 'schedule');
-        this.load(config.groups || './data/groups-2020-1.json', 'groups');
-        this.load(config.meta || './data/meta-2020-1.json', 'meta');
-        this.load(config.courses || './data/courses.json', 'courses');
-        this.load(config.members || './data/members.json', 'members');
+        if(semester) {
+            const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
+            propsConfig.forEach( prop =>  {
+                if(['schedule', 'meta'].includes(prop)) {
+                    this.load(`./data/${semester}/${prop}.json`, prop);
+                } else {
+                    this.load(`./data/${prop}.json`, prop);
+                }
+            });
+            this.waitUntilLoaded(propsConfig, () => this.render('content'), this);
+        }
     
-        this.waitUntilLoaded(propsConfig, () => this.render('content'), this);
     };
 
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;

@@ -21,10 +21,10 @@
         <img src="./assets/logo-cc.svg" width="300" height="auto"/>
         <h1>Horários</h1>
         <div>
-          <label for="periodo">Escolha o período:</label>
-          <select name="periodo" id="periodo">
-              <option value="2020.1">2020.1</option>
-              <option value="2019.2">2019.2</option>
+          <label for="semester">Escolha o período:</label>
+          <select name="semester" id="semester">
+            <option value="2020.1">2020.1</option>
+            <option value="2019.2">2019.2</option>
           </select>
         </div>
       </header>
@@ -46,18 +46,20 @@
 
     </div>
 
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/viewer.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/viewer.js"></script>
+
     <script>
+      // Atualizar os dados com o semestre selecionado
+      // $('#semester').on('change', function() {
+      //   var semesterValue = $('#semester').val();
+
+      //   var viewer = new Horarios.Viewer();
+      //   viewer.init(semesterValue);
+      // });
       $(function(){
           var viewer = new Horarios.Viewer();
-          viewer.init({
-            schedule: './2020.1/data/schedule-2020-1.json',
-            groups: './2020.1/data/groups-2020-1.json',
-            meta: './2020.1/data/meta-2020-1.json',
-            courses: './2020.1/data/courses.json',
-            members: './2020.1/data/members.json'
-          });
+          viewer.init($('#semester').val());
       });
     </script>
   </body>

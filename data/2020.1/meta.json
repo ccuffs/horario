@@ -1,38 +1,4 @@
 {
-    "groups": {
-        "1": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },
-        "2": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },
-        "3": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },   
-        "4": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },    
-        "5": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        }, 
-        "6": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },  
-        "7": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        },
-        "8": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
-            "hidePeriods": []
-        }             
-    },
     "courses": {
         "13": {
             "info": "Professor adicional",
