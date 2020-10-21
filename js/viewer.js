@@ -24,7 +24,7 @@ Horarios.Viewer = function() {
                     this.load(`./data/${prop}.json`, prop);
                 }
             });
-            this.waitUntilLoaded(propsConfig, () => this.render('content'), this);
+            this.waitUntilLoaded(propsConfig, () => this.render(), this);
         }
     
     };
@@ -96,14 +96,33 @@ Horarios.Viewer = function() {
         }
     }
 
+    this.handleElementLinkGroup = (mainContent) => {
+        const linksGroup = document.createElement('ul');
+        linksGroup.setAttribute('id', 'links-groups');
+        mainContent.appendChild(linksGroup);
+    }
+
     this.handleNewLinkGroup = (groupId, name) => {
         const item = document.createElement('li');
         item.innerHTML = `<a href="#${groupId}">${name}</a>`;
         document.getElementById('links-groups').appendChild(item);
     }
 
-    this.render = function(containerId) {
+    this.handleBannerAlert = (mainContent, banner) => {
+        const boxBanner = document.createElement('div');
+        boxBanner.setAttribute('id', 'box-alert');
+        boxBanner.innerHTML = `${banner.icon}<h3>${banner.text}</h3>`;
+       
+        mainContent.appendChild(boxBanner);
+    }
+
+    this.render = function() {
         const self = this;
+        const mainContent = document.getElementById('content');
+
+        if(self.meta.banner) self.handleBannerAlert(mainContent, self.meta.banner)
+
+        self.handleElementLinkGroup(mainContent);
 
         self.groups.map( group => {
             const groupId = `group-${group.id}`;
@@ -116,13 +135,11 @@ Horarios.Viewer = function() {
             sectionGroup.innerHTML = 
             `<h2>${group.name}<span>Aulas 100% online</span></h2>
             <table>
-                <thead>
-                    <tr>${DEFAULT_TABLE_HEADER}</tr>
-                </thead>
+                <thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead>
                 <tbody id="tbody-${groupId}"></tbody>
             </table>`;
             
-            document.getElementById(containerId).appendChild(sectionGroup);
+            mainContent.appendChild(sectionGroup);
 
             const subjectsGroup = self.schedule.filter( subject => subject.group === group.id);
             self.handleTableGroup(`tbody-${groupId}`, subjectsGroup);
