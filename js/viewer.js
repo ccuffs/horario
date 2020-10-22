@@ -28,9 +28,9 @@ Horarios.Viewer = function() {
         }
     
     };
-
+    // Linha vazia, sem nenhuma matéria no período
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
-
+    // Cria uma tag logo abaixo do nome da matéria.
     this.handleTagCourse = (idCourse) => {
         const self = this;
         const course = self.meta.courses[idCourse];
@@ -43,31 +43,38 @@ Horarios.Viewer = function() {
         return '';
     }
 
-    this.handleCellPeriod = ({ id, name, code, members }) => {
-        const self = this;
+    this.handleNameCourse = (nameDefault, course) => {
+        if(! course) return `<h6>${nameDefault}</h6>`;
 
-        let nameElement = '', nameMembers = '';
-        if(self.courses[code]) {
-            const { name, description } = self.courses[code];
-            const descriptionElement = `<span class="box-tooltip-content description">${description}</span>`;
+        const { name, description } = course;
+        const descriptionElement = `<span class="box-tooltip-content description">${description}</span>`;
 
-            nameElement = `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
-        } else {
-            nameElement = `<h6>${name}</h6>`;
-        }
+        return `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
+    }
 
+    this.handleMembersCourse = (members, aaa) => {
+        let nameMembers = '';
         members.map( member => {
-            if(self.members[member]){
-                const {name, email} = self.members[member];
+            if(this.members[member]){
+                const {name, email} = this.members[member];
                 nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><span class="box-tooltip-content email">${email}</span></div>`
             } else {
                 nameMembers += `<p>${ICON_USER}${member}</p>`
             }
         });
 
-        const tagCourse = self.handleTagCourse(id);
+        return nameMembers;
+    }
 
-        return `<td class='cell-active'><div>${nameElement}${tagCourse}${nameMembers}</div></td>`;
+
+    this.handleCellPeriod = ({ id, name, code, members }) => {
+        const self = this;
+
+        const tagCourse = self.handleTagCourse(id);
+        const nameCourse = self.handleNameCourse(name, self.courses[code]);
+        const membersCourse = self.handleMembersCourse(members, self.members);
+
+        return `<td class='cell-active'><div>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
     }
 
     this.handleNewPeriod = (period, subjects) => {
