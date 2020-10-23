@@ -43,7 +43,7 @@ Horarios.Viewer = function() {
     this.handleNameCourse = (nameDefault, codeCourse) => {
         // Regata as informações da matéria do arquivo courses.json
         const course = this.courses[codeCourse];
-        if(! course) return `<h6>${nameDefault}</h6>`;
+        if(! course) return `<strong>${nameDefault}</strong>`;
 
         const { name, description } = course;
         const descriptionElement = `<div class="box-tooltip-content description">${description}</div>`;
@@ -62,7 +62,6 @@ Horarios.Viewer = function() {
                 nameMembers += `<p>${ICON_USER}${member}</p>`
             }
         });
-
         return nameMembers;
     }
     // Cria uma célula na tabela com o valor da matéria
@@ -87,7 +86,7 @@ Horarios.Viewer = function() {
             const indexCourse = coursesGroupPeriods.findIndex( periods => periods.weekDay === weekDay );
             const weekDayIsEmpty = indexCourse === -1;
             // Adicionando uma célula em branco
-            if(weekDayIsEmpty) periodLine = '<td>━</td>';
+            if(weekDayIsEmpty) periodLine += '<td>━</td>';
             // Adicionando uma célula com box da matéria
             else periodLine += this.handleCellPeriod(coursesGroupPeriods[indexCourse]);
         }
@@ -151,7 +150,7 @@ Horarios.Viewer = function() {
         self.handleElementLinkGroup(mainContent);
 
         self.groups.map( group => {
-            // Adiciona o botão para o link de referênci da tabela.
+            // Adiciona o botão para o link de referência da tabela
             self.handleNewLinkGroup(group.id, group.name);
             // Cria uma nova seção
             self.handleNewSectionGroup(group, mainContent);

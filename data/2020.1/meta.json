@@ -31,6 +31,10 @@
         "8": {
             "notice": "Aulas 100% online",
             "hidePeriods": []
+        },             
+        "9": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
         }             
     },
     "courses": {

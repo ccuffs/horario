@@ -48,7 +48,7 @@ tr td {
 #content .cell-active .cell-active-content{
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
 }
 /* Nome da disciplina */
 #content .cell-active-content strong{
