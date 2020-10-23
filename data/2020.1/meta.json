@@ -1,35 +1,39 @@
 {
     "groups": {
         "1": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },
         "2": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },
         "3": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },   
         "4": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },    
         "5": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         }, 
         "6": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },  
         "7": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         },
         "8": {
-            "notice": "<span style=\"color:red;\">Aulas 100% online</span>",
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },             
+        "9": {
+            "notice": "Aulas 100% online",
             "hidePeriods": []
         }             
     },
@@ -181,6 +185,7 @@
         }
     },
     "banner": {
-        "html": "<div class=\"alert alert-info\" role=\"alert\"><strong><i class=\"fa fa-info-circle\"></i> Atenção!</strong> Houve troca de professores para algumas disciplinas em virtude da contratação de substitutos. <strong>O horário das disciplinas é exatamente o mesmo do período pré-pandemia</strong>. Todas as aulas serão 100% online. Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br/noticias/2020/09/04/retomada-das-aulas-2020-1/\">https://cc.uffs.edu.br</a></div>"
+        "icon": "<img class=\"icon\" src=\"./assets/icons/info.svg\" />",
+        "text": "Atenção! Houve troca de professores para algumas disciplinas em virtude da contratação de substitutos. O horário das disciplinas é exatamente o mesmo do período pré-pandemia. Todas as aulas serão 100% online. Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br\" target=\"_new\">https://cc.uffs.edu.br</a>"
     }
 }

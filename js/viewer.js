@@ -1,259 +1,192 @@
-// TODO: move this to API endpoint
-var weekDays = [
-    {id: 2, name: "Segunda-feira"},
-    {id: 3, name: "Terça-feira"},
-    {id: 4, name: "Quarta-feira"},
-    {id: 5, name: "Quinta-feira"},
-    {id: 6, name: "Sexta-feira"},
-];
-
-// TODO: move this to API endpoint
-var periods = [
-    {id: 2, name:"07:30", label: "Manha1"},
-    {id: 3, name:"10:20", label: "Manha2"},
-    {id: 4, name:"13:30", label: "Tarde1"},
-    {id: 5, name:"16:00", label: "Tarde2"},
-    {id: 6, name:"19:10", label: "Noite1"},
-    {id: 7, name:"21:00", label: "Noite2"}
-];
-
 var Horarios = {};
+
+const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda-feira</th><th>Terça-feira</th><th>Quarta-feira</th><th>Quinta-feira</th><th>Sexta-feira</th></tr>";
+const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
+
+const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
+const ICON_INFO = '<img class="icon" src="./assets/icons/info.svg" />';
 
 Horarios.Viewer = function() {
     this.groups = null;
     this.schedule = null;
     this.meta = null;
+    this.courses = null;
+    this.members = null;
 
-    this.init = function(config) {
-        config = config || {};
-
-        $('#periodo').on('change', function () {
-            window.location = './' + $(this).val();
-            return false;
-        });
-
-        this.load(config.schedule || './data/schedule-2020-1.json', 'schedule');
-        this.load(config.groups || './data/groups-2020-1.json', 'groups');
-        this.load(config.meta || './data/meta-2020-1.json', 'meta');
-        
-        this.waitUntilLoaded(['groups', 'schedule', 'meta'], function() {
-            this.render('viewer');
-
-            if(this.meta.banner) {
-                this.renderBanner(this.meta.banner);
-            }
-
-            console.debug('Allocated personel:', this.findEmailsFromAllocatedPersonel().join('; '));
-        }, this);
-    };
-
-    this.findEmailsFromAllocatedPersonel = function() {
-        if(!this.schedule) {
-            console.error('Unable to find emails because nothing has been loaded yet.');
-            return;
-        }
-
-        var personel = this.findAllocatedPersonel();
-        var emails = [];
-
-        personel.map(function(memberId) {
-            emails.push(memberId + '@uffs.edu.br');
-        });
-
-        return emails;
-    };
-
-    this.findAllocatedPersonel = function() {
-        if(!this.schedule) {
-            console.error('Unable to find personel because nothing has been loaded yet.');
-            return;
-        }
-
-        var people = [];
-
-        for(var i in this.schedule) {
-            this.schedule[i].members.map(function(member) {
-                if(people.indexOf(member) == -1) {
-                    people.push(member);
+    this.init = function(semester) {
+        if(semester) {
+            const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
+            propsConfig.forEach( prop =>  {
+                if(['schedule', 'meta'].includes(prop)) {
+                    this.load(`./data/${semester}/${prop}.json`, prop);
+                } else {
+                    this.load(`./data/${prop}.json`, prop);
                 }
             });
+            this.waitUntilLoaded(propsConfig, () => this.render(), this);
         }
+    
+    };
+    // Linha vazia, sem nenhuma matéria no período
+    this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
+    // Cria uma tag informativa logo abaixo do nome da matéria
+    this.handleTagCourse = (idCourse) => {
+        // Regata os alertas referente a matéria do arquivo meta.json
+        const course = this.meta.courses[idCourse];
+        if(course) {
+            if(course.info) return `<span class="cell-tag info">${ICON_INFO}${course.info}</span>`;
+            else if(course.warn) return `<span class="cell-tag alert">${ICON_INFO}${course.warn}</span>`;
+        }
+        return '';
+    }
+    // Cria o campo do nome no box da matéria
+    this.handleNameCourse = (nameDefault, codeCourse) => {
+        // Regata as informações da matéria do arquivo courses.json
+        const course = this.courses[codeCourse];
+        if(! course) return `<strong>${nameDefault}</strong>`;
 
-        return people;
+        const { name, description } = course;
+        const descriptionElement = `<div class="box-tooltip-content description">${description}</div>`;
+
+        return `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
+    }
+    // Cria o campo dos docentes no box da matéria
+    this.handleMembersCourse = (members) => {
+        let nameMembers = '';
+        members.map( member => {
+            // Regata as informações do docente do arquivo members.json
+            if(this.members[member]){
+                const { name, email } = this.members[member];
+                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><div class="box-tooltip-content email">${email}</div></div>`
+            } else {
+                nameMembers += `<p>${ICON_USER}${member}</p>`
+            }
+        });
+        return nameMembers;
+    }
+    // Cria uma célula na tabela com o valor da matéria
+    this.handleCellPeriod = ({ id, name, code, members }) => {
+        const tagCourse = this.handleTagCourse(id);
+        const nameCourse = this.handleNameCourse(name, code);
+        const membersCourse = this.handleMembersCourse(members);
+
+        return `<td class='cell-active'><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
+    }
+    // Adiciona as matérias na linha do periodo selecionado
+    this.handleNewPeriod = (period, coursesGroup) => {
+        const periodTime = weekDays[period - 2];
+        const coursesGroupPeriods = coursesGroup.filter( course => course.period === period );
+        // Caso não exista nenhuma matéria neste período, é retornado uma linha em branco
+        const isEmptyPeriod = !coursesGroupPeriods.length;
+        if(isEmptyPeriod) return this.handleEmptyPeriod(periodTime);
+        // Primeira coluna com os horários
+        let periodLine = `<td>${periodTime}</td>`;
+        // Navegando entre as colunas da linha da tabela
+        for(let weekDay = 2; weekDay < 7; weekDay += 1) {
+            const indexCourse = coursesGroupPeriods.findIndex( periods => periods.weekDay === weekDay );
+            const weekDayIsEmpty = indexCourse === -1;
+            // Adicionando uma célula em branco
+            if(weekDayIsEmpty) periodLine += '<td>━</td>';
+            // Adicionando uma célula com box da matéria
+            else periodLine += this.handleCellPeriod(coursesGroupPeriods[indexCourse]);
+        }
+        return periodLine;
+    };
+    // Adiciona a lista de máterias na tabela
+    this.handleCoursesInTableGroup = (tableId, coursesGroup) => {
+        // Navegando entre as linhas da tabela
+        for(let period = 2; period < 8; period += 1){
+            const trTable = document.createElement('tr');
+            trTable.innerHTML = this.handleNewPeriod(period, coursesGroup);
+            document.getElementById(tableId).appendChild(trTable);
+        }
+    }
+
+    this.handleElementLinkGroup = (mainContent) => {
+        const linksGroup = document.createElement('ul');
+        linksGroup.setAttribute('id', 'links-groups');
+        mainContent.appendChild(linksGroup);
+    }
+    // Cria um banner no topo da página
+    this.handleBannerAlert = (mainContent) => {
+        if(this.meta.banner){
+            const { icon, text } = this.meta.banner;
+            const boxBanner = document.createElement('div');
+            boxBanner.setAttribute('id', 'box-alert');
+            boxBanner.innerHTML = `${icon}<h3>${text}</h3>`;
+           
+            mainContent.appendChild(boxBanner);
+        }
+    }
+    // Adiciona um novo link ao grupo de links do topo da página
+    this.handleNewLinkGroup = (groupId, name) => {
+        const item = document.createElement('li');
+        item.innerHTML = `<a href="#group-${groupId}">${name}</a>`;
+        document.getElementById('links-groups').appendChild(item);
+    }
+    // Adiciona uma nova seção a pagina, contendo um título com o nome do semestre e a tabela.
+    this.handleNewSectionGroup = (group, mainContent) => {
+        const sectionGroup = document.createElement('section');
+        sectionGroup.setAttribute('id', `group-${group.id}`);
+        // Cria a tag informativa do semestre
+        const noticeGroup = this.meta.groups[group.id] ? `<span>${this.meta.groups[group.id].notice}</span>` : ''; 
+        
+        sectionGroup.innerHTML = 
+        `<h2>${group.name}${noticeGroup}</h2>
+        <table>
+            <thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead>
+            <tbody id="tbody-group-${group.id}"></tbody>
+        </table>`;
+        
+        mainContent.appendChild(sectionGroup);
     };
 
-    this.waitUntilLoaded = function(props, callback, context) {
-        var intervalId;
+    this.render = function() {
+        const self = this;
+        const mainContent = document.getElementById('content');
+
+        if(self.meta.banner) self.handleBannerAlert(mainContent, self.meta.banner)
+
+        self.handleElementLinkGroup(mainContent);
+
+        self.groups.map( group => {
+            // Adiciona o botão para o link de referência da tabela
+            self.handleNewLinkGroup(group.id, group.name);
+            // Cria uma nova seção
+            self.handleNewSectionGroup(group, mainContent);
+
+            const coursesGroup = self.schedule.filter( course => course.group === group.id);
+            self.handleCoursesInTableGroup(`tbody-group-${group.id}`, coursesGroup);
+        });
+    };
+
+    this.waitUntilLoaded = (props, callback, context) => {
         context = context || this;
-
-        intervalId = setInterval(function() {
-            var ready = true;
+        const intervalId = setInterval(() => {
+            let isReady = true;
             
-            for(prop in props) {
-                var key = props[prop];
-
-                if(context[key] == null) {
-                    ready = false;
-                }
-            };
-
-            if(ready && callback) {
+            props.map( prop => isReady = prop !== null );
+  
+            if(isReady && callback) {
                 clearInterval(intervalId);
                 callback.call(context);
             }
         }, 500);    
     };
 
-    this.renderBanner = function(banner) {
-        var element = document.getElementById('banner');
-
-        if(!element) {
-            return;
-        }
-
-        if(banner.html) {
-            element.innerHTML = banner.html;
-        }
-    };
-
-    this.load = function(url, prop, callback, context) {
-        var self = this;
-        var jqxhr = $.getJSON(url);
+    this.load = (url, prop, callback, context) => {
+        const self = this;
+        const jqxhr = $.getJSON(url);
 
         jqxhr.done(function(response) {
             console.debug('Response received [' + prop + '] ', response);
             self[prop] = response;
 
-            if(callback) {
-                callback.call(context, response);
-            }
+            if(callback) callback.call(context, response);
         });
         
         jqxhr.fail(function(e) {
             console.error('Ajax fail for: ' + prop, url, e);
-        });
-    };
-
-    this.findCoursesByGroupId = function(groupId) {
-        var items = [];
-        
-        this.schedule.forEach(function(course) {
-            if(course.group == groupId) {
-                items.push(course);
-            }
-        });
-    
-        return items;
-    };
-
-    this.getCourseByGroupPeriodWeekDay = function(groupId, periodId, weekDayId) {
-        var items = [];
-        
-        this.schedule.forEach(function(course) {
-            if(course.group == groupId && course.period == periodId && course.weekDay == weekDayId) {
-                items.push(course);
-            }
-        });
-    
-        return items.length > 0 ? items[0] : null;
-    };    
-
-    this.displayMembers = function(members) {
-        var items = [];
-        var self = this;
-        
-        members.forEach(function(member) {
-            var memberMeta = self.meta.members[member];
-            items.push(memberMeta ? self.displayItemMeta(memberMeta) : '<span class="member"><i class="fa fa-user"></i> ' + member + '</span>');
-        });
-
-        return items.join('<br />');
-    };
-
-    this.displayItemMeta = function(itemMeta) {
-        var content = '';
-
-        itemMeta = itemMeta || {};
-
-        if(itemMeta.notice) {
-            content +=  itemMeta.notice;
-        }
-
-        if (itemMeta.secondary) {
-            content += '<span class="badge badge-secondary">'+ itemMeta.secondary + '</span>';
-        }
-
-        if (itemMeta.alert) {
-            content += '<strong class="badge badge-danger"><i class="fa fa-exclamation-triangle"></i> '+ itemMeta.alert + '</strong>';
-        }
-        
-        if (itemMeta.warn) {
-            content += '<strong class="badge badge-warning"><i class="fa fa-exclamation-circle"></i> '+ itemMeta.warn + '</strong>';
-        } 
-        
-        if (itemMeta.info) {
-            content += '<strong class="badge badge-info"><i class="fa fa-info-circle"></i> '+ itemMeta.info + '</strong>';
-        }
-        
-        return '<span class="item-meta">' + content + '</span>';
-    };
-
-    this.render = function(containerId) {
-        var container = document.getElementById(containerId);
-        var self = this;
-        var content;
-
-        container.innerHTML = '';
-
-        this.groups.map(function(group, index) {
-            var groupMeta = self.meta.groups[group.id] || {};
-            var groupHidePeriods = groupMeta.hidePeriods || [];
-
-            content = '';
-            content += '<table id="table_' + group.id + '" border="1" class="odd_table  table table-striped">';
-                content += '<caption><a href="#top"><i class="fa fa-arrow-circle-o-up"></i> Voltar ao topo</a></caption>';
-                content += '<thead>';
-                    content += '<tr>';
-                        content += '<th colspan="6" class="header">' + group.name + '<br />' + self.displayItemMeta(groupMeta) + '</th>';
-                    content += '</tr>';
-                    content += '<tr>';
-                        content += '<td style="width: 5%;"></th>';
-                        content += '<td style="width: 19%;">Segunda-feira</th>';
-                        content += '<td style="width: 19%;">Terça-feira</th>';
-                        content += '<td style="width: 19%;">Quarta-feira</th>';
-                        content += '<td style="width: 19%;">Quinta-feira</th>';
-                        content += '<td style="width: 19%;">Sexta-feira</th>';
-                    content += '</tr>';
-                content += '</thead>';
-                content += '<tbody>';
-                    for(var p in periods) {
-                        var period = periods[p];
-                        var shouldHidePeriod = groupHidePeriods.indexOf(period.id) != -1;
-
-                        if(shouldHidePeriod) {
-                            continue;
-                        }
-
-                        content += '<tr>';
-                        content += '<td>' + period.name + '</td>';
-
-                        for(var w in weekDays) {
-                            var weekDay = weekDays[w];
-                            var course = self.getCourseByGroupPeriodWeekDay(group.id, period.id, weekDay.id);
-
-                            if(course) {
-                                var courseMeta = self.meta.courses[course.id] || {};
-                                content += '<td><strong class="course-name">'+ (courseMeta.name || course.name) + '</strong>' + self.displayItemMeta(courseMeta) + '<br /><span class="text-muted">' + self.displayMembers(course.members) + '</span></td>';
-                            } else {
-                                content += '<td>---</td>';
-                            }
-                        }
-                        content += '</tr>';
-                    }
-                content += '</tbody>';
-            content += '</table>';
-
-            container.innerHTML += '<div class="row"><div class="col-12">' + content + '</div></div>';
         });
     };
 };
