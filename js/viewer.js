@@ -46,7 +46,7 @@ Horarios.Viewer = function() {
         if(! course) return `<h6>${nameDefault}</h6>`;
 
         const { name, description } = course;
-        const descriptionElement = `<span class="box-tooltip-content description">${description}</span>`;
+        const descriptionElement = `<div class="box-tooltip-content description">${description}</div>`;
 
         return `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
     }
@@ -57,7 +57,7 @@ Horarios.Viewer = function() {
             // Regata as informações do docente do arquivo members.json
             if(this.members[member]){
                 const { name, email } = this.members[member];
-                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><span class="box-tooltip-content email">${email}</span></div>`
+                nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><div class="box-tooltip-content email">${email}</div></div>`
             } else {
                 nameMembers += `<p>${ICON_USER}${member}</p>`
             }
@@ -71,9 +71,9 @@ Horarios.Viewer = function() {
         const nameCourse = this.handleNameCourse(name, code);
         const membersCourse = this.handleMembersCourse(members);
 
-        return `<td class='cell-active'><div>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
+        return `<td class='cell-active'><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
     }
-
+    // Adiciona as matérias na linha do periodo selecionado
     this.handleNewPeriod = (period, coursesGroup) => {
         const periodTime = weekDays[period - 2];
         const coursesGroupPeriods = coursesGroup.filter( course => course.period === period );

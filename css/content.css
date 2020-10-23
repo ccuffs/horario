@@ -45,20 +45,19 @@ tr td {
   border-radius: 8px;
 }
 /* Content da disciplina */
-#content .cell-active div {
+#content .cell-active .cell-active-content{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
+  align-items: stretch;
 }
 /* Nome da disciplina */
-#content .cell-active strong{
+#content .cell-active-content strong{
   font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
 }
 /* Nome do docente e icone do user */
-#content .cell-active p{
+#content .cell-active-content p{
   display: flex;
   align-items: center;
   cursor: pointer;
