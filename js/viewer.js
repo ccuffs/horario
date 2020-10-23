@@ -14,7 +14,6 @@ Horarios.Viewer = function() {
     this.members = null;
 
     this.init = function(semester) {
-
         if(semester) {
             const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
             propsConfig.forEach( prop =>  {
@@ -30,20 +29,20 @@ Horarios.Viewer = function() {
     };
     // Linha vazia, sem nenhuma matéria no período
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
-    // Cria uma tag logo abaixo do nome da matéria.
+    // Cria uma tag informativa logo abaixo do nome da matéria
     this.handleTagCourse = (idCourse) => {
-        const self = this;
-        const course = self.meta.courses[idCourse];
-        
+        // Regata os alertas referente a matéria do arquivo meta.json
+        const course = this.meta.courses[idCourse];
         if(course) {
             if(course.info) return `<span class="cell-tag info">${ICON_INFO}${course.info}</span>`;
             else if(course.warn) return `<span class="cell-tag alert">${ICON_INFO}${course.warn}</span>`;
         }
-
         return '';
     }
-
-    this.handleNameCourse = (nameDefault, course) => {
+    // Cria o campo do nome no box da matéria
+    this.handleNameCourse = (nameDefault, codeCourse) => {
+        // Regata as informações da matéria do arquivo courses.json
+        const course = this.courses[codeCourse];
         if(! course) return `<h6>${nameDefault}</h6>`;
 
         const { name, description } = course;
@@ -51,12 +50,13 @@ Horarios.Viewer = function() {
 
         return `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
     }
-
-    this.handleMembersCourse = (members, aaa) => {
+    // Cria o campo dos docentes no box da matéria
+    this.handleMembersCourse = (members) => {
         let nameMembers = '';
         members.map( member => {
+            // Regata as informações do docente do arquivo members.json
             if(this.members[member]){
-                const {name, email} = this.members[member];
+                const { name, email } = this.members[member];
                 nameMembers += `<div class="box-tooltip"><p>${ICON_USER}${name}</p><span class="box-tooltip-content email">${email}</span></div>`
             } else {
                 nameMembers += `<p>${ICON_USER}${member}</p>`
@@ -65,40 +65,40 @@ Horarios.Viewer = function() {
 
         return nameMembers;
     }
-
-
+    // Cria uma célula na tabela com o valor da matéria
     this.handleCellPeriod = ({ id, name, code, members }) => {
-        const self = this;
-
-        const tagCourse = self.handleTagCourse(id);
-        const nameCourse = self.handleNameCourse(name, self.courses[code]);
-        const membersCourse = self.handleMembersCourse(members, self.members);
+        const tagCourse = this.handleTagCourse(id);
+        const nameCourse = this.handleNameCourse(name, code);
+        const membersCourse = this.handleMembersCourse(members);
 
         return `<td class='cell-active'><div>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
     }
 
-    this.handleNewPeriod = (period, subjects) => {
+    this.handleNewPeriod = (period, coursesGroup) => {
         const periodTime = weekDays[period - 2];
-        const subjectsPeriods = subjects.filter( subject => subject.period === period );
-            
-        // Retorna uma linha sem matérias
-        const isEmptyPeriod = !subjectsPeriods.length;
+        const coursesGroupPeriods = coursesGroup.filter( course => course.period === period );
+        // Caso não exista nenhuma matéria neste período, é retornado uma linha em branco
+        const isEmptyPeriod = !coursesGroupPeriods.length;
         if(isEmptyPeriod) return this.handleEmptyPeriod(periodTime);
         // Primeira coluna com os horários
         let periodLine = `<td>${periodTime}</td>`;
-
+        // Navegando entre as colunas da linha da tabela
         for(let weekDay = 2; weekDay < 7; weekDay += 1) {
-            const idSubject = subjectsPeriods.findIndex( periods => periods.weekDay === weekDay );
-            const cellPeriod = idSubject === -1 ? '<td>━</td>' : this.handleCellPeriod(subjectsPeriods[idSubject]);
-            periodLine += cellPeriod;
+            const indexCourse = coursesGroupPeriods.findIndex( periods => periods.weekDay === weekDay );
+            const weekDayIsEmpty = indexCourse === -1;
+            // Adicionando uma célula em branco
+            if(weekDayIsEmpty) periodLine = '<td>━</td>';
+            // Adicionando uma célula com box da matéria
+            else periodLine += this.handleCellPeriod(coursesGroupPeriods[indexCourse]);
         }
         return periodLine;
     };
-
-    this.handleTableGroup = (tableId, subjects) => {
+    // Adiciona a lista de máterias na tabela
+    this.handleCoursesInTableGroup = (tableId, coursesGroup) => {
+        // Navegando entre as linhas da tabela
         for(let period = 2; period < 8; period += 1){
             const trTable = document.createElement('tr');
-            trTable.innerHTML = this.handleNewPeriod(period, subjects);
+            trTable.innerHTML = this.handleNewPeriod(period, coursesGroup);
             document.getElementById(tableId).appendChild(trTable);
         }
     }
@@ -108,20 +108,39 @@ Horarios.Viewer = function() {
         linksGroup.setAttribute('id', 'links-groups');
         mainContent.appendChild(linksGroup);
     }
-
+    // Cria um banner no topo da página
+    this.handleBannerAlert = (mainContent) => {
+        if(this.meta.banner){
+            const { icon, text } = this.meta.banner;
+            const boxBanner = document.createElement('div');
+            boxBanner.setAttribute('id', 'box-alert');
+            boxBanner.innerHTML = `${icon}<h3>${text}</h3>`;
+           
+            mainContent.appendChild(boxBanner);
+        }
+    }
+    // Adiciona um novo link ao grupo de links do topo da página
     this.handleNewLinkGroup = (groupId, name) => {
         const item = document.createElement('li');
-        item.innerHTML = `<a href="#${groupId}">${name}</a>`;
+        item.innerHTML = `<a href="#group-${groupId}">${name}</a>`;
         document.getElementById('links-groups').appendChild(item);
     }
-
-    this.handleBannerAlert = (mainContent, banner) => {
-        const boxBanner = document.createElement('div');
-        boxBanner.setAttribute('id', 'box-alert');
-        boxBanner.innerHTML = `${banner.icon}<h3>${banner.text}</h3>`;
-       
-        mainContent.appendChild(boxBanner);
-    }
+    // Adiciona uma nova seção a pagina, contendo um título com o nome do semestre e a tabela.
+    this.handleNewSectionGroup = (group, mainContent) => {
+        const sectionGroup = document.createElement('section');
+        sectionGroup.setAttribute('id', `group-${group.id}`);
+        // Cria a tag informativa do semestre
+        const noticeGroup = this.meta.groups[group.id] ? `<span>${this.meta.groups[group.id].notice}</span>` : ''; 
+        
+        sectionGroup.innerHTML = 
+        `<h2>${group.name}${noticeGroup}</h2>
+        <table>
+            <thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead>
+            <tbody id="tbody-group-${group.id}"></tbody>
+        </table>`;
+        
+        mainContent.appendChild(sectionGroup);
+    };
 
     this.render = function() {
         const self = this;
@@ -132,24 +151,13 @@ Horarios.Viewer = function() {
         self.handleElementLinkGroup(mainContent);
 
         self.groups.map( group => {
-            const groupId = `group-${group.id}`;
-            
-            self.handleNewLinkGroup(groupId, group.name);
+            // Adiciona o botão para o link de referênci da tabela.
+            self.handleNewLinkGroup(group.id, group.name);
+            // Cria uma nova seção
+            self.handleNewSectionGroup(group, mainContent);
 
-            const sectionGroup = document.createElement('section');
-            sectionGroup.setAttribute('id', groupId);
-
-            sectionGroup.innerHTML = 
-            `<h2>${group.name}<span>Aulas 100% online</span></h2>
-            <table>
-                <thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead>
-                <tbody id="tbody-${groupId}"></tbody>
-            </table>`;
-            
-            mainContent.appendChild(sectionGroup);
-
-            const subjectsGroup = self.schedule.filter( subject => subject.group === group.id);
-            self.handleTableGroup(`tbody-${groupId}`, subjectsGroup);
+            const coursesGroup = self.schedule.filter( course => course.group === group.id);
+            self.handleCoursesInTableGroup(`tbody-group-${group.id}`, coursesGroup);
         });
     };
 

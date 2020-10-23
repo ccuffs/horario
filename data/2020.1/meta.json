@@ -1,4 +1,38 @@
 {
+    "groups": {
+        "1": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "2": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "3": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },   
+        "4": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },    
+        "5": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        }, 
+        "6": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },  
+        "7": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "8": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        }             
+    },
     "courses": {
         "13": {
             "info": "Professor adicional",
