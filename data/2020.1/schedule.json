@@ -1,8 +1,7 @@
 [
     {
         "id": 1,
-        "code": "",
-        "name": "Inform\u00e1tica B\u00e1sica",
+        "code": "GEX208",
         "program": 1,
         "group": 1,
         "weekDay": 2,
@@ -14,8 +13,7 @@
     },
     {
         "id": 2,
-        "code": "",
-        "name": "Matem\u00e1tica C",
+        "code": "GEX213",
         "program": 1,
         "group": 1,
         "weekDay": 3,
@@ -26,8 +24,7 @@
     },
     {
         "id": 3,
-        "code": "",
-        "name": "Introdu\u00e7\u00e3o a Filosofia",
+        "code": "GCH293",
         "program": 1,
         "group": 1,
         "weekDay": 4,
@@ -38,8 +35,7 @@
     },
     {
         "id": 4,
-        "code": "",
-        "name": "Algoritmos e Programa\u00e7\u00e3o",
+        "code": "GEX003",
         "program": 1,
         "group": 1,
         "weekDay": 2,
@@ -51,8 +47,7 @@
     },
     {
         "id": 5,
-        "code": "",
-        "name": "Estat\u00edstica B\u00e1sica",
+        "code": "GEX210",
         "program": 1,
         "group": 1,
         "weekDay": 6,
@@ -63,8 +58,7 @@
     },
     {
         "id": 6,
-        "code": "",
-        "name": "Inform\u00e1tica B\u00e1sica",
+        "code": "GEX208",
         "program": 1,
         "group": 1,
         "weekDay": 3,
@@ -76,8 +70,7 @@
     },
     {
         "id": 7,
-        "code": "",
-        "name": "Matem\u00e1tica C",
+        "code": "GEX213",
         "program": 1,
         "group": 1,
         "weekDay": 5,
@@ -88,8 +81,7 @@
     },
     {
         "id": 8,
-        "code": "",
-        "name": "Introdu\u00e7\u00e3o a Filosofia",
+        "code": "GCH293",
         "program": 1,
         "group": 1,
         "weekDay": 4,
@@ -100,8 +92,7 @@
     },
     {
         "id": 9,
-        "code": "",
-        "name": "Algoritmos e Programa\u00e7\u00e3o",
+        "code": "GEX003",
         "program": 1,
         "group": 1,
         "weekDay": 5,
@@ -113,8 +104,7 @@
     },
     {
         "id": 10,
-        "code": "",
-        "name": "Estat\u00edstica B\u00e1sica",
+        "code": "GEX210",
         "program": 1,
         "group": 1,
         "weekDay": 6,
@@ -125,8 +115,7 @@
     },
     {
         "id": 11,
-        "code": "",
-        "name": "Sistemas Digitais",
+        "code": "GEX606",
         "program": 1,
         "group": 2,
         "weekDay": 5,
@@ -137,8 +126,7 @@
     },
     {
         "id": 12,
-        "code": "",
-        "name": "Matem\u00e1tica Discreta",
+        "code": "GEX608",
         "program": 1,
         "group": 2,
         "weekDay": 3,
@@ -149,8 +137,7 @@
     },
     {
         "id": 13,
-        "code": "",
-        "name": "Pesquisa e Ordena\u00e7\u00e3o de Dados",
+        "code": "GEX609",
         "program": 1,
         "group": 2,
         "weekDay": 4,
@@ -162,8 +149,7 @@
     },
     {
         "id": 14,
-        "code": "",
-        "name": "Programa\u00e7\u00e3o I",
+        "code": "GEX098",
         "program": 1,
         "group": 2,
         "weekDay": 2,
@@ -175,8 +161,7 @@
     },
     {
         "id": 15,
-        "code": "",
-        "name": "Algebra Linear",
+        "code": "GEX607",
         "program": 1,
         "group": 2,
         "weekDay": 6,
@@ -187,8 +172,7 @@
     },
     {
         "id": 16,
-        "code": "",
-        "name": "Calculo II",
+        "code": "GEX392",
         "program": 1,
         "group": 2,
         "weekDay": 2,
@@ -199,8 +183,7 @@
     },
     {
         "id": 17,
-        "code": "",
-        "name": "Sistemas Digitais",
+        "code": "GEX606",
         "program": 1,
         "group": 2,
         "weekDay": 2,
@@ -211,8 +194,7 @@
     },
     {
         "id": 18,
-        "code": "",
-        "name": "Matem\u00e1tica Discreta",
+        "code": "GEX608",
         "program": 1,
         "group": 2,
         "weekDay": 6,
@@ -223,8 +205,7 @@
     },
     {
         "id": 19,
-        "code": "",
-        "name": "Pesquisa e Ordena\u00e7\u00e3o de Dados",
+        "code": "GEX609",
         "program": 1,
         "group": 2,
         "weekDay": 5,
@@ -236,8 +217,7 @@
     },
     {
         "id": 20,
-        "code": "",
-        "name": "Programa\u00e7\u00e3o I",
+        "code": "GEX098",
         "program": 1,
         "group": 2,
         "weekDay": 4,
@@ -249,8 +229,7 @@
     },
     {
         "id": 21,
-        "code": "",
-        "name": "Algebra Linear",
+        "code": "GEX607",
         "program": 1,
         "group": 2,
         "weekDay": 3,
@@ -261,8 +240,7 @@
     },
     {
         "id": 22,
-        "code": "",
-        "name": "Calculo II",
+        "code": "GEX392",
         "program": 1,
         "group": 2,
         "weekDay": 2,
@@ -273,8 +251,7 @@
     },
     {
         "id": 23,
-        "code": "",
-        "name": "Meio Ambiente, Economia e Sociedade",
+        "code": "GCS238",
         "program": 1,
         "group": 3,
         "weekDay": 3,
@@ -285,8 +262,7 @@
     },
     {
         "id": 24,
-        "code": "",
-        "name": "Banco de Dados II",
+        "code": "GEX091",
         "program": 1,
         "group": 3,
         "weekDay": 2,
@@ -297,8 +273,7 @@
     },
     {
         "id": 25,
-        "code": "",
-        "name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+        "code": "GEX107",
         "program": 1,
         "group": 3,
         "weekDay": 2,
@@ -309,8 +284,7 @@
     },
     {
         "id": 26,
-        "code": "",
-        "name": "Linguagens Formais e Automatos",
+        "code": "GEX101",
         "program": 1,
         "group": 3,
         "weekDay": 2,
@@ -321,8 +295,7 @@
     },
     {
         "id": 27,
-        "code": "",
-        "name": "Engenharia de Software II",
+        "code": "GEX616",
         "program": 1,
         "group": 3,
         "weekDay": 2,
@@ -333,8 +306,7 @@
     },
     {
         "id": 28,
-        "code": "",
-        "name": "Sistemas Operacionais",
+        "code": "GEX110",
         "program": 1,
         "group": 3,
         "weekDay": 4,
@@ -345,8 +317,7 @@
     },
     {
         "id": 29,
-        "code": "",
-        "name": "Meio Ambiente, Economia e Sociedade",
+        "code": "GCS238",
         "program": 1,
         "group": 3,
         "weekDay": 3,
@@ -357,8 +328,7 @@
     },
     {
         "id": 30,
-        "code": "",
-        "name": "Banco de Dados II",
+        "code": "GEX091",
         "program": 1,
         "group": 3,
         "weekDay": 6,
@@ -369,8 +339,7 @@
     },
     {
         "id": 31,
-        "code": "",
-        "name": "Computa\u00e7\u00e3o Gr\u00e1fica",
+        "code": "GEX107",
         "program": 1,
         "group": 3,
         "weekDay": 5,
@@ -381,8 +350,7 @@
     },
     {
         "id": 32,
-        "code": "",
-        "name": "Linguagens Formais e Automatos",
+        "code": "GEX101",
         "program": 1,
         "group": 3,
         "weekDay": 4,
@@ -393,8 +361,7 @@
     },
     {
         "id": 33,
-        "code": "",
-        "name": "Engenharia de Software II",
+        "code": "GEX616",
         "program": 1,
         "group": 3,
         "weekDay": 5,
@@ -405,8 +372,7 @@
     },
     {
         "id": 34,
-        "code": "",
-        "name": "Sistemas Operacionais",
+        "code": "GEX110",
         "program": 1,
         "group": 3,
         "weekDay": 6,
@@ -417,8 +383,7 @@
     },
     {
         "id": 35,
-        "code": "",
-        "name": "Fundamentos da Cr\u00edtica Social",
+        "code": "GCH012",
         "program": 1,
         "group": 4,
         "weekDay": 5,
@@ -429,8 +394,7 @@
     },
     {
         "id": 36,
-        "code": "",
-        "name": "Inteligencia Artificial",
+        "code": "GEX109",
         "program": 1,
         "group": 4,
         "weekDay": 2,
@@ -453,8 +417,7 @@
     },
     {
         "id": 38,
-        "code": "",
-        "name": "TCC I",
+        "code": "GEX657",
         "program": 1,
         "group": 4,
         "weekDay": 6,
@@ -489,8 +452,7 @@
     },
     {
         "id": 41,
-        "code": "",
-        "name": "Fundamentos da Cr\u00edtica Social",
+        "code": "GCH012",
         "program": 1,
         "group": 4,
         "weekDay": 5,
@@ -501,8 +463,7 @@
     },
     {
         "id": 42,
-        "code": "",
-        "name": "Inteligencia Artificial",
+        "code": "GEX109",
         "program": 1,
         "group": 4,
         "weekDay": 3,
@@ -525,8 +486,7 @@
     },
     {
         "id": 44,
-        "code": "",
-        "name": "TCC I",
+        "code": "GEX657",
         "program": 1,
         "group": 4,
         "weekDay": 7,
@@ -561,8 +521,7 @@
     },
     {
         "id": 47,
-        "code": "",
-        "name": "Calculo I",
+        "code": "GEX178",
         "program": 1,
         "group": 5,
         "weekDay": 3,
@@ -573,8 +532,7 @@
     },
     {
         "id": 48,
-        "code": "",
-        "name": "Circuitos Digitais",
+        "code": "GEN253",
         "program": 1,
         "group": 5,
         "weekDay": 4,
@@ -586,8 +544,7 @@
     },
     {
         "id": 49,
-        "code": "",
-        "name": "Estruturas de Dados",
+        "code": "GEX605",
         "program": 1,
         "group": 5,
         "weekDay": 4,
@@ -599,8 +556,7 @@
     },
     {
         "id": 50,
-        "code": "",
-        "name": "Probabilidade e Estat\u00edstica",
+        "code": "GEX055",
         "program": 1,
         "group": 5,
         "weekDay": 6,
@@ -611,8 +567,7 @@
     },
     {
         "id": 51,
-        "code": "",
-        "name": "Produ\u00e7\u00e3o Textual Acad\u00eamica",
+        "code": "GLA104",
         "program": 1,
         "group": 5,
         "weekDay": 2,
@@ -623,8 +578,7 @@
     },
     {
         "id": 52,
-        "code": "",
-        "name": "Calculo I",
+        "code": "GEX178",
         "program": 1,
         "group": 5,
         "weekDay": 3,
@@ -635,8 +589,7 @@
     },
     {
         "id": 53,
-        "code": "",
-        "name": "Circuitos Digitais",
+        "code": "GEN253",
         "program": 1,
         "group": 5,
         "weekDay": 5,
@@ -648,8 +601,7 @@
     },
     {
         "id": 54,
-        "code": "",
-        "name": "Estruturas de Dados",
+        "code": "GEX605",
         "program": 1,
         "group": 5,
         "weekDay": 5,
@@ -661,8 +613,7 @@
     },
     {
         "id": 55,
-        "code": "",
-        "name": "Probabilidade e Estat\u00edstica",
+        "code": "GEX055",
         "program": 1,
         "group": 5,
         "weekDay": 6,
@@ -673,8 +624,7 @@
     },
     {
         "id": 56,
-        "code": "",
-        "name": "Produ\u00e7\u00e3o Textual Acad\u00eamica",
+        "code": "GLA104",
         "program": 1,
         "group": 5,
         "weekDay": 2,
@@ -685,8 +635,7 @@
     },
     {
         "id": 57,
-        "code": "",
-        "name": "Organiza\u00e7\u00e3o de Computadores",
+        "code": "GEX612",
         "program": 1,
         "group": 6,
         "weekDay": 5,
@@ -697,8 +646,7 @@
     },
     {
         "id": 58,
-        "code": "",
-        "name": "Banco de Dados I",
+        "code": "GEX090",
         "program": 1,
         "group": 6,
         "weekDay": 5,
@@ -709,8 +657,7 @@
     },
     {
         "id": 59,
-        "code": "",
-        "name": "Grafos",
+        "code": "GEN254",
         "program": 1,
         "group": 6,
         "weekDay": 4,
@@ -721,8 +668,7 @@
     },
     {
         "id": 60,
-        "code": "",
-        "name": "Geometria Anal\u00edtica",
+        "code": "GEX195",
         "program": 1,
         "group": 6,
         "weekDay": 3,
@@ -733,8 +679,7 @@
     },
     {
         "id": 61,
-        "code": "",
-        "name": "Engenharia de Software I",
+        "code": "GEX615",
         "program": 1,
         "group": 6,
         "weekDay": 3,
@@ -745,8 +690,7 @@
     },
     {
         "id": 62,
-        "code": "",
-        "name": "Organiza\u00e7\u00e3o de Computadores",
+        "code": "GEX612",
         "program": 1,
         "group": 6,
         "weekDay": 2,
@@ -757,8 +701,7 @@
     },
     {
         "id": 63,
-        "code": "",
-        "name": "Banco de Dados I",
+        "code": "GEX090",
         "program": 1,
         "group": 6,
         "weekDay": 2,
@@ -781,8 +724,7 @@
     },
     {
         "id": 65,
-        "code": "",
-        "name": "Geometria Anal\u00edtica",
+        "code": "GEX195",
         "program": 1,
         "group": 6,
         "weekDay": 4,
@@ -793,8 +735,7 @@
     },
     {
         "id": 66,
-        "code": "",
-        "name": "Engenharia de Software I",
+        "code": "GEX615",
         "program": 1,
         "group": 6,
         "weekDay": 6,
@@ -805,8 +746,7 @@
     },
     {
         "id": 67,
-        "code": "",
-        "name": "Hist\u00f3ria da Fronteira Sul",
+        "code": "GCH292",
         "program": 1,
         "group": 7,
         "weekDay": 6,
@@ -817,8 +757,7 @@
     },
     {
         "id": 68,
-        "code": "",
-        "name": "Engenharia de Software II",
+        "code": "GEX616",
         "program": 1,
         "group": 7,
         "weekDay": 2,
@@ -829,8 +768,7 @@
     },
     {
         "id": 69,
-        "code": "",
-        "name": "Linguagens Formais e Automatos",
+        "code": "GEX101",
         "program": 1,
         "group": 7,
         "weekDay": 5,
@@ -841,8 +779,7 @@
     },
     {
         "id": 70,
-        "code": "",
-        "name": "Direitos e Cidadania",
+        "code": "GCS239",
         "program": 1,
         "group": 7,
         "weekDay": 4,
@@ -853,8 +790,7 @@
     },
     {
         "id": 71,
-        "code": "",
-        "name": "Calculo Num\u00e9rico",
+        "code": "GEX395",
         "program": 1,
         "group": 7,
         "weekDay": 3,
@@ -865,8 +801,7 @@
     },
     {
         "id": 72,
-        "code": "",
-        "name": "Hist\u00f3ria da Fronteira Sul",
+        "code": "GCH292",
         "program": 1,
         "group": 7,
         "weekDay": 6,
@@ -877,8 +812,7 @@
     },
     {
         "id": 73,
-        "code": "",
-        "name": "Engenharia de Software II",
+        "code": "GEX616",
         "program": 1,
         "group": 7,
         "weekDay": 5,
@@ -889,8 +823,7 @@
     },
     {
         "id": 74,
-        "code": "",
-        "name": "Linguagens Formais e Automatos",
+        "code": "GEX101",
         "program": 1,
         "group": 7,
         "weekDay": 2,
@@ -901,8 +834,7 @@
     },
     {
         "id": 75,
-        "code": "",
-        "name": "Direitos e Cidadania",
+        "code": "GCS239",
         "program": 1,
         "group": 7,
         "weekDay": 4,
@@ -913,8 +845,7 @@
     },
     {
         "id": 76,
-        "code": "",
-        "name": "Calculo Num\u00e9rico",
+        "code": "GEX395",
         "program": 1,
         "group": 7,
         "weekDay": 3,
@@ -925,8 +856,7 @@
     },
     {
         "id": 77,
-        "code": "",
-        "name": "Meio Ambiente, Economia e Sociedade",
+        "code": "GCS238",
         "program": 1,
         "group": 8,
         "weekDay": 6,
@@ -937,8 +867,7 @@
     },
     {
         "id": 78,
-        "code": "",
-        "name": "Redes de Computadores",
+        "code": "GEX105",
         "program": 1,
         "group": 8,
         "weekDay": 2,
@@ -949,8 +878,7 @@
     },
     {
         "id": 79,
-        "code": "",
-        "name": "Planejamento e Gest\u00e3o de Projetos",
+        "code": "GCS580",
         "program": 1,
         "group": 8,
         "weekDay": 2,
@@ -961,8 +889,7 @@
     },
     {
         "id": 80,
-        "code": "",
-        "name": "Introdu\u00e7\u00e3o ao Pensamento Social",
+        "code": "GCH291",
         "program": 1,
         "group": 8,
         "weekDay": 5,
@@ -985,8 +912,7 @@
     },
     {
         "id": 82,
-        "code": "",
-        "name": "Meio Ambiente, Economia e Sociedade",
+        "code": "GCS238",
         "program": 1,
         "group": 8,
         "weekDay": 6,
@@ -997,8 +923,7 @@
     },
     {
         "id": 83,
-        "code": "",
-        "name": "Redes de Computadores",
+        "code": "GEX105",
         "program": 1,
         "group": 8,
         "weekDay": 4,
@@ -1009,8 +934,7 @@
     },
     {
         "id": 84,
-        "code": "",
-        "name": "Planejamento e Gest\u00e3o de Projetos",
+        "code": "GCS580",
         "program": 1,
         "group": 8,
         "weekDay": 3,
@@ -1021,8 +945,7 @@
     },
     {
         "id": 85,
-        "code": "",
-        "name": "Introdu\u00e7\u00e3o ao Pensamento Social",
+        "code": "GCH291",
         "program": 1,
         "group": 8,
         "weekDay": 5,
@@ -1057,8 +980,7 @@
     },
     {
         "id": 88,
-        "code": "",
-        "name": "TCC II",
+        "code": "GEX658",
         "program": 1,
         "group": 9,
         "weekDay": 2,

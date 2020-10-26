@@ -1,0 +1,59 @@
+#content .box-tooltip {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  cursor: pointer;
+}
+
+#content .box-tooltip:hover .box-tooltip-content{
+  visibility: visible;
+}
+
+.box-tooltip-content {
+  z-index: 10;
+  display: block;
+  
+  position: absolute;
+  top: 30px;
+  left: 0;
+  
+  width: 100%;
+  border-radius: 6px;
+  visibility: hidden;
+  font-weight: 400;
+}
+
+.box-tooltip-content.description {
+  padding: 15px 8px;
+  background: #4dab98;
+}
+
+.box-tooltip-content.email {
+  padding: 10px 0;
+  background: #bb8823;
+}
+
+.box-tooltip-content::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: -12px;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.box-tooltip-content.description::before {
+  border-bottom: 12px solid #4dab98;
+}
+
+.box-tooltip-content.email::before {
+  border-bottom: 12px solid #bb8823;
+}

@@ -1,0 +1,190 @@
+{
+  "GEX208": {
+      "name": "Informática Básica",
+      "description": "Fundamentos de informática. Conhecimentos de sistemas operacionais. Utilização da redemundial de computadores. Ambientes virtuais de aprendizagem."
+  },
+  "GEX213": {
+      "name": "Matemática C",
+      "description": "Utilizar conceitos e procedimentos matemáticos para analisar dados, elaborar modelos e resolver problemas. Sintetizar, deduzir, elaborar hipóteses etc, e argumentar com clareza e coerência utilizando elementos de linguagem matemática."
+  },
+  "GCH293": {
+      "name": "Introdução a Filosofia",
+      "description": "Fundamentos filosóficos da Modernidade. Tópicos de Ética e de Epistemologia."
+  },
+  "GEX003": {
+      "name": "Algoritmos e Programação",
+      "description": "Noções iniciais de programação e criação de software. Desenvolvimento do raciocínio lógico para o desenvolvimento de algoritmos. Compreender como o computador executa programas. Desenvolver algoritmos utilizando os conceitos aprendidos."
+  },
+  "GEX210": {
+      "name": "Estatísca Básica",
+      "description": "Utilizar ferramentas da estatística descritiva para interpretar, analisar e sintetizar dados estatísticos com vistas à compreensão de contextos diversos."
+  },
+  "GEX178": {
+      "name": "Cálculo I",
+      "description": "Introdução as principais ferramentas do cálculo diferencial e integral de funções de uma variável, abordando suas aplicações."
+  },
+  "GEN253": {
+      "name": "Circuitos digitais",
+      "description": "Fundamentos de Eletrônica. Famílias Lógicas. Simulação de Circuitos Lógicos. Álgebra de Boole etc."
+  },
+  "GEX605": {
+      "name": "Estruturas de dados",
+      "description": "Conceitos básicos de complexidade de algoritmos. Alocação dinâmica de memória. Tipos Abstratos de Dados. Listas lineares e suas generalizações."
+  },
+  "GEX055": {
+      "name": "Probabilidade e estatística",
+      "description": "Estudo de elementos estatísticos discretos necessários para alguns tópicos em Ciência da Computação, como a análise do caso médio de algoritmos e os algoritmos probabilísticos."
+  },
+  "GLA104": {
+      "name": "Produção textual acadêmica",
+      "description": "Desenvolvimento da competência textual-discursiva de modo a fomentar a habilidade de leitura e produção de textos orais e escritos na esfera acadêmica."
+  },
+  "GEX195": {
+      "name": "Geometria analítica",
+      "description": "Sistema de coordenadas cartesianas. Vetores no plano e no espaço. Estudo analítico de retas e planos. Distâncias. Cônicas. Superfícies quádricas."
+  },
+  "GEX606": {
+      "name": "Sistemas digitais",
+      "description": "Compreensão de conceitos e do funcionamento de circuitos digitais utilizados em computação, através da apresentação de técnicas de projeto e simulação e implementação usando linguagens de descrição de hardware e tecnologias de prototipação."
+  },
+  "GEX608": {
+      "name": "Matemática discreta",
+      "description": "Compreensão de fundamentos matemáticos necessários às diversas disciplinas da Ciência da Computação. Estudo de elementos matemáticos discretos em aplicações computacionais."
+  },
+  "GEX609": {
+      "name": "Pesquisa e ordenação de dados",
+      "description": "Utilização de estruturas de dados avançadas para ordenação e pesquisa de informações. Construção de algoritmos para persistir dados e tratar dados persistidos. Analise e comparação de métodos de ordenação quadráticos e métodos recursivos."
+  },
+  "GEX098": {
+      "name": "Programação I",
+      "description": "Compreensão de conceitos fundamentais do paradigma de programação orientada a objetos e suas aplicações no desenvolvimento de soluções de software."
+  },
+  "GEX607": {
+      "name": "Álgebra linear",
+      "description": "Estudo de técnicas de integração de uma função de uma variável e aplicações na resolução de problemas. Introdução às principais ferramentas do cálculo diferencial e integral de funções de várias variáveis."
+  },
+  "GEX392": {
+      "name": "Cálculo II",
+      "description": "Estudo de técnicas de integração de uma função de uma variável e aplicações na resolução de problemas. Introdução às principais ferramentas do cálculo diferencial e integral de funções de várias variáveis."
+  },
+  "GEX612": {
+      "name": "Organização de computadores",
+      "description": "Conhecer os principais conceitos envolvidos na concepção da arquitetura e organização dos computadores, sabendo caracterizar e entender o funcionamento interno de um computador,dada uma certa arquitetura, reconhecendo o impacto de cada alternativa sobre fatores como desempenho e custo."
+  },
+  "GEX090": {
+      "name": "Banco de dados I",
+      "description": "Noçoes iniciais sobre o funcionamento de banco de dados. Executar um projeto de banco de dados relacional e manipular os dados armazenados."
+  },
+  "GEX613": {
+      "name": "Programação II",
+      "description": "Estudo e aplicação das principais técnicas utilizadas para o desenvolvimento de sistemas para a Web."
+  },
+  "GCH290": {
+      "name": "Iniciação à prática científica",
+      "description": "Proporcionar reflexões sobre as relações existentes entre universidade, sociedade e conhecimento científico e fornecer instrumentos para iniciar o acadêmico na prática da atividade científica."
+  },
+  "GEX615": {
+      "name": "Engenharia de software I",
+      "description": "Compreensão do processo completo de desenvolvimento de produtos de software e os procedimentos necessários, com ênfase no planejamento e melhoria contínua."
+  },
+  "GEN254": {
+      "name": "Grafos",
+      "description": "Compreensão de conceitos básicos em Teoria dos Grafos. Modelagem de problemas e situações diversas com grafos. Desenvolvimento da criatividade e das habilidades formais de demonstração através de exercícios sobre grafos e aplicações."
+  },
+  "GCS238": {
+      "name": "Meio ambiente, economia e sociedade",
+      "description": "Compreensão acerca dos principais conceitos que envolvem a Economia Política e a sustentabilidade do desenvolvimento das relações socioeconômicas e do meio ambiente"
+  },
+  "GEX091": {
+      "name": "Banco de dados II",
+      "description": "Estudo de como os sistemas gerenciadores de banco de dados relacionais (SGBDR) armazenam fisicamente os dados para acesso. Compreensão dos componentes dos SGBDR."
+  },
+  "GEX107": {
+      "name": "Computação gráfica",
+      "description": "Dominar os principais conceitos e técnicas da Computação Gráfica 2D e 3D."
+  },
+  "GEX101": {
+      "name": "Linguagens formais e autômatos",
+      "description": "Compreensão e aplicação de conceito de alfabeto, palavra, linguagem, grámatica. Classificação formal de uma linguagem de acordo com hierarquia de Chromsky etc."
+  },
+  "GEX616": {
+      "name": "Engenharia de software II",
+      "description": "Analise e desenvolvimento de software utilizando métricas e conceitos de gestão de projeto. Arquitetura de software. Noções de usabilidade e critérios ergonômicos."
+  },
+  "GEX110": {
+      "name": "Sistemas operacionais",
+      "description": "Estudo e analise da estrutura, funcionalidades, os tipos e a evolução dos sistemas operacionais."
+  },
+  "GCH292": {
+      "name": "História da fronteira sul",
+      "description": "Compreender o processo de formação da região sul do Brasil por meio da análise de aspectos históricos do contexto de povoamento, despovoamento e colonização."
+  },
+  "OPTATIVA1": {
+      "name": "Optativa I",
+      "description": ""
+  },
+  "GEX105": {
+      "name": "Redes de computadores",
+      "description": "Compreensão das redes de computadores, conhecendo o modelo de referência OSI, a arquitetura TCP/IP e seus protocolos, equipamentos e principais aplicações."
+  },
+  "GCS580": {
+      "name": "Planejamento e gestão de projetos",
+      "description": "Planejar e gerenciar projetos de software utilizando metodologias de gerenciamento de projetos adequadas."
+  },
+  "GEX614": {
+      "name": "Teoria da computação",
+      "description": "Compreensão da importância da Teoria da Computação para a prática computacional através dos conceitos de Computabilidade, Decidibilidade, Complexidade e Tratabilidade. Desenvolvimento das habilidades de argumentação matemática e formal para demonstrações em Teoria da Computação."
+  },
+  "GEX108": {
+      "name": "Construção de Compiladores",
+      "description": "Compreender a estrutura de compiladores, o processo de compilação no reconhecimento de linguagens e a geração/otimização de código. Construir analisadores léxicos e sintáticos."
+  },
+  "GEX617": {
+      "name": "Linguagens de programação",
+      "description": "Entender a classificação das linguagens de programação e seu contexto histórico.Compreender os aspectos técnicos de implementação dos diferentes recursos oferecidos pelas principais linguagens. Adquirir a experiência de programar em paradigmas não-usuaisde programação a fins de comparação nos mais diversos contextos."
+  },
+  "GEX109": {
+      "name": "Inteligência artificial",
+      "description": "Adquirir o conhecimento básico para trabalhar com as abordagens diferenciadas da Inteligência Artificial, objetivando simular comportamento inteligente através da máquina."
+  },
+  "OPTATIVA2": {
+      "name": "Optativa II",
+      "description": ""
+  },
+  "GEX395": {
+      "name": "Cálculo numérico",
+      "description": "Abordar a resolução não algébrica de problemas matemáticos por meio de métodos numéricos, fazendo uso de ferramentas do cálculo diferencial e integral, da álgebra linear e de equações diferenciais ordinárias."
+  },
+  "OPTATIVA3": {
+      "name": "Optativa III",
+      "description": ""
+  },
+  "GEX657": {
+      "name": "TCC I",
+      "description": "Escrever um projeto científico na área de computação. Defender um projeto perante uma banca."
+  },
+  "OPTATIVA4": {
+      "name": "Optativa IV",
+      "description": ""
+  },
+  "OPTATIVA5": {
+      "name": "Optativa V",
+      "description": ""
+  },
+  "GEX658": {
+      "name": "TCC II",
+      "description": "Executar o projeto proposto no TCC I. Desenvolver o produto proposto no TCC I. Defender o resultado obtido perante uma banca."
+  },
+  "GCS239": {
+      "name": "Direito e cidadania",
+      "description": "Permitir ao estudante uma compreensão adequada acerca dos interesses de classe, das ideologias e das elaborações retórico-discursivas subjacentes à categoria cidadania."
+  },
+  "GCH012": {
+      "name": "Fundamentos da crítica social",
+      "description": ""
+  },
+  "GCH291": {
+      "name": "Introdução ao pensamento social",
+      "description": ""
+  }
+}
