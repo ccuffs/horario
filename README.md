@@ -8,7 +8,7 @@
 
 ## Sobre o Projeto
 
-Esse repositório contém a aplicação para mostrar e organizar as salas de aula do curso de Ciência da Computação da UFFS, Chapecó/SC. A página está disponível em [cc.uffs.edu.br/horario/](https://cc.uffs.edu.br/horario/). 
+Esse repositório contém a aplicação para mostrar e organizar as salas de aula do curso de Ciência da Computação da UFFS, Chapecó/SC. A página está disponível em [cc.uffs.edu.br/horario](https://cc.uffs.edu.br/horario/). 
 
 ### Estrutura do dados
 
