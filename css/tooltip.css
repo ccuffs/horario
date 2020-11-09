@@ -18,17 +18,19 @@
   
   position: absolute;
   top: 30px;
-  left: 0;
+  left: -25%;
   
-  width: 100%;
-  border-radius: 6px;
+  width: 150%;
+  border-radius: 4px;
   visibility: hidden;
   font-weight: 400;
 }
 
 .box-tooltip-content.description {
   padding: 15px 8px;
-  background: #4dab98;
+  background: #323232;
+  border: solid 2px #2B2B2B;
+  box-shadow: 8px 8px 10px 0px rgba(0,0,0,0.75);
 }
 
 .box-tooltip-content.email {
@@ -51,7 +53,7 @@
 }
 
 .box-tooltip-content.description::before {
-  border-bottom: 12px solid #4dab98;
+  border-bottom: 12px solid #323232;
 }
 
 .box-tooltip-content.email::before {
