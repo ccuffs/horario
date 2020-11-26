@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/content.css">
     <link rel="stylesheet" href="./css/tooltip.css">
+    <link rel="stylesheet" href="./css/tippy.min.css">
   </head>
 
   <body>
@@ -34,6 +35,8 @@
     </div>
 
     <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper-core.min.js"></script>
+    <script src="./js/tippy.min.js"></script>
     <script src="./js/viewer.js"></script>
 
     <script>
@@ -46,6 +49,24 @@
       });
       $(function(){
           viewer.init($('#semester').val());
+      });
+
+      tippy('[data-tooltip],[data-tooltip-from]', {
+          theme: 'carbon',
+          content(reference) {
+              const id = reference.getAttribute('data-tooltip-from');
+              const text = reference.getAttribute('data-tooltip');
+              
+              if(!id) {
+                  return text;
+              }
+
+              const template = document.getElementById(id);
+              return template.innerHTML;
+          },
+          allowHTML: true,
+          interactive: true,
+          maxWidth: 400
       });
     </script>
   </body>
