@@ -59,6 +59,10 @@
       "name": "Programação I",
       "description": "Compreensão de conceitos fundamentais do paradigma de programação orientada a objetos e suas aplicações no desenvolvimento de soluções de software."
   },
+  "GEX099": {
+    "name": "Programação II",
+    "description": "Conhecer e aplicar as principais técnicas e ferramentas utilizadas no desenvolvimento de sistemas para a Web."
+  },
   "GEX607": {
       "name": "Álgebra linear",
       "description": "Estudo de técnicas de integração de uma função de uma variável e aplicações na resolução de problemas. Introdução às principais ferramentas do cálculo diferencial e integral de funções de várias variáveis."
@@ -95,10 +99,18 @@
       "name": "Meio ambiente, economia e sociedade",
       "description": "Compreensão acerca dos principais conceitos que envolvem a Economia Política e a sustentabilidade do desenvolvimento das relações socioeconômicas e do meio ambiente"
   },
+  "GCS011": {
+    "name": "Meio ambiente, economia e sociedade",
+    "description": "Compreensão acerca dos principais conceitos que envolvem a Economia Política e a sustentabilidade do desenvolvimento das relações socioeconômicas e do meio ambiente"
+  },
   "GEX091": {
       "name": "Banco de dados II",
       "description": "Estudo de como os sistemas gerenciadores de banco de dados relacionais (SGBDR) armazenam fisicamente os dados para acesso. Compreensão dos componentes dos SGBDR."
   },
+  "GEX106": {
+    "name": "Computação distribuída",
+    "description": "Projetar e desenvolver sistemas computacionais de natureza distribuída."
+  },  
   "GEX107": {
       "name": "Computação gráfica",
       "description": "Dominar os principais conceitos e técnicas da Computação Gráfica 2D e 3D."
@@ -114,6 +126,18 @@
   "GEX110": {
       "name": "Sistemas operacionais",
       "description": "Estudo e analise da estrutura, funcionalidades, os tipos e a evolução dos sistemas operacionais."
+  },
+  "GEX112": {
+    "name": "Segurança e Auditoria de Sistemas",
+    "description": "Reconhecer e relacionar os principais riscos envolvidos no ambiente de informações e os principais pontos de controle de auditoria da tecnologia da informação no que se refere à auditoria do desenvolvimento e manutenção de sistemas, administração de dados, administração de banco de dados, e administração de redes de computadores."
+  },
+  "GEX119": {
+    "name": "Trabalho de Conclusão de Curso I",
+    "description": "Escrever um projeto científico na área de computação. Defender um projeto perante uma banca."
+  },
+  "GEX120": {
+    "name": "Trabalho de Conclusão de Curso II",
+    "description": "Executar o projeto proposto no TCC I. Desenvolver o produto proposto no TCCI. Defender o resultado obtido perante a uma baca."
   },
   "GCH292": {
       "name": "História da fronteira sul",
@@ -179,12 +203,28 @@
       "name": "Direito e cidadania",
       "description": "Permitir ao estudante uma compreensão adequada acerca dos interesses de classe, das ideologias e das elaborações retórico-discursivas subjacentes à categoria cidadania."
   },
+  "GCS320": {
+    "name": "Empreendedorismo (Opt I)",
+    "description": "Desenvolver o espírito empreendedor na área da tecnologia da informação. Habilidades de um empreendedor. Jornada do Empreendedor. Ferramentas e práticas para desenvolver o negócio. Desenvolvimento de uma startup seguindo a metodologia do google.<br /><br />Conhecimentos prévios necessários:<br />Nenhum."
+  },
   "GCH012": {
       "name": "Fundamentos da crítica social",
-      "description": ""
+      "description": "Fomentar, através do contato com os principais marcos teóricos da Filosofia Moderna e Contemporânea, a reflexão sobre os alicerces de toda ciência social."
   },
   "GCH291": {
       "name": "Introdução ao pensamento social",
       "description": ""
+  },
+  "GEX625": {
+    "name": "Tópicos especiais em computação III (Opt IV - Recuperação de Informação)",
+    "description": "Compreender técnicas para processamento e extração de informações relevantes em textos utilizando abordagens baseadas em aprendizagem de máquina. Uso do Jypyter/Python; recuperação de informação em texto; consultas boolenas; pré-processamento (tokenização, stop words,etc) ; extração de atributos  (BM-25; TF-IDF; Bag-of-words) ; Métricas de avaliação; Algoritmos de classificação (Árvores de decisão, random forests;Naïve Bayes; support vector machines.), agrupamento (k-Nearest Neighbours).<br /><br />Conhecimentos prévios necessários:<br /><br />Banco de dados II."
+  },
+  "GEX635": {
+    "name": "Tópicos especiais em computação XIII (Opt III - Modelo de comunição P/S na IoT)",
+    "description": "Modelo de comunicação publish/subscribe na Internet das Coisas (Internet-of-Things, IoT). Explorar os fundamentos do modelo de comunicação publish/subscribe no contexto da Internet das Coisas. a) Fundamentos do padrão de comunicação publish/subscribe (P/S); b) Principais protocolos que adotam o paradigma P/S; c) Estudo de caso com o Message Queuing Telemetry Transport - MQTT (protocolo P/S mais adotado no desenvolvimento de aplicações para Internet das Coisas).<br /><br />Conhecimentos prévios necessários:<br />Redes de Computadores."
+  },
+  "GEX636": {
+    "name": "Tópicos especiais em computação XIV (Opt II - Sistemas Integrados em Chips)",
+    "description": "Visão geral dos sistemas integrados em chip, com ênfase na comunicação intra-chip e no uso de multi-processamento. Introdução aos SOC. Comunicação intra-chip: barramentos; barramentos hierárquicos; redes intra-chip. Redes intra-chip. MPSoC Memphis. Desenvolvimento e depuração de aplicações no MPSoC Memphis. <br /><br />Conhecimentos prévios necessários:<br />Organização de computadores; Sistemas operacionais."
   }
 }

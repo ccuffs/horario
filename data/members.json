@@ -7,6 +7,14 @@
     "name": "Ana Maria Basei",
     "email": "anambasei@uffs.edu.br"
   },
+  "animarchesan": {
+    "name": "Ani Marchesan",
+    "email": "animarchesan@uffs.edu.br"
+  },  
+  "andrei.braga": {
+    "name": "Andrei Braga",
+    "email": "andrei.braga@uffs.edu.br"
+  },
   "asebben": {
     "name": "Andressa Sebben",
     "email": "asebben@uffs.edu.br"
@@ -31,10 +39,18 @@
     "name": "Denio Duarte",
     "email": "duarte@uffs.edu.br"
   },
+  "divane.marcon": {
+    "name": "Divane Marcon",
+    "email": "divane.marcon@uffs.edu.br"
+  },
   "edson.santos": {
     "name": "Edson Ribeiro dos Santos",
     "email": "edson.santos@uffs.edu.br"
   },
+  "ediovani.gaboardi": {
+    "name": "Ediovani Gaboardi",
+    "email": "ediovani.gaboardi@uffs.edu.br"
+  },  
   "emilio.wuerges": {
     "name": "Emilio Wuerges",
     "email": "emilio.wuerges@uffs.edu.br"
@@ -71,6 +87,10 @@
     "name": "Leandro Bordin",
     "email": "lbordin@uffs.edu.br"
   },
+  "luiz.visioli": {
+    "name": "Luiz Visioli",
+    "email": "luiz.visioli@uffs.edu.br"
+  },
   "lcaimi": {
     "name": "Luciano Lores Caimi",
     "email": "lcaimi@uffs.edu.br"
@@ -99,9 +119,21 @@
     "name": "Raquel Aparecida Pegoraro",
     "email": "raquel.pegoraro@uffs.edu.br"
   },
+  "rogerio.trapp": {
+    "name": "Rogerio Trapp",
+    "email": "rogerio.trapp@uffs.edu.br"
+  },
+  "schreiner.geomar": {
+    "name": "Geomar Schreiner",
+    "email": "schreiner.geomar@uffs.edu.br"
+  },
   "ubi.vieira": {
     "name": "Ubi Garcia Vieira",
     "email": "ubi.vieira@uffs.edu.br"
+  },
+  "sem.professor": {
+    "name": "",
+    "email": ""
   }
 }
 

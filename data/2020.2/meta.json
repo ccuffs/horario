@@ -1,0 +1,58 @@
+{
+    "groups": {
+        "1": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "2": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "3": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },   
+        "4": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },    
+        "5": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        }, 
+        "6": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },  
+        "7": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },
+        "8": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        },             
+        "9": {
+            "notice": "Aulas 100% online",
+            "hidePeriods": []
+        }             
+    },
+    "courses": {
+        "37": {
+            "info": "",
+            "warn": "Sem professor",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }
+    },
+    "members": {
+        "sem.professor": {
+            "warn": "Atualmente sem professor"
+        }
+    },
+    "banner": {
+        "icon": "<img class=\"icon\" src=\"./assets/icons/info.svg\" />",
+        "text": "Todas as aulas serão 100% online para o semestre 2020.2 (de fev/2021 a maio/2021). Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br\" target=\"_new\">https://cc.uffs.edu.br</a>"
+    }
+}

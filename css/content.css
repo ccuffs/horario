@@ -85,6 +85,7 @@ tr td {
   display: flex;
   align-items: center;
   font-weight: 500;
+  z-index: 2;
 
   padding: 4px 8px;
   border-radius: 4px;
