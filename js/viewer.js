@@ -17,7 +17,7 @@ Horarios.Viewer = function() {
         if(semester) {
             const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
             propsConfig.forEach( prop =>  {
-                if(['schedule', 'meta'].includes(prop)) {
+                if(['schedule', 'meta', 'groups'].includes(prop)) {
                     this.load(`./data/${semester}/${prop}.json`, prop);
                 } else {
                     this.load(`./data/${prop}.json`, prop);
@@ -65,12 +65,13 @@ Horarios.Viewer = function() {
         return nameMembers;
     }
     // Cria uma célula na tabela com o valor da matéria
-    this.handleCellPeriod = ({ id, name, code, members }) => {
+    this.handleCellPeriod = ({ id, name, code, members, slots }) => {
         const tagCourse = this.handleTagCourse(id);
         const nameCourse = this.handleNameCourse(name, code);
         const membersCourse = this.handleMembersCourse(members);
+        const spanner = slots || 1;
 
-        return `<td class='cell-active'><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
+        return `<td class='cell-active'><div class='spanner${spanner}'></div><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
     }
     // Adiciona as matérias na linha do periodo selecionado
     this.handleNewPeriod = (period, coursesGroup) => {

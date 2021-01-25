@@ -40,7 +40,20 @@ tr td {
   border-radius: 4px;
   transition: all ease 0.4s;
   width: 18vw;
+  position: relative;
 }
+
+#content .cell-active .spanner2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #444443;
+  border-radius: 4px;
+  height: 180%;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
 #content .cell-active:hover{
   border-radius: 8px;
 }
