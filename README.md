@@ -83,6 +83,24 @@ Como as informações da tabela são organizadas estão no arquivo chamado `./da
 ]
 ```
 
+### Desenvolvimento
+
+Rode o comando abaixo para gerar os arquivos do Tailwind:
+
+```
+npx tailwindcss-cli@latest build ./css/tailwind.css -o ./css/tailwind.min.css
+```
+
+#### Deploy
+
+Se você estiver fazendo um deploy dessa aplicação, é interessante rodar alguns comandos  para garantir a melhor performance.
+
+Na raiz do projeto, rode:
+
+```
+NODE_ENV=production npx tailwindcss-cli@latest build ./css/tailwind.css -o ./css/tailwind.min.css
+```
+
 ## Features
 
 * Conceitos de flexbox;
