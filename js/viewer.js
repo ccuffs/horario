@@ -71,7 +71,7 @@ Horarios.Viewer = function() {
         const membersCourse = this.handleMembersCourse(members);
         const spanner = slots || 1;
 
-        return `<td class='cell-active'><div class='spanner${spanner}'></div><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></td>`;
+        return `<td class='cell-active'><div class='cell-wrapper'><div class='spanner${spanner}'></div><div class='cell-active-content'>${nameCourse}${tagCourse}${membersCourse}</div></div></td>`;
     }
     // Adiciona as matérias na linha do periodo selecionado
     this.handleNewPeriod = (period, coursesGroup) => {
