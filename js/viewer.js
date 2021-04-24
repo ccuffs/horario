@@ -43,6 +43,27 @@ Horarios.Viewer = function() {
         return template.innerHTML;
     };
 
+    this.onTooltipShow = function(tooltip) {
+        const element = tooltip.reference;
+        const codeCourse = element.getAttribute('data-course');
+
+        fetch('http://api.uffs.cc/v0/disciplinas/' + codeCourse)
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+                const { nome, ppc } = data;
+
+                const div = document.createElement('div');
+                div.innerHTML = ppc ? ppc.objetivo : nome;
+        
+                tooltip.setContent(div);
+            })
+            .catch((error) => {
+                // Fallback if the network request failed
+                tooltip.setContent(`Request failed. ${error}`);
+            });
+    };
+
     this.initTooltips = function() {
         const self = this;
         const selector = `
@@ -53,6 +74,9 @@ Horarios.Viewer = function() {
             theme: 'carbon',
             content(element) {
                 return self.generateTooltipContent(element);
+            },
+            onShow(instance) {
+                self.onTooltipShow(instance);
             },
             allowHTML: true,
             interactive: true,
@@ -74,14 +98,12 @@ Horarios.Viewer = function() {
     }
     // Cria o campo do nome no box da matéria
     this.handleNameCourse = (nameDefault, codeCourse) => {
-        // Regata as informações da matéria do arquivo courses.json
         const course = this.courses[codeCourse];
-        if(! course) return `<strong>${nameDefault}</strong>`;
+        
+        if(!course) return `<strong>${nameDefault}</strong>`;
 
-        const { name, description } = course;
-        const descriptionElement = `<div class="box-tooltip-content description">${description}</div>`;
-
-        return `<div class="box-tooltip" data-tooltip-from="tt-fernando"><strong>${name}</strong>${descriptionElement}</div>`;
+        const { name } = course;
+        return `<div class="box-tooltip" data-tooltip="tt-fernando" data-course="${codeCourse}"><strong>${name}</strong></div>`;
     }
     // Cria o campo dos docentes no box da matéria
     this.handleMembersCourse = (members) => {
