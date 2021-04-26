@@ -5,6 +5,7 @@ const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
 
 const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
 const ICON_INFO = '<img class="icon" src="./assets/icons/info.svg" />';
+const ICON_LOADER = '<img class="w-8 h-8" src="./assets/icons/loader.svg" />';
 
 Horarios.Viewer = function() {
     this.groups = null;
@@ -14,19 +15,87 @@ Horarios.Viewer = function() {
     this.members = null;
 
     this.init = function(semester) {
-        if(semester) {
-            const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
-            propsConfig.forEach( prop =>  {
-                if(['schedule', 'meta', 'groups'].includes(prop)) {
-                    this.load(`./data/${semester}/${prop}.json`, prop);
-                } else {
-                    this.load(`./data/${prop}.json`, prop);
-                }
-            });
-            this.waitUntilLoaded(propsConfig, () => this.render(), this);
+        if(!semester) {
+            return;
         }
-    
+
+        const propsConfig = ['courses', 'groups', 'members', 'schedule', 'meta'];
+
+        propsConfig.forEach( prop =>  {
+            if(['schedule', 'meta', 'groups'].includes(prop)) {
+                this.load(`./data/${semester}/${prop}.json`, prop);
+            } else {
+                this.load(`./data/${prop}.json`, prop);
+            }
+        });
+
+        this.waitUntilLoaded(propsConfig, () => this.render(), this);
     };
+
+    this.generateTooltipContent = function(element) {
+        const text = element.getAttribute('data-tooltip');
+
+        if (!text) {
+            return `${ICON_LOADER}`;
+        }
+
+        return text;
+    };
+
+    this.generateCourseTooltip = function(courseData) {
+        const self = this;
+
+        const template = document.getElementById('template-tooltip-course');
+        const div = template.cloneNode(true);
+        
+        div.innerHTML = div.innerHTML.replace(/\$\{(.*)\}/gi, function(matched) {
+            const dotPath = matched.replace(/[\{\}$]/gi, '');
+            console.log(dotPath, courseData);
+            return self.dotObjectStringToValue(dotPath, courseData);
+        });
+
+        return div;
+    };
+
+    this.dotObjectStringToValue = function(dotString, obj) {
+        function index(obj,i) {return obj[i]}
+        return dotString.split('.').reduce(index, obj);
+    };
+
+    this.onTooltipShow = function(tooltip) {
+        const self = this;
+        const codeCourse = tooltip.reference.getAttribute('data-course');
+
+        fetch('http://api.uffs.cc/v0/disciplinas/' + codeCourse)
+            .then((response) => response.json())
+            .then((data) => {
+                tooltip.setContent(self.generateCourseTooltip(data));
+            })
+            .catch((error) => {
+                tooltip.setContent(`Request failed. ${error}`);
+            });
+    };
+
+    this.initTooltips = function() {
+        const self = this;
+        const selector = `
+            [data-tooltip],
+            [data-tooltip-from]`;
+
+        tippy(selector, {
+            theme: 'carbon',
+            content(element) {
+                return self.generateTooltipContent(element);
+            },
+            onShow(instance) {
+                self.onTooltipShow(instance);
+            },
+            allowHTML: true,
+            interactive: true,
+            maxWidth: 400
+        });
+    };
+
     // Linha vazia, sem nenhuma matéria no período
     this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
     // Cria uma tag informativa logo abaixo do nome da matéria
@@ -41,14 +110,12 @@ Horarios.Viewer = function() {
     }
     // Cria o campo do nome no box da matéria
     this.handleNameCourse = (nameDefault, codeCourse) => {
-        // Regata as informações da matéria do arquivo courses.json
         const course = this.courses[codeCourse];
-        if(! course) return `<strong>${nameDefault}</strong>`;
+        
+        if(!course) return `<strong>${nameDefault}</strong>`;
 
-        const { name, description } = course;
-        const descriptionElement = `<div class="box-tooltip-content description">${description}</div>`;
-
-        return `<div class="box-tooltip"><strong>${name}</strong>${descriptionElement}</div>`;
+        const { name } = course;
+        return `<div class="box-tooltip" data-tooltip="" data-course="${codeCourse}"><strong>${name}</strong></div>`;
     }
     // Cria o campo dos docentes no box da matéria
     this.handleMembersCourse = (members) => {
@@ -159,6 +226,8 @@ Horarios.Viewer = function() {
             const coursesGroup = self.schedule.filter( course => course.group === group.id);
             self.handleCoursesInTableGroup(`tbody-group-${group.id}`, coursesGroup);
         });
+
+        self.initTooltips();
     };
 
     this.waitUntilLoaded = (props, callback, context) => {

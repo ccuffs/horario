@@ -5,13 +5,16 @@
     <title>UFFS - Ciência da Computação</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" href="./css/tailwind.min.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/content.css?20210125">
     <link rel="stylesheet" href="./css/tooltip.css">
     <link rel="stylesheet" href="./css/tippy.min.css">
+    <link rel="stylesheet" href="./css/tailwind1.css">    
+    
+    <!-- Durante o desenvolvimento, pode-se utilizar o tailwind via CDN (como indicado abaixo) -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    
   </head>
 
   <body>
@@ -31,44 +34,27 @@
         </div>
       </header>
 
-      <main id="content"></main>
+        <!-- Tooltip para mostrar informações sobre uma disciplina -->
+        <div style="display: none;">
+            <div id="template-tooltip-course">
+                <div class="overflow-hidden my-2 text-black text-left">
+                    <div class="py-1 px-2">
+                        <span class="font-bold text-black text-base pt-2 block">${nome}</span>
+                        <span class="font-thing text-gray-500 pt-2 block">${codigo}</span>
+                        <span class="py-1 text-xs text-gray-700 mt-2 block">${ppc.ementa}</span>
+                        <a href="https://transparencia.uffs.cc/disciplina/${codigo}" target="_blank" class="py-1 text-xs underline text-green-600 mt-3 block">Ver aprovações/reprovações.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+      <main id="content"></main>
     </div>
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper-core.min.js"></script>
     <script src="./js/tippy.min.js"></script>
-    <script src="./js/viewer.js?20210125"></script>
-
-    <script>
-      var viewer = new Horarios.Viewer();
-      // Atualizar os dados com o semestre selecionado
-      $('#semester').on('change', function() {
-        $("#content").html('');
-        var semesterValue = $('#semester').val();
-        viewer.init(semesterValue);
-      });
-      $(function(){
-          viewer.init($('#semester').val());
-      });
-
-      tippy('[data-tooltip],[data-tooltip-from]', {
-          theme: 'carbon',
-          content(reference) {
-              const id = reference.getAttribute('data-tooltip-from');
-              const text = reference.getAttribute('data-tooltip');
-              
-              if(!id) {
-                  return text;
-              }
-
-              const template = document.getElementById(id);
-              return template.innerHTML;
-          },
-          allowHTML: true,
-          interactive: true,
-          maxWidth: 400
-      });
-    </script>
+    <script src="./js/viewer.js?20210426"></script>
+    <script src="./js/main.js"></script>    
   </body>
 </html>
