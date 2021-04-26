@@ -111,8 +111,8 @@ Horarios.Viewer = function() {
     // Cria o campo do nome no box da matéria
     this.handleNameCourse = (nameDefault, codeCourse) => {
         const course = this.courses[codeCourse];
-        
-        if(!course) return `<strong>${nameDefault}</strong>`;
+
+        if(!course) return `<div class="box-tooltip"><strong>${nameDefault}</strong></div>`;
 
         const { name } = course;
         return `<div class="box-tooltip" data-tooltip="" data-course="${codeCourse}"><strong>${name}</strong></div>`;

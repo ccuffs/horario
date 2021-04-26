@@ -289,7 +289,6 @@
     },
     {
         "id": "23",
-        "code": "GEX623",
         "name": "GEX623 - T\u00f3picos especiais em computa\u00e7\u00e3o I (Descoberta de Temas em Cole\u00e7\u00f5es de Documentos)",
         "credits": 4,
         "slots": 1,
@@ -550,7 +549,6 @@
     },
     {
         "id": "44",
-        "code": "GEX624",
         "name": "GEX624 - T\u00f3picos especiais em computa\u00e7\u00e3o II (Programa\u00e7\u00e3o Competitiva)",
         "credits": 4,
         "slots": 2,
@@ -563,7 +561,6 @@
     },
     {
         "id": "45",
-        "code": "GEX625",
         "name": "GEX625 - T\u00f3picos especiais em computa\u00e7\u00e3o III (T\u00f3picos em Automa\u00e7\u00e3o Industrial)",
         "credits": 4,
         "slots": 2,
@@ -870,7 +867,6 @@
     },
     {
         "id": "521124",
-        "code": "GEX623",
         "name": "GEX623 - T\u00f3picos especiais em computa\u00e7\u00e3o I (Descoberta de Temas em Cole\u00e7\u00f5es de Documentos)",
         "credits": 4,
         "slots": 1,

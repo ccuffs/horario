@@ -155,6 +155,10 @@
       "name": "Planejamento e gestão de projetos",
       "description": "Planejar e gerenciar projetos de software utilizando metodologias de gerenciamento de projetos adequadas."
   },
+  "GCS107": {
+    "name": "Planejamento e gestão de projetos",
+    "description": "Planejar e gerenciar projetos de software utilizando metodologias de gerenciamento de projetos adequadas."
+},  
   "GEX614": {
       "name": "Teoria da computação",
       "description": "Compreensão da importância da Teoria da Computação para a prática computacional através dos conceitos de Computabilidade, Decidibilidade, Complexidade e Tratabilidade. Desenvolvimento das habilidades de argumentação matemática e formal para demonstrações em Teoria da Computação."
@@ -215,16 +219,24 @@
       "name": "Introdução ao pensamento social",
       "description": ""
   },
+  "GCH011": {
+    "name": "Introdução ao pensamento social",
+    "description": ""
+  },  
+  "GEX624": {
+    "name": "Tópicos especiais em computação II",
+    "description": "Compreender técnicas para processamento e extração de informações relevantes em textos utilizando abordagens baseadas em aprendizagem de máquina. Uso do Jypyter/Python; recuperação de informação em texto; consultas boolenas; pré-processamento (tokenização, stop words,etc) ; extração de atributos  (BM-25; TF-IDF; Bag-of-words) ; Métricas de avaliação; Algoritmos de classificação (Árvores de decisão, random forests;Naïve Bayes; support vector machines.), agrupamento (k-Nearest Neighbours).<br /><br />Conhecimentos prévios necessários:<br /><br />Banco de dados II."
+  },  
   "GEX625": {
-    "name": "Tópicos especiais em computação III (Opt IV - Recuperação de Informação)",
+    "name": "Tópicos especiais em computação III",
     "description": "Compreender técnicas para processamento e extração de informações relevantes em textos utilizando abordagens baseadas em aprendizagem de máquina. Uso do Jypyter/Python; recuperação de informação em texto; consultas boolenas; pré-processamento (tokenização, stop words,etc) ; extração de atributos  (BM-25; TF-IDF; Bag-of-words) ; Métricas de avaliação; Algoritmos de classificação (Árvores de decisão, random forests;Naïve Bayes; support vector machines.), agrupamento (k-Nearest Neighbours).<br /><br />Conhecimentos prévios necessários:<br /><br />Banco de dados II."
   },
   "GEX635": {
-    "name": "Tópicos especiais em computação XIII (Opt III - Modelo de comunição P/S na IoT)",
+    "name": "Tópicos especiais em computação XIII",
     "description": "Modelo de comunicação publish/subscribe na Internet das Coisas (Internet-of-Things, IoT). Explorar os fundamentos do modelo de comunicação publish/subscribe no contexto da Internet das Coisas. a) Fundamentos do padrão de comunicação publish/subscribe (P/S); b) Principais protocolos que adotam o paradigma P/S; c) Estudo de caso com o Message Queuing Telemetry Transport - MQTT (protocolo P/S mais adotado no desenvolvimento de aplicações para Internet das Coisas).<br /><br />Conhecimentos prévios necessários:<br />Redes de Computadores."
   },
   "GEX636": {
-    "name": "Tópicos especiais em computação XIV (Opt II - Sistemas Integrados em Chips)",
+    "name": "Tópicos especiais em computação XIV",
     "description": "Visão geral dos sistemas integrados em chip, com ênfase na comunicação intra-chip e no uso de multi-processamento. Introdução aos SOC. Comunicação intra-chip: barramentos; barramentos hierárquicos; redes intra-chip. Redes intra-chip. MPSoC Memphis. Desenvolvimento e depuração de aplicações no MPSoC Memphis. <br /><br />Conhecimentos prévios necessários:<br />Organização de computadores; Sistemas operacionais."
   }
 }

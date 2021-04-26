@@ -38,13 +38,6 @@
         }             
     },
     "courses": {
-        "37": {
-            "info": "",
-            "warn": "Sem professor",
-            "alert": "",
-            "notice": "<br>",
-            "hidePeriods": []
-        }
     },
     "members": {
         "sem.professor": {

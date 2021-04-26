@@ -111,10 +111,18 @@
     "name": "Paulo Rafael Bosing",
     "email": "paulo.bosing@uffs.edu.br"
   },
+  "paulo.hahn": {
+    "name": "Paulo Hahn",
+    "email": "paulo.hahn@uffs.edu.br"
+  },  
   "pericles": {
     "name": "Péricles Luiz Brustolin",
     "email": "pericles@uffs.edu.br"
   },
+  "pedro.borges": {
+    "name": "Pedro Borges",
+    "email": "pedro.borges@uffs.edu.br"
+  },  
   "raquel.pegoraro": {
     "name": "Raquel Aparecida Pegoraro",
     "email": "raquel.pegoraro@uffs.edu.br"
@@ -131,6 +139,18 @@
     "name": "Ubi Garcia Vieira",
     "email": "ubi.vieira@uffs.edu.br"
   },
+  "stela": {
+    "name": "Mary Stela Surdi",
+    "email": "stela@uffs.edu.br"
+  },
+  "leonardorsl": {
+    "name": "Leonardo Rafael Santos Leitao",
+    "email": "leonardorsl@uffs.edu.br"
+  },
+  "fabiano.geremia": {
+    "name": "Fabiano Geremia",
+    "email": "fabiano.geremia@uffs.edu.br"
+  },  
   "sem.professor": {
     "name": "",
     "email": ""
