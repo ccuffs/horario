@@ -50,7 +50,6 @@ Horarios.Viewer = function() {
         
         div.innerHTML = div.innerHTML.replace(/\$\{(.*)\}/gi, function(matched) {
             const dotPath = matched.replace(/[\{\}$]/gi, '');
-            console.log(dotPath, courseData);
             return self.dotObjectStringToValue(dotPath, courseData);
         });
 
