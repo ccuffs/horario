@@ -66,7 +66,7 @@ Horarios.Viewer = function() {
         const self = this;
         const codeCourse = tooltip.reference.getAttribute('data-course');
 
-        fetch('http://api.uffs.cc/v0/disciplinas/' + codeCourse)
+        fetch('https://api.uffs.cc/v0/disciplinas/' + codeCourse)
             .then((response) => response.json())
             .then((data) => {
                 tooltip.setContent(self.generateCourseTooltip(data));
