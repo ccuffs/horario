@@ -5,6 +5,7 @@ const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
 
 const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
 const ICON_INFO = '<img class="icon" src="./assets/icons/info.svg" />';
+const ICON_LOADER = '<img class="w-8 h-8" src="./assets/icons/loader.svg" />';
 
 Horarios.Viewer = function() {
     this.groups = null;
@@ -32,34 +33,45 @@ Horarios.Viewer = function() {
     };
 
     this.generateTooltipContent = function(element) {
-        const id = element.getAttribute('data-tooltip-from');
         const text = element.getAttribute('data-tooltip');
-        
-        if(!id) {
-            return text;
+
+        if (!text) {
+            return `${ICON_LOADER}`;
         }
 
-        const template = document.getElementById(id);
-        return template.innerHTML;
+        return text;
+    };
+
+    this.generateCourseTooltip = function(courseData) {
+        const self = this;
+
+        const template = document.getElementById('template-tooltip-course');
+        const div = template.cloneNode(true);
+        
+        div.innerHTML = div.innerHTML.replace(/\$\{(.*)\}/gi, function(matched) {
+            const dotPath = matched.replace(/[\{\}$]/gi, '');
+            console.log(dotPath, courseData);
+            return self.dotObjectStringToValue(dotPath, courseData);
+        });
+
+        return div;
+    };
+
+    this.dotObjectStringToValue = function(dotString, obj) {
+        function index(obj,i) {return obj[i]}
+        return dotString.split('.').reduce(index, obj);
     };
 
     this.onTooltipShow = function(tooltip) {
-        const element = tooltip.reference;
-        const codeCourse = element.getAttribute('data-course');
+        const self = this;
+        const codeCourse = tooltip.reference.getAttribute('data-course');
 
         fetch('http://api.uffs.cc/v0/disciplinas/' + codeCourse)
             .then((response) => response.json())
             .then((data) => {
-                console.log(data);
-                const { nome, ppc } = data;
-
-                const div = document.createElement('div');
-                div.innerHTML = ppc ? ppc.objetivo : nome;
-        
-                tooltip.setContent(div);
+                tooltip.setContent(self.generateCourseTooltip(data));
             })
             .catch((error) => {
-                // Fallback if the network request failed
                 tooltip.setContent(`Request failed. ${error}`);
             });
     };
@@ -103,7 +115,7 @@ Horarios.Viewer = function() {
         if(!course) return `<strong>${nameDefault}</strong>`;
 
         const { name } = course;
-        return `<div class="box-tooltip" data-tooltip="tt-fernando" data-course="${codeCourse}"><strong>${name}</strong></div>`;
+        return `<div class="box-tooltip" data-tooltip="" data-course="${codeCourse}"><strong>${name}</strong></div>`;
     }
     // Cria o campo dos docentes no box da matéria
     this.handleMembersCourse = (members) => {

@@ -34,30 +34,19 @@
         </div>
       </header>
 
-      <span data-person-id="fernando" data-tooltip-from="tt-fernando">
-
-        <span class="text-teal-500">Fernando Bevilacqua</span>
-
+        <!-- Tooltip para mostrar informações sobre uma disciplina -->
         <div style="display: none;">
-            <div id="tt-fernando" class="md:text-left p-1">
+            <div id="template-tooltip-course">
                 <div class="overflow-hidden my-2 text-black text-left">
                     <div class="py-1 px-2">
-                        <span class="font-bold text-black pt-2 block">Fernando Bevilacqua</span>
-                        <span class="font-thing text-gray-500 pt-2 block">Professor</span>
-                        <span class="py-1 text-xs text-gray-700 mt-2 block">Alguma informação adicional</span>
-                        <div class="flex items-center mt-2 text-gray-700">
-                            <svg class="h-6 w-6 fill-current" viewBox="0 0 512 512">
-                                <path d="M437.332 80H74.668C51.199 80 32 99.198 32 122.667v266.666C32 412.802 51.199 432 74.668 432h362.664C460.801 432 480 412.802 480 389.333V122.667C480 99.198 460.801 80 437.332 80zM432 170.667L256 288 80 170.667V128l176 117.333L432 128v42.667z"/>
-                            </svg>
-                            <a href="mailto:{{ person.email }}">
-                                <span class="px-2 font-medium text-gray-700">fernando.bevilacqua@uffs.edu.br</span>
-                            </a>
-                        </div>
+                        <span class="font-bold text-black text-base pt-2 block">${nome}</span>
+                        <span class="font-thing text-gray-500 pt-2 block">${codigo}</span>
+                        <span class="py-1 text-xs text-gray-700 mt-2 block">${ppc.ementa}</span>
+                        <a href="http://transparencia.uffs.cc/disciplina/${codigo}" target="_blank" class="py-1 text-xs underline text-green-600 mt-3 block">Ver aprovações/reprovações.</a>
                     </div>
                 </div>
             </div>
         </div>
-    </span>
 
       <main id="content"></main>
     </div>
