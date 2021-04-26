@@ -53,8 +53,8 @@
     },
     "banner": {
         "icon": "./assets/icons/info.svg",
-        "head": "Atenção!",        
-        "text": "Você está vendo um horário antigo! Escolha o perido mais recente no canto superior direito.",
-        "color": "red-200" 
+        "head": "Importante!",        
+        "text": "Todas as aulas serão 100% online para o semestre 2021.1 (de junho/2021 a outubro/2021). Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br\" target=\"_new\" class=\"underline\">https://cc.uffs.edu.br</a>",
+        "color": "green-200" 
     }
 }

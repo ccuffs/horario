@@ -185,7 +185,9 @@
         }
     },
     "banner": {
-        "icon": "<img class=\"icon\" src=\"./assets/icons/info.svg\" />",
-        "text": "Atenção! Houve troca de professores para algumas disciplinas em virtude da contratação de substitutos. O horário das disciplinas é exatamente o mesmo do período pré-pandemia. Todas as aulas serão 100% online. Veja o site do curso para mais informações: <a href=\"https://cc.uffs.edu.br\" target=\"_new\">https://cc.uffs.edu.br</a>"
+        "icon": "./assets/icons/info.svg",
+        "head": "Atenção!",
+        "text": "Você está vendo um horário antigo! Escolha o perido mais recente no canto superior direito.",
+        "color": "red-200" 
     }
 }

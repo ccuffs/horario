@@ -178,10 +178,16 @@ Horarios.Viewer = function() {
     // Cria um banner no topo da página
     this.handleBannerAlert = (mainContent) => {
         if(this.meta.banner){
-            const { icon, text } = this.meta.banner;
+            const { icon, text, color, head } = this.meta.banner;
+
             const boxBanner = document.createElement('div');
-            boxBanner.setAttribute('id', 'box-alert');
-            boxBanner.innerHTML = `${icon}<h3>${text}</h3>`;
+            boxBanner.innerHTML = `
+                <div class="relative px-4 py-4 mb-5 leading-normal text-black bg-${color} rounded-lg" role="alert">
+                    <span class="absolute inset-y-0 left-0 flex items-center ml-4 text-black">
+                        <img class="h-4 w-4 fill-current text-black-100" src="${icon}" />
+                    </span>
+                    <p class="ml-6"><strong>${head}</strong> ${text}</p>
+                </div>`
            
             mainContent.appendChild(boxBanner);
         }
