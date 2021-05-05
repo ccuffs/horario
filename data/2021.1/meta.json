@@ -13,7 +13,7 @@
             "hidePeriods": []
         },   
         "4": {
-            "notice": "Aulas 100% online",
+            "notice": "Aulas 100% online. TCC será no sábado (não haverá encontros)",
             "hidePeriods": []
         },    
         "5": {
@@ -33,11 +33,25 @@
             "hidePeriods": []
         },             
         "9": {
-            "notice": "Aulas 100% online",
+            "notice": "Aulas 100% online. TCC será no sábado (não haverá encontros)",
             "hidePeriods": []
         }             
     },
     "courses": {
+        "23": {
+            "info": "",
+            "warn": "Em inglês",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "521124": {
+            "info": "",
+            "warn": "Em inglês",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }       
     },
     "members": {
         "sem.professor": {
