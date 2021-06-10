@@ -38,20 +38,34 @@
         }             
     },
     "courses": {
-        "23": {
+        "2": {
             "info": "",
-            "warn": "Em inglês",
+            "warn": "Temporariamente sem aula (professor substituto em convocação)",
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
         },
-        "521124": {
+        "11": {
             "info": "",
-            "warn": "Em inglês",
+            "warn": "Temporariamente sem aula (professor substituto em convocação)",
             "alert": "",
             "notice": "<br>",
             "hidePeriods": []
-        }       
+        },
+        "23": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },  
+        "521124": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }         
     },
     "members": {
         "sem.professor": {
