@@ -10,7 +10,7 @@
   "animarchesan": {
     "name": "Ani Marchesan",
     "email": "animarchesan@uffs.edu.br"
-  },  
+  },
   "andrei.braga": {
     "name": "Andrei Braga",
     "email": "andrei.braga@uffs.edu.br"
@@ -50,7 +50,7 @@
   "ediovani.gaboardi": {
     "name": "Ediovani Gaboardi",
     "email": "ediovani.gaboardi@uffs.edu.br"
-  },  
+  },
   "emilio.wuerges": {
     "name": "Emilio Wuerges",
     "email": "emilio.wuerges@uffs.edu.br"
@@ -70,6 +70,10 @@
   "guilherme.dalbianco": {
     "name": "Guilherme Dal Bianco",
     "email": "guilherme.dalbianco@uffs.edu.br"
+  },
+  "jaqueline.mecca": {
+    "name": "Jaqueline Sulkovski Mecca",
+    "email": "jaqueline.mecca@uffs.edu.br"
   },
   "janice.reichert": {
     "name": "Janice Teresinha Reichert",
@@ -114,7 +118,7 @@
   "paulo.hahn": {
     "name": "Paulo Hahn",
     "email": "paulo.hahn@uffs.edu.br"
-  },  
+  },
   "pericles": {
     "name": "Péricles Luiz Brustolin",
     "email": "pericles@uffs.edu.br"
@@ -126,7 +130,7 @@
   "pedro.borges": {
     "name": "Pedro Borges",
     "email": "pedro.borges@uffs.edu.br"
-  },  
+  },
   "raquel.pegoraro": {
     "name": "Raquel Aparecida Pegoraro",
     "email": "raquel.pegoraro@uffs.edu.br"
@@ -154,11 +158,9 @@
   "fabiano.geremia": {
     "name": "Fabiano Geremia",
     "email": "fabiano.geremia@uffs.edu.br"
-  },  
+  },
   "sem.professor": {
     "name": "",
     "email": ""
   }
 }
-
-
