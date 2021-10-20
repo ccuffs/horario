@@ -1,0 +1,67 @@
+{
+  "groups": {
+      "1": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "2": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "3": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "4": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "5": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "6": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "7": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "8": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      },
+      "9": {
+          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "hidePeriods": []
+      }
+  },
+    "courses": {
+        "0": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "0": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }
+    },
+    "members": {
+        "sem.professor": {
+            "warn": "Atualmente sem professor"
+        }
+    },
+    "banner": {
+        "icon": "./assets/icons/info.svg",
+        "head": "Importante!",
+        "text": "Todas as aulas serão 100% online até 1/02/22. Após, as aulas serão presencias, salvo exceções",
+        "color": "green-200"
+    }
+}
