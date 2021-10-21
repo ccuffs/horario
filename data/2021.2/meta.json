@@ -1,39 +1,39 @@
 {
   "groups": {
       "1": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021.A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "2": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "3": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "4": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "5": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "6": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "7": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "8": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       },
       "9": {
-          "notice": "Aulas 100% online até 01/02/2022.Após, as aulas serão presencias.",
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presencias.",
           "hidePeriods": []
       }
   },
@@ -61,7 +61,7 @@
     "banner": {
         "icon": "./assets/icons/info.svg",
         "head": "Importante!",
-        "text": "Todas as aulas serão 100% online até 1/02/22. Após, as aulas serão presencias, salvo exceções",
+        "text": "Todas as aulas serão 100% online até 23/12/21. A partir de 01/02/2022, as disciplinas serão presencias, salvo exceções",
         "color": "green-200"
     }
 }
