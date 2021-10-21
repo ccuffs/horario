@@ -61,7 +61,7 @@
     "banner": {
         "icon": "./assets/icons/info.svg",
         "head": "Importante!",
-        "text": "Todas as aulas serão 100% online até 23/12/21. A partir de 01/02/2022, as disciplinas serão presencias, salvo exceções",
+        "text": "Todas as aulas serão 100% online até 23/12/21. A partir de 01/02/2022, as disciplinas serão presencias",
         "color": "green-200"
     }
 }
