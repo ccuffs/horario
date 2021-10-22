@@ -1,6 +1,6 @@
 var Horarios = {};
 
-const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda-feira</th><th>Terça-feira</th><th>Quarta-feira</th><th>Quinta-feira</th><th>Sexta-feira</th></tr>";
+const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda-feira</th><th>Terça-feira</th><th>Quarta-feira</th><th>Quinta-feira</th><th>Sexta-feira</th><th>Sábado</th></tr>";
 const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
 
 const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
@@ -96,7 +96,7 @@ Horarios.Viewer = function() {
     };
 
     // Linha vazia, sem nenhuma matéria no período
-    this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
+    this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
     // Cria uma tag informativa logo abaixo do nome da matéria
     this.handleTagCourse = (idCourse) => {
         // Regata os alertas referente a matéria do arquivo meta.json
@@ -149,7 +149,7 @@ Horarios.Viewer = function() {
         // Primeira coluna com os horários
         let periodLine = `<td>${periodTime}</td>`;
         // Navegando entre as colunas da linha da tabela
-        for(let weekDay = 2; weekDay < 7; weekDay += 1) {
+        for(let weekDay = 2; weekDay < 8; weekDay += 1) {
             const indexCourse = coursesGroupPeriods.findIndex( periods => periods.weekDay === weekDay );
             const weekDayIsEmpty = indexCourse === -1;
             // Adicionando uma célula em branco

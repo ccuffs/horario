@@ -11,10 +11,16 @@
     "name": "Ani Marchesan",
     "email": "animarchesan@uffs.edu.br"
   },
-  "andrei.braga": {
-    "name": "Andrei Braga",
-    "email": "andrei.braga@uffs.edu.br"
+  "lucia.menoncini": {
+    "name": "Lucia Menoncini",
+    "email": "lucia.menoncini@uffs.edu.br"
   },
+  
+  "jaqueline.sulkovski": {
+    "name": "Jaqueline Sulkovski Mecca",
+    "email": "jaqueline.mecca@uffs.edu.br"
+  },
+
   "asebben": {
     "name": "Andressa Sebben",
     "email": "asebben@uffs.edu.br"
@@ -155,12 +161,24 @@
     "name": "Leonardo Rafael Santos Leitao",
     "email": "leonardorsl@uffs.edu.br"
   },
+  "daniloenrico": {
+    "name": "Danilo Enrico Martuscelli",
+    "email": "daniloenrico@uffs.edu.br"
+  },
+  "viviani.poyer": {
+    "name": "Viviani Poyer",
+    "email": "viviani.poyer@uffs.edu.br"
+  },
+  "neivadaluz": {
+    "name": "Mary Neiva Surdi da Luz",
+    "email": "neivadaluz@uffs.edu.br"
+  },
   "fabiano.geremia": {
     "name": "Fabiano Geremia",
     "email": "fabiano.geremia@uffs.edu.br"
   },
   "sem.professor": {
-    "name": "",
+    "name": "Aguardando homologação do concurso de professor efetivo ",
     "email": ""
   }
 }
