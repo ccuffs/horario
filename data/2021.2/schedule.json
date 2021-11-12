@@ -92,6 +92,32 @@
     "period": 3
   },
   {
+    "id": 777,
+    "code": "GEX605",
+    "name": "GEX605 - Estruturas de dados",
+    "credits": 4,
+    "slots": 4,
+    "group":2,
+    "members": [
+      "schreiner.geomar"
+    ],
+    "weekDay": 5,
+    "period": 6
+  },
+  {
+    "id": 778,
+    "code": "GEX605",
+    "name": "GEX605 - Estruturas de dados",
+    "credits": 4,
+    "slots": 4,
+    "group":2,
+    "members": [
+      "schreiner.geomar"
+    ],
+    "weekDay": 5,
+    "period": 7
+  },
+  {
     "id": 8,
     "code": "GLA104",
     "name": "GLA104 - Produ\u00e7\u00e3o textual acad\u00eamica",
@@ -183,7 +209,7 @@
   {
     "id": 15,
     "code": "GEX055",
-    "name": "GEX055 - Probabilidade e estat\u00edstica",
+    "name": "GEX055 - Probabilidade e estat\u00edstica (TOTALMENTE REMOTO)",
     "credits": 4,
     "slots": 1,
     "group": 2,
@@ -196,7 +222,7 @@
   {
     "id": 16,
     "code": "GEX055",
-    "name": "GEX055 - Probabilidade e estat\u00edstica",
+    "name": "GEX055 - Probabilidade e estat\u00edstica (TOTALMENTE REMOTO)",
     "credits": 4,
     "slots": 1,
     "group": 2,
@@ -786,7 +812,7 @@
     "slots": 2,
     "group": 9,
     "members": [
-      "schreiner.geomar"
+      "sem.professor"
     ],
     "weekDay": 5,
     "period": 6
