@@ -5,8 +5,7 @@
           "hidePeriods": []
       },
       "2": {
-          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presenciais. ***",
-
+          "notice": "Aulas 100% online até 23/12/2021. A partir de 01/02/2022, as aulas serão presenciais.",
           "hidePeriods": []
       },
       "3": {
@@ -62,9 +61,7 @@
     "banner": {
         "icon": "./assets/icons/info.svg",
         "head": "Importante!",
-
-        "text": "Todas as aulas serão 100% online até 23/12/21. A partir de 01/02/2022, as disciplinas serão presenciais***",
-
+        "text": "Todas as aulas serão 100% online até 23/12/21. A partir de 01/02/2022, as disciplinas serão presenciais",
         "color": "green-200"
     }
 }
