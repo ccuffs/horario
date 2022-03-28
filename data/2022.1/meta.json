@@ -1,0 +1,32 @@
+{
+  "groups": {
+      
+  },
+    "courses": {
+        "0": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        },
+        "0": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }
+    },
+    "members": {
+        "sem.professor": {
+            "warn": "Atualmente sem professor"
+        }
+    },
+    "banner": {
+        "icon": "./assets/icons/info.svg",
+        "head": "Importante:",
+        "text": "Use máscara nas dependências da UFFS e mantenha a etiqueta sanitária ao espirrar ou tossir.",
+        "color": "green-200"
+    }
+}
