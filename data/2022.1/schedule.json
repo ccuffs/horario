@@ -59,7 +59,7 @@
       "slots": 2,
       "group": 1,
       "members": [
-          "sem.professor"
+          "abraga"
       ],
       "weekDay": 6,
       "period": 6
@@ -280,8 +280,7 @@
       "slots": 1,
       "group": 5,
       "members": [
-          "felipegrando",
-          "abraga"
+          "felipegrando"         
       ],
       "weekDay": 2,
       "period": 5
@@ -676,7 +675,7 @@
       "slots": 1,
       "group": 9,
       "members": [
-          "graziela.tonin"
+          "sem.professor"
       ],
       "weekDay": 6,
       "period": 5
@@ -728,7 +727,7 @@
       "slots": 1,
       "group": 9,
       "members": [
-          "graziela.tonin"
+          "sem.professor"
       ],
       "weekDay": 3,
       "period": 4
