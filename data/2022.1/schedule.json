@@ -875,10 +875,10 @@
     "weekDay": 2,
     "period": 7
 },
-  {
+  {  
       "id": 57111111111116,
-      "code": "GEX640",
-      "name": "GEX640 - T\u00f3picos especiais em computa\u00e7\u00e3o XVIII",
+      "code": "GEX637",
+      "name": "GEX637 - T\u00f3picos especiais em computa\u00e7\u00e3o XV",
       "credits": 4,
       "slots": 1,
       "group": 3,
@@ -890,8 +890,8 @@
   },
   {
     "id": 57111111111116,
-    "code": "GEX640",
-    "name": "GEX640 - T\u00f3picos especiais em computa\u00e7\u00e3o XVIII",
+    "code": "GEX637",
+    "name": "GEX637 - T\u00f3picos especiais em computa\u00e7\u00e3o XV",
     "credits": 4,
     "slots": 1,
     "group": 3,
