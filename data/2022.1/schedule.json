@@ -215,7 +215,7 @@
       "slots": 1,
       "group": 3,
       "members": [
-          "miguel.carvalho"
+          "vojniak"
       ],
       "weekDay": 3,
       "period": 6
@@ -228,7 +228,7 @@
     "slots": 1,
     "group": 3,
     "members": [
-        "miguel.carvalho"
+        "vojniak"
     ],
     "weekDay": 3,
     "period": 7
@@ -254,7 +254,7 @@
     "slots": 1,
     "group": 3,
     "members": [
-        "gabrieli.vargas"
+        "joviles.trevisol"
     ],
     "weekDay": 6,
     "period": 7
@@ -413,7 +413,7 @@
       "slots": 2,
       "group": 6,
       "members": [
-          "sem.professor"
+          "elisete.luiz"
       ],
       "weekDay": 5,
       "period": 6
@@ -727,7 +727,6 @@
       "slots": 1,
       "group": 9,
       "members": [
-          "sem.professor"
       ],
       "weekDay": 3,
       "period": 4
