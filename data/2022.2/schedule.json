@@ -565,15 +565,7 @@
 "weekDay":4,
 "period":6},
 
- {"id":1.111111111111443e+22,
-"code":"ADM",
-"name":"Empreendedorismo e Criação de Negócios",
-"credits":4,
-"slots":2,
-"group":9,
-"members":["ADM"],
-"weekDay":3,
-"period":6},
+
  
  
 {"id":1.111111111111442e+22,
