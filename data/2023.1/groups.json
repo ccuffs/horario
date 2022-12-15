@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Vespertino - 1a fase"
+    },
+    {
+        "id": 3,
+        "name": "Vespertino - 3a fase"
+    },
+    {
+        "id": 5,
+        "name": "Vespertino - 5a fase"
+    },
+    {
+        "id": 7,
+        "name": "Vespertino - 7a fase"
+    },
+    {
+        "id": 2,
+        "name": "Noturno - 2a fase"
+    },
+    {
+        "id": 4,
+        "name": "Noturno - 4a fase"
+    },
+    {
+        "id": 6,
+        "name": "Noturno - 6a fase"
+    },
+    {
+        "id": 8,
+        "name": "Noturno - 8a fase"
+    }
+]
