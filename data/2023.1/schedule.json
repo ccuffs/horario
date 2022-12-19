@@ -811,12 +811,25 @@
     {
         "id": 57111111111118,
         "code": "GEX625",
-        "name": "GEX625- Tópicosespeciais em computaçãoIII",
+        "name": "GEX625- Tópicos especiais em computação III",
+        "credits": 4,
+        "slots": 2,
+        "group": 9,
+        "members": [
+            "braulio"
+        ],
+        "weekDay": 3,
+        "period": 6
+    },
+     {
+        "id": 579,
+        "code": "GEX623",
+        "name": "GEX623- Tópicos especiais em computação I - (Redes ópticas elásticas)",
         "credits": 4,
         "slots": 2,
         "group": 8,
         "members": [
-            "braulio"
+            "pavan"
         ],
         "weekDay": 2,
         "period": 6
@@ -824,7 +837,7 @@
     {
         "id": 57111111111119,
         "code": "GEX629",
-        "name": "GEX629- Tópicosespeciais em computaçãoVII",
+        "name": "GEX629- Tópicos especiais em computação VII",
         "credits": 4,
         "slots": 2,
         "group": 8,
