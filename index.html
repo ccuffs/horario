@@ -5,53 +5,75 @@
     <title>UFFS - Ciência da Computação</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/content.css?20210125">
-    <link rel="stylesheet" href="./css/tooltip.css">
-    <link rel="stylesheet" href="./css/tippy.min.css">
-    <link rel="stylesheet" href="./css/tailwind1.css">    
-    
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/content.css?20210125" />
+    <link rel="stylesheet" href="./css/tooltip.css" />
+    <link rel="stylesheet" href="./css/tippy.min.css" />
+    <link rel="stylesheet" href="./css/tailwind1.css" />
+
+    <!-- Fonts imports ( Montserrat Alternates and Lato )-->
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat Alternates:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Durante o desenvolvimento, pode-se utilizar o tailwind via CDN (como indicado abaixo) -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div id="main-container">
-      
       <a id="link-to-top" href="#main-container">Voltar ao topo</a>
-      
+
       <header class="header-container">
-        <img src="./assets/logo-cc.svg" width="300" height="auto"/>
-        <h1>Horários</h1>
+        <a href="https://cc.uffs.edu.br/" ><img src="./assets/cc-logo-bg-transparent.svg" width="260" height="auto"alt="uffs-logo" /> </a>
+        <a href = "https://cc.uffs.edu.br/horario/" > <img class = "horarios--img" src="./assets/horarios.png"/></a>
         <div>
           <label for="semester">Escolha o período:</label>
           <select name="semester" id="semester">
             <option value="2023.1">2023.1</option>
             <option value="2022.2">2022.2</option>
             <option value="2022.1">2022.1</option>
-            <option value="2021.2">2021.2</option>  
-            <option value="2021.1">2021.1</option>            
+            <option value="2021.2">2021.2</option>
+            <option value="2021.1">2021.1</option>
             <option value="2020.2">2020.2</option>
             <option value="2020.1">2020.1</option>
           </select>
         </div>
       </header>
 
-        <!-- Tooltip para mostrar informações sobre uma disciplina -->
-        <div style="display: none;">
-            <div id="template-tooltip-course">
-                <div class="overflow-hidden my-2 text-black text-left">
-                    <div class="py-1 px-2">
-                        <span class="font-bold text-black text-base pt-2 block">${nome}</span>
-                        <span class="font-thing text-gray-500 pt-2 block">${codigo}</span>
-                        <span class="py-1 text-xs text-gray-700 mt-2 block">${ppc.ementa}</span>
-                        <a href="https://transparencia.uffs.cc/disciplina/${codigo}" target="_blank" class="py-1 text-xs underline text-green-600 mt-3 block">Ver aprovações/reprovações.</a>
-                    </div>
-                </div>
+      <!-- Tooltip para mostrar informações sobre uma disciplina -->
+      <div style="display: none">
+        <div id="template-tooltip-course">
+          <div class="overflow-hidden my-2 text-black text-left">
+            <div class="py-1 px-2">
+              <span class="font-bold text-black text-base pt-2 block"
+                >${nome}</span
+              >
+              <span class="font-thing text-gray-500 pt-2 block">${codigo}</span>
+              <span class="py-1 text-xs text-gray-700 mt-2 block"
+                >${ppc.ementa}</span
+              >
+              <a
+                href="https://transparencia.uffs.cc/disciplina/${codigo}"
+                target="_blank"
+                class="py-1 text-xs underline text-green-600 mt-3 block"
+                >Ver aprovações/reprovações.</a
+              >
             </div>
+          </div>
         </div>
+      </div>
 
       <main id="content"></main>
     </div>
@@ -60,6 +82,6 @@
     <script src="./js/popper-core.min.js"></script>
     <script src="./js/tippy.min.js"></script>
     <script src="./js/viewer.js?202104261754"></script>
-    <script src="./js/main.js"></script>    
+    <script src="./js/main.js"></script>
   </body>
 </html>

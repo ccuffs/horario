@@ -1,38 +1,70 @@
 .header-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-
   padding: 0 20px;
   margin-bottom: 20px;
 }
-
-.header-container h1{
-  font-size: 54px;
-  padding-right: 120px;
-}
-
 .header-container div {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  margin-right:120px;
+  margin-top:20px;
 }
 
 .header-container label {
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
-
+  font-family: "Lato", sans-serif;
   margin-bottom: 5px;
 }
 
-.header-container select{
-  flex: 1;
-  background: #444443;
-  font-size: 34px;
+.header-container select {
+  text-align: center;
+  background: #1e1b1b;
+  font-size: 24px;
   color: #f8f9fa;
+  outline: 1px solid white;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  margin:0;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
-.header-container option{
-  background: #444443;
+.header-container option {
+  background: #1e1b1b;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.horarios--img {
+  height: auto;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top:60px;
+}
+
+#semester {
+  background-image: linear-gradient(45deg, transparent 50%, #a1a1a1 50%),
+    linear-gradient(135deg, #a1a1a1 50%, transparent 50%);
+  background-position: calc(100% - 15px) calc(1em + -7px),
+    calc(100% - 10px) calc(1em + -7px);
+  background-size: 5px 5px, 5px 5px, 1em 2.5em;
+  background-repeat: no-repeat;
+}
+
+#semester:focus {
+  background-image: linear-gradient(45deg, #a1a1a1 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, #a1a1a1 50%);
+  background-position: calc(100% - 10px) calc(1em + -7px),
+  calc(100% - 15px) calc(1em + -7px) ;
+  background-size: 5px 5px, 5px 5px, 1em 2.5em;
+  background-repeat: no-repeat;
 }
