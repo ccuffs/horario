@@ -6,19 +6,23 @@
   margin-bottom: 20px;
 }
 /* Titulo da tabela */
-#content h2{
+#content h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  background: #444443;
+  color: black;
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 39px;
+  background: #e5e5e5;
   padding: 20px 0;
   border-radius: 10px 10px 0 0;
 }
 /* Alert: Aulas 100% online */
-#content h2 span{
+#content h2 span {
   font-size: 13px;
-  background: #FB5012;
+  background: #fb5012;
   margin-top: 4px;
   padding: 4px 20px;
   border-radius: 4px;
@@ -31,17 +35,30 @@
   padding: 10px 0;
   border: 1px solid #444443;
 }
+section {
+  margin-left: 7%;
+  margin-right: 7%;
+  width: auto;
+}
 
 section > table thead tr {
   margin: 10px 0 10px 0;
   height: 3rem;
+
+}
+tr th {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
 }
 
 tr td {
   padding: 20px 4px;
 }
 /* Box da disciplina */
-#content .cell-active{
+#content .cell-active {
   background: #444443;
   border-radius: 4px;
   border: solid 4px #343433;
@@ -52,7 +69,7 @@ tr td {
 }
 
 #content .cell-active div.cell-wrapper {
-    z-index: 1;
+  z-index: 1;
 }
 
 #content .cell-active .spanner2 {
@@ -67,23 +84,23 @@ tr td {
   margin-bottom: 20px;
 }
 
-#content .cell-active:hover{
+#content .cell-active:hover {
   border-radius: 8px;
 }
 /* Content da disciplina */
-#content .cell-active .cell-active-content{
+#content .cell-active .cell-active-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /* Nome da disciplina */
-#content .cell-active-content strong{
+#content .cell-active-content strong {
   font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
 }
 /* Nome do docente e icone do user */
-#content .cell-active-content p{
+#content .cell-active-content p {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -114,7 +131,7 @@ tr td {
   background: #bb8823;
 }
 
-.icon{
+.icon {
   width: 11px;
   height: auto;
   margin-right: 4px;

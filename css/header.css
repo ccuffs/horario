@@ -8,28 +8,30 @@
 .header-container div {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: stretch  ;
   margin-right:120px;
   margin-top:20px;
+ 
 }
 
 .header-container label {
-  font-size: 15px;
+  font-size: 1rem;
   font-style: italic;
   font-family: "Lato", sans-serif;
   margin-bottom: 5px;
+  white-space: nowrap;
+  
+  
 }
 
 .header-container select {
   text-align: center;
   background: #1e1b1b;
-  font-size: 24px;
+  font-size: 1.6em;
   color: #f8f9fa;
+  font-weight: 300;
   outline: 1px solid white;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
-  margin:0;
-  padding-right: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -41,6 +43,8 @@
   background: #1e1b1b;
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  
+  
 }
 
 .horarios--img {
@@ -67,4 +71,55 @@
   calc(100% - 15px) calc(1em + -7px) ;
   background-size: 5px 5px, 5px 5px, 1em 2.5em;
   background-repeat: no-repeat;
+}
+.logo {
+  width:260px;
+  height: auto;
+
+}
+
+@media screen and (max-width: 850px){
+  .header-container select{
+    font-size: 1.3em;
+  }
+  .header-container div {
+    width: 15%;
+    
+  }
+  .header-container label{
+    font-size: 0.9rem;
+    padding-right: 25px;
+    
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .header-container div {
+    margin-bottom: 10px;
+    flex-direction: row;
+    width: 13%;
+
+  }
+  .logo{
+    display: none;
+  }
+  .horarios--img {
+    max-width: 70%;
+  }
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .header-container label{
+    padding-right: 25px;
+  }
+  .header-container select{
+    font-size: 1.2em;
+    padding-right: 22px;
+  }
+
+  
+  
 }

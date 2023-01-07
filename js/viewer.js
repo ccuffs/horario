@@ -1,8 +1,8 @@
-var Horarios = {};
+// Mudei o var para let, uma boa pratica do js
+let Horarios = {};
 
-const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda-feira</th><th>Terça-feira</th><th>Quarta-feira</th><th>Quinta-feira</th><th>Sexta-feira</th><th>Sábado</th></tr>";
+const DEFAULT_TABLE_HEADER = "<th></th><th>Segunda</th><th>Terça</th><th>Quarta</th><th>Quinta</th><th>Sexta</th><th>Sábado</th></tr>";
 const weekDays = ['07:30', '10:20', '13:30', '16:00', '19:10', '21:00'];
-
 const ICON_USER = '<img class="icon" src="./assets/icons/user.svg" />';
 const ICON_INFO = '<img class="icon" src="./assets/icons/info.svg" />';
 const ICON_LOADER = '<img class="w-8 h-8" src="./assets/icons/loader.svg" />';

@@ -4,6 +4,7 @@
   <head>
     <title>UFFS - Ciência da Computação</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/index.css" />
@@ -20,7 +21,7 @@
       type="text/css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat Alternates:300,400,700"
+      href="https://fonts.googleapis.com/css?family=Montserrat Alternates:300,500,700"
       rel="stylesheet"
       type="text/css"
     />
@@ -29,6 +30,15 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+
+    <!--  defer irá previnir da pagina carregar ate que o script esteja carregado e pronto 
+    assim não precisará colocar o script element no fim do body ;) -->
+
+    <script defer src="./js/jquery.min.js"></script>
+    <script defer src="./js/popper-core.min.js"></script>
+    <script defer src="./js/tippy.min.js"></script>
+    <script defer src="./js/viewer.js?202104261754"></script>
+    <script defer src="./js/main.js"></script>
   </head>
 
   <body>
@@ -36,8 +46,16 @@
       <a id="link-to-top" href="#main-container">Voltar ao topo</a>
 
       <header class="header-container">
-        <a href="https://cc.uffs.edu.br/" ><img src="./assets/cc-logo-bg-transparent.svg" width="260" height="auto"alt="uffs-logo" /> </a>
-        <a href = "https://cc.uffs.edu.br/horario/" > <img class = "horarios--img" src="./assets/horarios.png"/></a>
+        <a href="https://cc.uffs.edu.br/"
+          ><img
+            class="logo"
+            src="./assets/cc-logo-bg-transparent.svg"
+            alt="uffs-logo"
+          />
+        </a>
+        <a href="https://cc.uffs.edu.br/horario/">
+          <img class="horarios--img" src="./assets/horarios.png"
+        /></a>
         <div>
           <label for="semester">Escolha o período:</label>
           <select name="semester" id="semester">
@@ -77,11 +95,5 @@
 
       <main id="content"></main>
     </div>
-
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/popper-core.min.js"></script>
-    <script src="./js/tippy.min.js"></script>
-    <script src="./js/viewer.js?202104261754"></script>
-    <script src="./js/main.js"></script>
   </body>
 </html>
