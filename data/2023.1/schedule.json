@@ -2,7 +2,7 @@
     {
         "id": 1,
         "code": "GCH290",
-        "name": "GCH290- Iniciaçãoàpráticacientífica",
+        "name": "GCH290- Iniciação à prática científica",
         "credits": 4,
         "slots": 2,
         "group": 6,
@@ -80,7 +80,7 @@
     {
         "id": 7,
         "code": "GEX618",
-        "name": "GEX618- Inteligênciaartificial",
+        "name": "GEX618- Inteligência artificial",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -93,7 +93,7 @@
     {
         "id": 8,
         "code": "GEX395",
-        "name": "GEX395- Cálculonumérico",
+        "name": "GEX395- Cálculo numérico",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -106,7 +106,7 @@
     {
         "id": 10,
         "code": "GEX630",
-        "name": "GEX630- Tópicosespeciais em computaçãoVIII (em inglês)",
+        "name": "GEX630- Tópicos especiais em computação VIII (em inglês)",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -119,7 +119,7 @@
     {
         "id": 12,
         "code": "GEX618",
-        "name": "GEX618- Inteligênciaartificial",
+        "name": "GEX618- Inteligência artificial",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -132,7 +132,7 @@
     {
         "id": 13,
         "code": "GEX395",
-        "name": "GEX395- Cálculonumérico",
+        "name": "GEX395- Cálculo numérico",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -158,7 +158,7 @@
     {
         "id": 15,
         "code": "GEX630",
-        "name": "GEX630- Tópicosespeciais em computaçãoVIII",
+        "name": "GEX630- Tópicos especiais em computação VIII (em inglês)",
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -171,7 +171,7 @@
     {
         "id": 16,
         "code": "GEX657",
-        "name": "GEX657- Trabalho de conclusãode curso I",
+        "name": "GEX657- Trabalho de conclusão de curso I",
         "credits": 2,
         "slots": 1,
         "group": 7,
@@ -223,7 +223,7 @@
     {
         "id": 24,
         "code": "GEX208",
-        "name": "GEX208- Informáticabásica",
+        "name": "GEX208- Informática básica",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -236,7 +236,7 @@
     {
         "id": "25",
         "code": "GEX213",
-        "name": "GEX213- MatemáticaC",
+        "name": "GEX213- Matemática C",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -249,7 +249,7 @@
     {
         "id": 26,
         "code": "GCH293",
-        "name": "GCH293- Introduçãoàfilosofia",
+        "name": "GCH293- Introdução à filosofia",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -276,7 +276,7 @@
     {
         "id": 30,
         "code": "GCH293",
-        "name": "GCH293- Introduçãoàfilosofia",
+        "name": "GCH293- Introdução à filosofia",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -289,7 +289,7 @@
     {
         "id": 31,
         "code": "GEX208",
-        "name": "GEX208- Informáticabásica",
+        "name": "GEX208- Informática básica",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -316,7 +316,7 @@
     {
         "id": 33,
         "code": "GEX210",
-        "name": "GEX210- Estatísticabásica",
+        "name": "GEX210- Estatística básica",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -329,7 +329,7 @@
     {
         "id": 34,
         "code": "GEX210",
-        "name": "GEX210- Estatísticabásica",
+        "name": "GEX210- Estatística básica",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -342,7 +342,7 @@
     {
         "id": "35",
         "code": "GEX213",
-        "name": "GEX213- MatemáticaC",
+        "name": "GEX213- Matemática C",
         "credits": 4,
         "slots": 1,
         "group": 1,
@@ -355,7 +355,7 @@
     {
         "id": 36,
         "code": "GEX178",
-        "name": "GEX178- CálculoI",
+        "name": "GEX178- Cálculo I",
         "credits": 4,
         "slots": 2,
         "group": 2,
@@ -408,7 +408,7 @@
     {
         "id": 40,
         "code": "GLA104",
-        "name": "GLA104- Produçãotextual acadêmica",
+        "name": "GLA104- Produção textual acadêmica",
         "credits": 4,
         "slots": 2,
         "group": 2,
@@ -434,7 +434,7 @@
     {
         "id": 42,
         "code": "GEX608",
-        "name": "GEX608- Matemáticadiscreta",
+        "name": "GEX608- Matemática discreta",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -447,7 +447,7 @@
     {
         "id": 43,
         "code": "GEX609",
-        "name": "GEX609- Pesquisa e ordenaçãode dados",
+        "name": "GEX609- Pesquisa e ordenação de dados",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -460,7 +460,7 @@
     {
         "id": 44,
         "code": "GEX098",
-        "name": "GEX098- ProgramaçãoI",
+        "name": "GEX098- Programação I",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -473,7 +473,7 @@
     {
         "id": 45,
         "code": "GEX607",
-        "name": "GEX607- Álgebralinear",
+        "name": "GEX607- Álgebra linear",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -486,7 +486,7 @@
     {
         "id": 46,
         "code": "GEX392",
-        "name": "GEX392- CálculoII",
+        "name": "GEX392- Cálculo II",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -499,7 +499,7 @@
     {
         "id": 47,
         "code": "GEX612",
-        "name": "GEX612- Organizaçãode computadores",
+        "name": "GEX612- Organização de computadores",
         "credits": 4,
         "slots": 2,
         "group": 4,
@@ -525,7 +525,7 @@
     {
         "id": 49,
         "code": "GEX613",
-        "name": "GEX613- ProgramaçãoII",
+        "name": "GEX613- Programação II",
         "credits": 4,
         "slots": 2,
         "group": 4,
@@ -590,7 +590,7 @@
     {
         "id": 54,
         "code": "GEX107",
-        "name": "GEX107- Computaçãográfica",
+        "name": "GEX107- Computação gráfica",
         "credits": 4,
         "slots": 1,
         "group": 5,
@@ -707,7 +707,7 @@
     {
         "id": 57111111,
         "code": "GEX107",
-        "name": "GEX107- Computaçãográfica",
+        "name": "GEX107- Computação gráfica",
         "credits": 4,
         "slots": 1,
         "group": 5,
@@ -720,7 +720,7 @@
     {
         "id": 571111111,
         "code": "GEX608",
-        "name": "GEX608- Matemáticadiscreta",
+        "name": "GEX608- Matemática discreta",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -746,7 +746,7 @@
     {
         "id": 57111111111,
         "code": "GEX392",
-        "name": "GEX392- CálculoII",
+        "name": "GEX392- Cálculo II",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -759,7 +759,7 @@
     {
         "id": 571111111111,
         "code": "GEX098",
-        "name": "GEX098- ProgramaçãoI",
+        "name": "GEX098- Programação I",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -772,7 +772,7 @@
     {
         "id": 5711111111111,
         "code": "GEX607",
-        "name": "GEX607- Álgebralinear",
+        "name": "GEX607- Álgebra linear",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -785,7 +785,7 @@
     {
         "id": 57111111111111,
         "code": "GEX609",
-        "name": "GEX609- Pesquisa e ordenaçãodedados",
+        "name": "GEX609- Pesquisa e ordenação de dados",
         "credits": 4,
         "slots": 1,
         "group": 3,
@@ -798,7 +798,7 @@
     {
         "id": 57111111111117,
         "code": "GEX120",
-        "name": "GEX120- Trabalho de conclusãode cursoII",
+        "name": "GEX120- Trabalho de conclusão de curso II",
         "credits": 2,
         "slots": 1,
         "group": 7,
