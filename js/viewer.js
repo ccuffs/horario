@@ -96,7 +96,7 @@ Horarios.Viewer = function() {
     };
 
     // Linha vazia, sem nenhuma matéria no período
-    this.handleEmptyPeriod = (period) => `<td>${period}</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td><td>━</td>`;
+    this.handleEmptyPeriod = (period) => `<td>${period}</td><td></td><td></td><td></td><td></td><td></td><td></td>`;
     // Cria uma tag informativa logo abaixo do nome da matéria
     this.handleTagCourse = (idCourse) => {
         // Regata os alertas referente a matéria do arquivo meta.json
@@ -153,7 +153,7 @@ Horarios.Viewer = function() {
             const indexCourse = coursesGroupPeriods.findIndex( periods => periods.weekDay === weekDay );
             const weekDayIsEmpty = indexCourse === -1;
             // Adicionando uma célula em branco
-            if(weekDayIsEmpty) periodLine += '<td>━</td>';
+            if(weekDayIsEmpty) periodLine += '<td></td>';
             // Adicionando uma célula com box da matéria
             else periodLine += this.handleCellPeriod(coursesGroupPeriods[indexCourse]);
         }

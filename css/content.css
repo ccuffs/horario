@@ -34,17 +34,16 @@
   border-spacing: 10px;
   padding: 10px 0;
   border: 1px solid #444443;
+  background-color: #373535;
 }
 section {
   margin-left: 7%;
   margin-right: 7%;
-  width: auto;
 }
 
 section > table thead tr {
   margin: 10px 0 10px 0;
   height: 3rem;
-
 }
 tr th {
   font-family: "Lato", sans-serif;
@@ -59,13 +58,14 @@ tr td {
 }
 /* Box da disciplina */
 #content .cell-active {
-  background: #444443;
+  background: #3368b7;
   border-radius: 4px;
   border: solid 4px #343433;
   transition: all ease 0.4s;
   width: 14vw;
   position: relative;
   padding: 10px;
+  border-radius: 9px;
 }
 
 #content .cell-active div.cell-wrapper {
@@ -98,13 +98,18 @@ tr td {
   font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
 }
 /* Nome do docente e icone do user */
 #content .cell-active-content p {
   display: flex;
   align-items: center;
   cursor: pointer;
-
+  font-family: "Lato", sans-serif;
+  font-style: normal;
   font-size: 15px;
   line-height: 20px;
   font-weight: 300;
