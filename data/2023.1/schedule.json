@@ -106,11 +106,7 @@
     {
         "id": 10,
         "code": "GEX630",
-<<<<<<< HEAD
-        "name": "GEX630- Tópicos especiais em computação VIII",
-=======
         "name": "GEX630- Tópicos especiais em computação VIII (em inglês)",
->>>>>>> master
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -162,11 +158,7 @@
     {
         "id": 15,
         "code": "GEX630",
-<<<<<<< HEAD
-        "name": "GEX630- Tópicos especiais em computação VIII",
-=======
         "name": "GEX630- Tópicos especiais em computação VIII (em inglês)",
->>>>>>> master
         "credits": 4,
         "slots": 1,
         "group": 7,
@@ -441,11 +433,7 @@
     },
     {
         "id": 42,
-<<<<<<< HEAD
-        "code": "GEX608", 
-=======
         "code": "GEX608",
->>>>>>> master
         "name": "GEX608- Matemática discreta",
         "credits": 4,
         "slots": 1,
@@ -810,11 +798,7 @@
     {
         "id": 57111111111117,
         "code": "GEX120",
-<<<<<<< HEAD
-        "name": "GEX120- Trabalho de conclusão de cursoII",
-=======
         "name": "GEX120- Trabalho de conclusão de curso II",
->>>>>>> master
         "credits": 2,
         "slots": 1,
         "group": 7,

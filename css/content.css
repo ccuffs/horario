@@ -32,9 +32,12 @@
   width: 100%;
   text-align: center;
   border-spacing: 10px;
-  padding: 10px 0;
+  padding: 20px 0;
   border: 1px solid #444443;
   background-color: #373535;
+  overflow: hidden;
+  border: 1px solid #707070;
+  
 }
 section {
   margin-left: 7%;
@@ -56,18 +59,27 @@ tr th {
 tr td {
   padding: 20px 4px;
 }
+table{
+  border-collapse: collapse;
+  border: 1px solid #898888;
+}
+
+table td {
+  outline:1px outset #89888863;
+}
 /* Box da disciplina */
 #content .cell-active {
   background: #3368b7;
-  border-radius: 4px;
-  border: solid 4px #343433;
   transition: all ease 0.4s;
-  width: 14vw;
+  width: 10vw;
+  border: 3px solid #373535;
   position: relative;
-  padding: 10px;
-  border-radius: 9px;
+  padding: 30px;
+  border-radius: 10%;
+  box-shadow: 4px 0px 0px 0px #2e4595 inset;
+  -webkit-box-shadow: 10px 0px 0px 0px #2e4595 inset;
+  -moz-box-shadow: 10px 0px 0px 0px #2e4595 inset;
 }
-
 #content .cell-active div.cell-wrapper {
   z-index: 1;
 }
@@ -77,15 +89,23 @@ tr td {
   position: absolute;
   top: 0;
   left: 0;
-  background: #444443;
-  border-radius: 4px;
+  background: #3368b7;
+  border-radius: 10%;
   height: 160%;
   width: 100%;
-  margin-bottom: 20px;
+  box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  -webkit-box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  -moz-box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  margin-bottom: 10px;
 }
 
 #content .cell-active:hover {
-  border-radius: 8px;
+  border-radius: 10%;
+  background: #29579c;
+}
+#content .cell-active .spanner2:hover {
+  border-radius: 10%;
+  background: #29579c;
 }
 /* Content da disciplina */
 #content .cell-active .cell-active-content {
