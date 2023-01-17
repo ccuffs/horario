@@ -31,7 +31,6 @@
   overflow-x: scroll;
   overflow-y: hidden;
   background-color: #373535;
-  cursor: pointer;
 }
 #content table {
   width: 100%;
