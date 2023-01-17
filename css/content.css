@@ -39,7 +39,6 @@
   padding: 20px 0;
   background-color: #373535;
   border-collapse: collapse;
-  border: 1px solid #898888;
   width: 100%;
   table-layout: auto;
 }
@@ -58,10 +57,11 @@ tr th {
   font-weight: 400;
   font-size: 1em;
   line-height: 24px;
+  padding: 14px;
 }
 
 table td {
-  padding: 20px 20px;
+  padding: 20px 6px;
   outline: 1px outset #89888863;
 }
 
@@ -69,8 +69,8 @@ table td {
 #content .cell-active {
   background: #3368b7;
   transition: all ease 0.4s;
-  width: 10vw;
-  padding: 10px;
+  width: 14vw;
+  padding: 15px;
   border: 3px solid #373535;
   position: relative;
   border-radius: 10%;
@@ -87,7 +87,7 @@ table td {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 40px;
+  padding: 15px;
   background: #3368b7;
   border-radius: 10%;
   height: 143%;
