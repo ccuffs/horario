@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img alt="Demo aplicação" src=".github/demo.gif" />
+  <img alt="Demo aplicação" src=".github/demo1.gif" />
 </p>
 
 ## Sobre o Projeto
