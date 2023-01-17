@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-
   margin-bottom: 20px;
 }
 /* Titulo da tabela */
@@ -21,23 +20,29 @@
 }
 /* Alert: Aulas 100% online */
 #content h2 span {
-  font-size: 13px;
+  font-size: 0.81em;
   background: #fb5012;
   margin-top: 4px;
   padding: 4px 20px;
   border-radius: 4px;
 }
-
+/* Div da tabela, para realizar o overflow(scrolling), funcionalidade na tabela */
+#Tdiv {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: #373535;
+  cursor: pointer;
+}
 #content table {
   width: 100%;
   text-align: center;
   border-spacing: 10px;
   padding: 20px 0;
-  border: 1px solid #444443;
   background-color: #373535;
-  overflow: hidden;
-  border: 1px solid #707070;
-  
+  border-collapse: collapse;
+  border: 1px solid #898888;
+  width: 100%;
+  table-layout: auto;
 }
 section {
   margin-left: 7%;
@@ -56,29 +61,23 @@ tr th {
   line-height: 24px;
 }
 
-tr td {
-  padding: 20px 4px;
-}
-table{
-  border-collapse: collapse;
-  border: 1px solid #898888;
+table td {
+  padding: 20px 20px;
+  outline: 1px outset #89888863;
 }
 
-table td {
-  outline:1px outset #89888863;
-}
 /* Box da disciplina */
 #content .cell-active {
   background: #3368b7;
   transition: all ease 0.4s;
   width: 10vw;
+  padding: 10px;
   border: 3px solid #373535;
   position: relative;
-  padding: 30px;
   border-radius: 10%;
-  box-shadow: 4px 0px 0px 0px #2e4595 inset;
-  -webkit-box-shadow: 10px 0px 0px 0px #2e4595 inset;
-  -moz-box-shadow: 10px 0px 0px 0px #2e4595 inset;
+  box-shadow: 5px 0px 0px 0px #2e4595 inset;
+  -webkit-box-shadow: 5px 0px 0px 0px #2e4595 inset;
+  -moz-box-shadow: 5px 0px 0px 0px #2e4595 inset;
 }
 #content .cell-active div.cell-wrapper {
   z-index: 1;
@@ -89,9 +88,10 @@ table td {
   position: absolute;
   top: 0;
   left: 0;
+  padding: 40px;
   background: #3368b7;
   border-radius: 10%;
-  height: 160%;
+  height: 143%;
   width: 100%;
   box-shadow: 8px 0px 0px 0px #2e4595 inset;
   -webkit-box-shadow: 8px 0px 0px 0px #2e4595 inset;
@@ -115,7 +115,7 @@ table td {
 }
 /* Nome da disciplina */
 #content .cell-active-content strong {
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
   font-family: "Lato", sans-serif;
@@ -130,7 +130,7 @@ table td {
   cursor: pointer;
   font-family: "Lato", sans-serif;
   font-style: normal;
-  font-size: 15px;
+  font-size: 1em;
   line-height: 20px;
   font-weight: 300;
   color: #e2e8f0;
@@ -145,7 +145,7 @@ table td {
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 1em;
 }
 
 #content .cell-tag.info {
@@ -160,4 +160,50 @@ table td {
   width: 11px;
   height: auto;
   margin-right: 4px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+  section {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #content .cell-active-content strong {
+    font-size: 1em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  #content .cell-active-content strong {
+    font-size: 0.9em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 0.8em;
+  }
+  table td {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #content .cell-active-content strong {
+    font-size: 1em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 0.9em;
+  }
+
+  tr th {
+    font-size: 0.9em;
+  }
+
+  table td {
+    font-size: 0.9em;
+  }
 }

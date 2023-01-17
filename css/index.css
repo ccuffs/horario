@@ -4,19 +4,36 @@
   width: 100%;
 }
 
-#link-to-top {
+.linktoTop {
+  border: none;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  background: #222;
-  color: #f8f9fa;
-  padding: 10px;
+  bottom: 90px;
+  right: 30px;
+
+  background: #ff9900;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 600;
+  width: 48px;
+  color: white;
+  z-index: 100;
+
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+
+/* Mostra o  botão */
+.notHidden {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #box-alert {
   display: flex;
   align-items: center;
-
   background: #bb8823;
   padding: 20px;
   border-radius: 10px;
@@ -29,7 +46,7 @@
   margin-right: 10px;
 }
 
-#box-alert a{
+#box-alert a {
   color: #444443;
 }
 
@@ -39,23 +56,27 @@
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-
+  background: rgba(112, 112, 112, 0.19);
+  padding: 8px;
   margin-bottom: 20px;
 }
 
-#links-groups li{
-  border: 2px solid #444443;
+#links-groups li {
+  border: 1px solid white;
+  border-radius: 10px;
+  background: #494343;
   padding: 10px;
-  border-radius: 4px;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
 }
 
-#links-groups li a{
+#links-groups li a {
   font-size: 14px;
-  color: #f8f9fa;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
 }
 
-#links-groups li:hover{
+#links-groups li:hover {
   cursor: pointer;
   border-color: #f8f9fa;
   background: #f8f9fa;
@@ -63,4 +84,12 @@
 
 #links-groups li:hover a {
   color: #444443;
+}
+
+@media screen and (max-width: 450px) {
+  .linktoTop {
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+  }
 }

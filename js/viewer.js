@@ -206,10 +206,12 @@ Horarios.Viewer = function() {
         
         sectionGroup.innerHTML = 
         `<h2>${group.name}${noticeGroup}</h2>
+        <div id="Tdiv">
         <table>
             <thead><tr>${DEFAULT_TABLE_HEADER}</tr></thead>
             <tbody id="tbody-group-${group.id}"></tbody>
-        </table>`;
+        </table>
+            </div>`;
         
         mainContent.appendChild(sectionGroup);
     };

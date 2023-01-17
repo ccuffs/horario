@@ -8,10 +8,9 @@
 .header-container div {
   display: flex;
   flex-direction: column;
-  align-items: stretch  ;
-  margin-right:120px;
-  margin-top:20px;
- 
+  align-items: stretch;
+  margin-right: 120px;
+  margin-top: 20px;
 }
 
 .header-container label {
@@ -20,8 +19,6 @@
   font-family: "Lato", sans-serif;
   margin-bottom: 5px;
   white-space: nowrap;
-  
-  
 }
 
 .header-container select {
@@ -43,8 +40,6 @@
   background: #1e1b1b;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  
-  
 }
 
 .horarios--img {
@@ -52,7 +47,7 @@
   max-width: 80%;
   display: block;
   margin: 0 auto;
-  margin-top:60px;
+  margin-top: 60px;
 }
 
 #semester {
@@ -68,28 +63,25 @@
   background-image: linear-gradient(45deg, #a1a1a1 50%, transparent 50%),
     linear-gradient(135deg, transparent 50%, #a1a1a1 50%);
   background-position: calc(100% - 10px) calc(1em + -7px),
-  calc(100% - 15px) calc(1em + -7px) ;
+    calc(100% - 15px) calc(1em + -7px);
   background-size: 5px 5px, 5px 5px, 1em 2.5em;
   background-repeat: no-repeat;
 }
 .logo {
-  width:260px;
+  width: 260px;
   height: auto;
-
 }
 
-@media screen and (max-width: 850px){
-  .header-container select{
+@media screen and (max-width: 850px) {
+  .header-container select {
     font-size: 1.3em;
   }
   .header-container div {
     width: 15%;
-    
   }
-  .header-container label{
+  .header-container label {
     font-size: 0.9rem;
     padding-right: 25px;
-    
   }
 }
 
@@ -98,9 +90,8 @@
     margin-bottom: 10px;
     flex-direction: row;
     width: 13%;
-
   }
-  .logo{
+  .logo {
     display: none;
   }
   .horarios--img {
@@ -112,14 +103,11 @@
     align-items: center;
     text-align: center;
   }
-  .header-container label{
+  .header-container label {
     padding-right: 25px;
   }
-  .header-container select{
+  .header-container select {
     font-size: 1.2em;
     padding-right: 22px;
   }
-
-  
-  
 }
