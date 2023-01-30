@@ -2,57 +2,84 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-
   margin-bottom: 20px;
 }
 /* Titulo da tabela */
-#content h2{
+#content h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  background: #444443;
+  color: black;
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 39px;
+  background: #e5e5e5;
   padding: 20px 0;
   border-radius: 10px 10px 0 0;
 }
 /* Alert: Aulas 100% online */
-#content h2 span{
-  font-size: 13px;
-  background: #FB5012;
+#content h2 span {
+  font-size: 0.81em;
+  background: #fb5012;
   margin-top: 4px;
   padding: 4px 20px;
   border-radius: 4px;
 }
-
+/* Div da tabela, para realizar o overflow(scrolling), funcionalidade na tabela */
+#Tdiv {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: #373535;
+}
 #content table {
   width: 100%;
   text-align: center;
   border-spacing: 10px;
-  padding: 10px 0;
-  border: 1px solid #444443;
+  padding: 20px 0;
+  background-color: #373535;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+}
+section {
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 section > table thead tr {
   margin: 10px 0 10px 0;
   height: 3rem;
 }
-
-tr td {
-  padding: 20px 4px;
+tr th {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  padding: 14px;
 }
+
+table td {
+  padding: 20px 6px;
+  outline: 1px outset #89888863;
+}
+
 /* Box da disciplina */
-#content .cell-active{
-  background: #444443;
-  border-radius: 4px;
-  border: solid 4px #343433;
+#content .cell-active {
+  background: #3368b7;
   transition: all ease 0.4s;
   width: 14vw;
+  padding: 15px;
+  border: 3px solid #373535;
   position: relative;
-  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 5px 0px 0px 0px #2e4595 inset;
+  -webkit-box-shadow: 5px 0px 0px 0px #2e4595 inset;
+  -moz-box-shadow: 5px 0px 0px 0px #2e4595 inset;
 }
-
 #content .cell-active div.cell-wrapper {
-    z-index: 1;
+  z-index: 1;
 }
 
 #content .cell-active .spanner2 {
@@ -60,35 +87,49 @@ tr td {
   position: absolute;
   top: 0;
   left: 0;
-  background: #444443;
-  border-radius: 4px;
-  height: 160%;
+  padding: 15px;
+  background: #3368b7;
+  border-radius: 10%;
+  height: 143%;
   width: 100%;
-  margin-bottom: 20px;
+  box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  -webkit-box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  -moz-box-shadow: 8px 0px 0px 0px #2e4595 inset;
+  margin-bottom: 10px;
 }
 
-#content .cell-active:hover{
-  border-radius: 8px;
+#content .cell-active:hover {
+  border-radius: 10%;
+  background: #29579c;
+}
+#content .cell-active .spanner2:hover {
+  border-radius: 10%;
+  background: #29579c;
 }
 /* Content da disciplina */
-#content .cell-active .cell-active-content{
+#content .cell-active .cell-active-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /* Nome da disciplina */
-#content .cell-active-content strong{
-  font-size: 16px;
+#content .cell-active-content strong {
+  font-size: 1em;
   letter-spacing: 1.5px;
   margin-bottom: 5px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
 }
 /* Nome do docente e icone do user */
-#content .cell-active-content p{
+#content .cell-active-content p {
   display: flex;
   align-items: center;
   cursor: pointer;
-
-  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 1em;
   line-height: 20px;
   font-weight: 300;
   color: #e2e8f0;
@@ -103,7 +144,7 @@ tr td {
   padding: 4px 8px;
   border-radius: 4px;
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 1em;
 }
 
 #content .cell-tag.info {
@@ -114,8 +155,54 @@ tr td {
   background: #bb8823;
 }
 
-.icon{
+.icon {
   width: 11px;
   height: auto;
   margin-right: 4px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 730px) {
+  section {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #content .cell-active-content strong {
+    font-size: 1em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  #content .cell-active-content strong {
+    font-size: 0.9em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 0.8em;
+  }
+  table td {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #content .cell-active-content strong {
+    font-size: 1em;
+  }
+
+  #content .cell-active-content p {
+    font-size: 0.9em;
+  }
+
+  tr th {
+    font-size: 0.9em;
+  }
+
+  table td {
+    font-size: 0.9em;
+  }
 }

@@ -1,0 +1,11 @@
+/*  CSS do footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+footer a {
+  color: #29579c;
+}

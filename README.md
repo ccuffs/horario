@@ -1,9 +1,9 @@
 <p align="center">
-  <img alt="Logo do projeto" title="Logo do projeto" src=".github/logo.svg" width="400" />
+  <img alt="Logo do projeto" title="Logo do projeto" src=".github/logo.svg" width="400"/>
 </p>
 
 <p align="center">
-  <img alt="Demo aplicação" src=".github/demo.gif" />
+  <img alt="Demo aplicação" src=".github/demo1.gif" />
 </p>
 
 ## Sobre o Projeto

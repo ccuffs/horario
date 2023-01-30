@@ -28,7 +28,7 @@
     {
         "id": 3,
         "code": "GEX108",
-        "name": "GEX108- Construçãode compiladores",
+        "name": "GEX108- Construção de compiladores",
         "credits": 4,
         "slots": 2,
         "group": 6,
@@ -41,7 +41,7 @@
     {
         "id": 4,
         "code": "GCS580",
-        "name": "GCS580- Planejamento e gestãode projetos",
+        "name": "GCS580- Planejamento e gestão de projetos",
         "credits": 4,
         "slots": 2,
         "group": 6,
@@ -197,7 +197,7 @@
     {
         "id": 18,
         "code": "GCH292",
-        "name": "GCH292- Históriada fronteira Sul",
+        "name": "GCH292- História da fronteira Sul",
         "credits": 4,
         "slots": 2,
         "group": 8,

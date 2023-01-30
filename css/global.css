@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
 
 * {
   margin: 0;
@@ -11,16 +11,25 @@ html {
 }
 body {
   color: #f8f9fa;
-  background: #343433;
-  font-family: 'Roboto', sans-serif;
+  background: #1e1b1b;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, button, a {
+body,
+input,
+button,
+a {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
   font-weight: 700;
 }
 
@@ -30,4 +39,29 @@ button {
 
 a {
   text-decoration: none;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+
+
+/* Personalização do scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(224, 224, 224, 0.966);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
 }

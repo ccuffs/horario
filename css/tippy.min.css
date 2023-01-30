@@ -11,9 +11,10 @@
     background-color: #333;
     border-radius: 4px;
     font-size: 14px;
+    font-family: "Lato", sans-serif;
     line-height: 1.4;
     outline: 0;
-    transition-property: transform, visibility, opacity
+    transition-property: transform, visibility, opacity;
 }
 
 .tippy-box[data-placement^=top]>.tippy-arrow {
@@ -82,7 +83,7 @@
 .tippy-content {
     position: relative;
     padding: 5px 9px;
-    z-index: 1
+    z-index: 1;
 }
 
 .tippy-box[data-theme~=light-border] {
