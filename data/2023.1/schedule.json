@@ -228,7 +228,7 @@
         "slots": 1,
         "group": 1,
         "members": [
-            "sem.professor"
+            "giancarlo"
         ],
         "weekDay": 5,
         "period": 5
@@ -387,7 +387,7 @@
         "slots": 2,
         "group": 2,
         "members": [
-            "duarte"
+            "giancarlo"
         ],
         "weekDay": 2,
         "period": 6
@@ -452,7 +452,7 @@
         "slots": 1,
         "group": 3,
         "members": [
-            "sem.professor"
+            "giancarlo"
         ],
         "weekDay": 3,
         "period": 4
@@ -790,7 +790,7 @@
         "slots": 1,
         "group": 3,
         "members": [
-            "novostalentos"
+            "giancarlo"
         ],
         "weekDay": 6,
         "period": 5
