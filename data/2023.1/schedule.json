@@ -387,7 +387,7 @@
         "slots": 2,
         "group": 2,
         "members": [
-            "giancarlo", 
+            "giancarlo", "duarte"
         ],
         "weekDay": 2,
         "period": 6
@@ -797,8 +797,8 @@
     },
     {
         "id": 57111111111117,
-        "code": "GEX120",
-        "name": "GEX120- Trabalho de conclusão de curso II",
+        "code": "GEX658",
+        "name": "GEX658- Trabalho de conclusão de curso II",
         "credits": 2,
         "slots": 1,
         "group": 7,
