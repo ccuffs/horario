@@ -7,7 +7,7 @@
         "slots": 2,
         "group": 6,
         "members": [
-            "padilha"
+            "sem.docente"
         ],
         "weekDay": 3,
         "period": 6
@@ -373,8 +373,8 @@
         "slots": 2,
         "group": 2,
         "members": [
-            "lcaimi",
-            "padilha"
+            "lcaimi"
+            
         ],
         "weekDay": 6,
         "period": 6
@@ -426,7 +426,7 @@
         "slots": 1,
         "group": 3,
         "members": [
-            "padilha"
+            "sem.docente"
         ],
         "weekDay": 5,
         "period": 3
