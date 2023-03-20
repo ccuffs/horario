@@ -7,7 +7,7 @@
         "slots": 2,
         "group": 6,
         "members": [
-            "sem.docente"
+            "padilha"
         ],
         "weekDay": 3,
         "period": 6
@@ -373,8 +373,8 @@
         "slots": 2,
         "group": 2,
         "members": [
-            "lcaimi"
-            
+            "lcaimi",
+            "padilha"
         ],
         "weekDay": 6,
         "period": 6
@@ -426,7 +426,7 @@
         "slots": 1,
         "group": 3,
         "members": [
-            "sem.docente"
+            "padilha"
         ],
         "weekDay": 5,
         "period": 3
@@ -738,7 +738,7 @@
         "slots": 1,
         "group": 3,
         "members": [
-            "sem.docente"
+            "padilha"
         ],
         "weekDay": 4,
         "period": 3
@@ -870,7 +870,19 @@
         "members": [
             "sem.docente"
         ],
-        "weekDay": 6,
+        "weekDay": 2,
         "period": 2
+    },{
+        "id": 27,
+        "code": "GEX003",
+        "name": "GEX003- Algoritmos e programação",
+        "credits": 4,
+        "slots": 2,
+        "group": 1,
+        "members": [
+            "sem.docente"
+        ],
+        "weekDay": 3,
+        "period": 6
     }
 ]
