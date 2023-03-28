@@ -1,6 +1,13 @@
 {
-  
-  "anambasei": {
+    "schmitt": {
+    "name": "Anderson Marcelo Schmitt",
+    "email": "anderson.schmitt@uffs.edu.br"
+  },
+  "habel": {
+    "name": "Jussara Maria Habel",
+    "email": "jussara.habel@uffs.edu.br"
+  },
+   "anambasei": {
     "name": "Ana Maria Basei",
     "email": "anambasei@uffs.edu.br"
   },
