@@ -1,15 +1,15 @@
 {
-    "schmitt": {
-    "name": "Anderson Marcelo Schmitt",
-    "email": "anderson.schmitt@uffs.edu.br"
+  "padilha": {
+    "name": "Adriano Sanick Padilha",
+    "email": "padilha@uffs.edu.br"
   },
-  "habel": {
-    "name": "Jussara Maria Habel",
-    "email": "jussara.habel@uffs.edu.br"
-  },
-   "anambasei": {
+  "anambasei": {
     "name": "Ana Maria Basei",
     "email": "anambasei@uffs.edu.br"
+  },
+    "giancarlo": {
+    "name": "Giancarlo Salton",
+    "email": "giancds@gmail.com"
   },
   "diegohoff": {
     "name": "Diego Anderson Hoff",
@@ -19,7 +19,7 @@
     "name": "Danielle Nicolodelli",
     "email": "danielle.nicolodelli@uffs.edu.br"
   },  
-  "abraga": {
+  "andrei.braga": {
     "name": "Andrei De Almeida Sampaio Braga",
     "email": "andrei.braga@uffs.edu.br"
   },
@@ -34,7 +34,11 @@
   "matiello": {
     "name": "Alexandre Maurício Matiello",
     "email": "alexandre.matiello@uffs.edu.br"
-  },   
+  }, 
+  "edimar": {
+    "name": "Edimar Roque Martello Junior",
+    "email": "edimarjunior@uffs.edu.br"
+  },
   "marina": {
     "name": "Marina Girolimetto",
     "email": "marina.girolimetto@uffs.edu.br"
@@ -43,13 +47,9 @@
     "name": "Tainara Volan",
     "email": "tainara.volan@uffs.edu.br"
   },
-  "grando": {
+  "felipe.grando": {
     "name": "Felipe Grando",
     "email": "grando@uffs.edu.br"
-  },
-  "giancarlo": {
-    "name": "Giancarlo Salton",
-    "email": "gian@uffs.edu.com"
   },
   "samuel.feitosa": {
     "name": "Samuel Feitosa",
@@ -105,6 +105,14 @@
     "name": "Ediovani Gaboardi",
     "email": "ediovani.gaboardi@uffs.edu.br"
   },
+  "emilio.wuerges": {
+    "name": "Emilio Wuerges",
+    "email": "emilio.wuerges@uffs.edu.br"
+  },
+  "fernando.bevilacqua": {
+    "name": "Fernando Bevilacqua",
+    "email": "fernando.bevilacqua@uffs.edu.br"
+  },
   "glaucio.fontana": {
     "name": "Glaucio Adriano Fontana",
     "email": "glaucio.fontana@uffs.edu.br"
@@ -132,6 +140,22 @@
   "joviles.trevisol": {
     "name": "Joviles Vitório Trevisol",
     "email": "joviles.trevisol@uffs.edu.br"
+  },
+  "vitor.petry": {
+    "name": "Vitor Petry",
+    "email": "petry@uffs.edu.br"
+  },
+  "rosane.binotto": {
+    "name": "Rosane Binotto",
+    "email": "rosane.binotto@uffs.edu.br"
+  },
+  "luciana.gobi": {
+    "name": "Luciana Gobi",
+    "email": "luciana.gobi@uffs.edu.br"
+  },
+  "rosane.binoto": {
+    "name": "Rosane Binoto",
+    "email": "rosane.binoto@uffs.edu.br"
   },
   "lbordin": {
     "name": "Leandro Bordin",
