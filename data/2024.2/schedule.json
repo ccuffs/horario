@@ -732,7 +732,7 @@
         "code": "GEX112",
         "name": "GEX112 - SEGURANÇA E AUDITORIA DE SISTEMAS",
         "credits": 4,
-        "slots": 2,
+        "slots": 1,
         "group": 8,
         "members": [
             "felipe.grando"
@@ -745,7 +745,7 @@
         "code": "GEX112",
         "name": "GEX112 - SEGURANÇA E AUDITORIA DE SISTEMAS",
         "credits": 4,
-        "slots": 2,
+        "slots": 1,
         "group": 8,
         "members": [
             "felipe.grando"
@@ -781,7 +781,7 @@
     },
     {
         "id": 51111311442,
-        "code": "GEX106",
+        "code": "",
         "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
         "credits": 4,
         "slots": 1,
@@ -794,7 +794,7 @@
     },
     {
         "id": 51111311443,
-        "code": "GEX106",
+        "code": "",
         "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
         "credits": 4,
         "slots": 1,
@@ -820,8 +820,8 @@
     },
     {
         "id": 8111111432,
-        "code": "GEX657",
-        "name": "GEX657 - Trabalho de conclus\u00e3o de curso II",
+        "code": "GEX658",
+        "name": "GEX658 - Trabalho de conclus\u00e3o de curso II",
         "credits": 10,
         "slots": 1,
         "group": 9,
