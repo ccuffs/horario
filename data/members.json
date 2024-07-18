@@ -9,16 +9,16 @@
   },
     "giancarlo": {
     "name": "Giancarlo Salton",
-    "email": "giancds@gmail.com"
+    "email": "gian@uffs.edu.br"
   },
   "diegohoff": {
     "name": "Diego Anderson Hoff",
     "email": "diego.hoff@uffs.edu.br"
-  },  
+  },
   "danielle.micolodelli": {
     "name": "Danielle Nicolodelli",
     "email": "danielle.nicolodelli@uffs.edu.br"
-  },  
+  },
   "andrei.braga": {
     "name": "Andrei De Almeida Sampaio Braga",
     "email": "andrei.braga@uffs.edu.br"
@@ -34,7 +34,7 @@
   "matiello": {
     "name": "Alexandre Maurício Matiello",
     "email": "alexandre.matiello@uffs.edu.br"
-  }, 
+  },
   "edimar": {
     "name": "Edimar Roque Martello Junior",
     "email": "edimarjunior@uffs.edu.br"
@@ -63,7 +63,7 @@
     "name": "Lucia Menoncini",
     "email": "lucia.menoncini@uffs.edu.br"
   },
-  
+
   "jaqueline.sulkovski": {
     "name": "Jaqueline Sulkovski Mecca",
     "email": "jaqueline.mecca@uffs.edu.br"
@@ -244,6 +244,18 @@
     "vojniak": {
     "name": "Fernando Vojniak",
     "email": "fernando.vojniak@uffs.edu.br"
+  },
+    "lorenzon": {
+    "name": "Valdemar Lorenzon Junior",
+    "email": "valdemar.junior@uffs.edu.br"
+  },
+    "marta": {
+    "name": "Marta Ribeirto dos Santos",
+    "email": "marta.rzeznhik@uffs.edu.br"
+  },
+    "jefferson.caramori": {
+    "name": "Fefferson Caramori",
+    "email": "jefferson.caramori@uffs.edu.br "
   },
   "sem.professor": {
     "name": "Aguardando professor",

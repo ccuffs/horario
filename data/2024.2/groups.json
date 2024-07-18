@@ -1,0 +1,29 @@
+[
+    {"id":1,
+        "name":"1 Semestre - Noturno"},
+        
+        {"id":2,
+        "name":"2 Semestre - Vespertino"},
+        
+        {"id":3,
+        "name":"3 Semestre- Noturno"},
+        
+        {"id":4,
+        "name":"4 Semestre - Vespertino"},
+        
+        {"id":5,
+        "name":"5 semestre - Noturno"},
+        
+        {"id":6,
+        "name":"6 Semestre - Vespertino"},
+        
+        {"id":7,
+        "name":"7 Semestre - Noturno"},
+        
+        {"id":8,
+        "name":"8 Semestre - Vespertino"},
+        
+        {"id":9,
+        "name":"9 Semestre - Noturno"}
+]
+
