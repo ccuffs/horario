@@ -1,34 +1,8 @@
 [
     {
-        "id": 1,
-        "code": "GEX208",
-        "name": "GEX208 - Inform\u00e1tica b\u00e1sica 70",
-        "credits": 4,
-        "slots": 2,
-        "group": 1,
-        "members": [
-            "marta"
-        ],
-        "weekDay": 6,
-        "period": 6
-    },
-    {
-        "id": 111,
-        "code": "GCH293",
-        "name": "GCH293 - Introdu\u00e7\u00e3o \u00e0 filosofia",
-        "credits": 4,
-        "slots": 2,
-        "group": 1,
-        "members": [
-            "mauricio"
-        ],
-        "weekDay": 5,
-        "period": 6
-    },
-    {
         "id": 1111,
         "code": "GEX003",
-        "name": "GEX003 - Algoritmos e programa\u00e7\u00e3o - 70",
+        "name": "GEX003 - Algoritmos e programa\u00e7\u00e3o",
         "credits": 4,
         "slots": 2,
         "group": 1,
@@ -37,6 +11,19 @@
             "lorenzon"
         ],
         "weekDay": 2,
+        "period": 6
+    },
+    {
+        "id": 1111111111111429,
+        "code": "GEX213",
+        "name": "GEX213 - Matem\u00e1tica C",
+        "credits": 4,
+        "slots": 2,
+        "group": 1,
+        "members": [
+            "lucia.menoncini"
+        ],
+        "weekDay": 3,
         "period": 6
     },
     {
@@ -53,22 +40,75 @@
         "period": 6
     },
     {
-        "id": 111111,
-        "code": "GEX178",
-        "name": "GEX178 - C\u00e1lculo I",
+        "id": 111,
+        "code": "GCH293",
+        "name": "GCH293 - Introdu\u00e7\u00e3o \u00e0 filosofia",
+        "credits": 4,
+        "slots": 2,
+        "group": 1,
+        "members": [
+            "mauricio"
+        ],
+        "weekDay": 5,
+        "period": 6
+    },
+    {
+        "id": 1,
+        "code": "GEX208",
+        "name": "GEX208 - Inform\u00e1tica b\u00e1sica 70",
+        "credits": 4,
+        "slots": 2,
+        "group": 1,
+        "members": [
+            "marta"
+        ],
+        "weekDay": 6,
+        "period": 6
+    },
+    {
+        "id": 11111111,
+        "code": "GEX605",
+        "name": "GEX605 - Estruturas de dados (Turma 01)",
         "credits": 4,
         "slots": 1,
         "group": 2,
         "members": [
-            "lucia.menoncini"
+            "marta"
         ],
         "weekDay": 2,
         "period": 4
     },
     {
+        "id": 11111111,
+        "code": "GEX605",
+        "name": "GEX605 - Estruturas de dados (Turma 01)",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "marta"
+        ],
+        "weekDay": 5,
+        "period": 5
+    },
+    {
         "id": "1111111",
         "code": "GEN253",
-        "name": "GEN253 - Circuitos digitais 70",
+        "name": "GEN253 - Circuitos digitais",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "lcaimi",
+            "schreiner.geomar"
+        ],
+        "weekDay": 2,
+        "period": 5
+    },
+    {
+        "id": "1111111",
+        "code": "GEN253",
+        "name": "GEN253 - Circuitos digitais",
         "credits": 4,
         "slots": 1,
         "group": 2,
@@ -82,13 +122,91 @@
     {
         "id": 11111111,
         "code": "GEX605",
-        "name": "GEX605 - Estruturas de dados",
+        "name": "GEX605 - Estruturas de dados (Turma 02)",
+        "credits": 4,
+        "slots": 2,
+        "group": 2,
+        "members": [
+            "duarte",
+            "schreiner.geomar"
+        ],
+        "weekDay": 2,
+        "period": 6
+    },
+    {
+        "id": 111111,
+        "code": "GEX178",
+        "name": "GEX178 - C\u00e1lculo I",
         "credits": 4,
         "slots": 1,
         "group": 2,
         "members": [
-            "duarte",
-            "claunir.pavan"
+            "milton.kist"
+        ],
+        "weekDay": 3,
+        "period": 5
+    },
+    {
+        "id": 111111,
+        "code": "GEX178",
+        "name": "GEX178 - C\u00e1lculo I",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "milton.kist"
+        ],
+        "weekDay": 4,
+        "period": 4
+    },
+    {
+        "id": 1111111111,
+        "code": "GLA104",
+        "name": "GLA104 - Produ\u00e7\u00e3o textual acad\u00eamica",
+        "credits": 4,
+        "slots": 2,
+        "group": 2,
+        "members": [
+            "neivadaluz"
+        ],
+        "weekDay": 3,
+        "period": 6
+    },
+    {
+        "id": 111232111440,
+        "code": "GEX195",
+        "name": "GEX195 - Geometria anal\u00edtica",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "acneri"
+        ],
+        "weekDay": 4,
+        "period": 5
+    },
+    {
+        "id": 11111111111,
+        "code": "GEX195",
+        "name": "GEX195 - Geometria anal\u00edtica",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "acneri"
+        ],
+        "weekDay": 6,
+        "period": 4
+    },
+    {
+        "id": 1111111111438,
+        "code": "GEX055",
+        "name": "GEX055 - Probabilidade e estat\u00edstica",
+        "credits": 4,
+        "slots": 1,
+        "group": 2,
+        "members": [
+            "sem.professor"
         ],
         "weekDay": 5,
         "period": 4
@@ -101,94 +219,22 @@
         "slots": 1,
         "group": 2,
         "members": [
-            "Volante"
-        ],
-        "weekDay": 5,
-        "period": 5
-    },
-    {"id":1.00099e+22,
-"code":"Curso de ADM",
-"name":"(Curso de ADM) Gestão da Inovação  ** Matrícula via link shorturl.at/jrE46 ",
-"credits":4,
-"slots":2,
-"group":8,
-"members":["sem.docente"],
-"weekDay":6,
-"period":6},
-
-{"id":1.99e+22,
-"code":"Curso de ADM",
-"name":"(Curso de ADM) Empreendedorismo e criação de negócios - **Matrícula via link shorturl.at/pDGPX",
-"credits":6,
-"slots":2,
-"group":9,
-"members":["sem.docente"],
-"weekDay":3,
-"period":2},
-    {
-        "id": 1111111111,
-        "code": "GLA104",
-        "name": "GLA104 - Produ\u00e7\u00e3o textual acad\u00eamica",
-        "credits": 4,
-        "slots": 2,
-        "group": 2,
-        "members": [
-            "neivadaluz"
-        ],
-        "weekDay": 4,
-        "period": 6
-    },
-    {
-        "id": 11111111111,
-        "code": "GEX195",
-        "name": "GEX195 - Geometria anal\u00edtica",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "anambasei"
+            "sem.professor"
         ],
         "weekDay": 6,
         "period": 5
     },
     {
-        "id": 111111111111,
-        "code": "GEX606",
-        "name": "GEX606 - Sistemas digitais",
+        "id": 11111111111113,
+        "code": "GEX392",
+        "name": "GEX392 - C\u00e1lculo II",
         "credits": 4,
         "slots": 2,
         "group": 3,
         "members": [
-            "schreiner.geomar"
+            "milton.kist"
         ],
-        "weekDay": 5,
-        "period": 6
-    },
-    {
-        "id": 1111111111111,
-        "code": "GEX608",
-        "name": "GEX608 - Matem\u00e1tica discreta",
-        "credits": 4,
-        "slots": 2,
-        "group": 3,
-        "members": [
-            "acneri"
-        ],
-        "weekDay": 4,
-        "period": 6
-    },
-    {
-        "id": 11111111111111,
-        "code": "GEX609",
-        "name": "GEX609 - Pesquisa e ordena\u00e7\u00e3o de dados",
-        "credits": 4,
-        "slots": 2,
-        "group": 3,
-        "members": [
-            "giancarlo",
-            "jefferson.caramori"
-        ],
-        "weekDay": 6,
+        "weekDay": 2,
         "period": 6
     },
     {
@@ -206,43 +252,126 @@
         "period": 6
     },
     {
-        "id": 11111111111113,
-        "code": "GEX392",
-        "name": "GEX392 - C\u00e1lculo II",
+        "id": 1111111111111,
+        "code": "GEX608",
+        "name": "GEX608 - Matem\u00e1tica discreta",
         "credits": 4,
         "slots": 2,
         "group": 3,
         "members": [
-            "milton.kist"
+            "acneri"
         ],
-        "weekDay": 2,
+        "weekDay": 4,
+        "period": 6
+    },
+    {
+        "id": 111111111111,
+        "code": "GEX606",
+        "name": "GEX606 - Sistemas digitais",
+        "credits": 4,
+        "slots": 2,
+        "group": 3,
+        "members": [
+            "schreiner.geomar"
+        ],
+        "weekDay": 5,
+        "period": 6
+    },
+    {
+        "id": 11111111111111,
+        "code": "GEX609",
+        "name": "GEX609 - Pesquisa e ordena\u00e7\u00e3o de dados",
+        "credits": 4,
+        "slots": 2,
+        "group": 3,
+        "members": [
+            "giancarlo",
+            "jefferson.caramori"
+        ],
+        "weekDay": 6,
         "period": 6
     },
     {
         "id": 11111111111114,
         "code": "GEX090",
-        "name": "GEX090 - Banco de dados I",
+        "name": "GEX612 - Organização de computadores (até 30/09)  GEX090 - Banco de dados I (a partir de 07/10) ",
         "credits": 4,
         "slots": 1,
         "group": 4,
         "members": [
+            "lcaimi",
+            "duarte"
+        ],
+        "weekDay": 2,
+        "period": 4
+    },
+    {
+        "id": 1111111111111432,
+        "code": "GEX090",
+        "name": "GEX612 - Organização de computadores (até 30/09)  GEX090 - Banco de dados I (a partir de 07/10) ",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "lcaimi",
             "duarte"
         ],
         "weekDay": 4,
         "period": 4
     },
     {
-        "id": 111111111111141,
-        "code": "GEX613",
-        "name": "GEX613 - Programa\u00e7\u00e3o II 70",
+        "id": 1111111111111433,
+        "code": "GEX090",
+        "name": "GEX612 - Organização de computadores (até 30/09)  GEX090 - Banco de dados I (a partir de 07/10) ",
         "credits": 4,
         "slots": 1,
         "group": 4,
         "members": [
-            "edimar"
+            "lcaimi",
+            "duarte"
+        ],
+        "weekDay": 4,
+        "period": 5
+    },
+    {
+        "id": 1111111111111434,
+        "code": "GEX090",
+        "name": "GEX612 - Organização de computadores (até 30/09)  GEX090 - Banco de dados I (a partir de 07/10) ",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "lcaimi",
+            "duarte"
+        ],
+        "weekDay": 6,
+        "period": 5
+    },
+    {
+        "id": 1112321114420,
+        "code": "GEN254",
+        "name": "GEN254 - Grafos",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "andrei.braga"
         ],
         "weekDay": 2,
         "period": 5
+    },
+    {
+        "id": 1112321114420,
+        "code": "GEN254",
+        "name": "GEN254 - Grafos",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "andrei.braga"
+        ],
+        "weekDay": 3,
+        "period": 4
     },
     {
         "id": 1111111111111411,
@@ -252,22 +381,76 @@
         "slots": 1,
         "group": 4,
         "members": [
-            "marina"
+            "raquel.pegoraro"
+        ],
+        "weekDay": 3,
+        "period": 5
+    },
+    {
+        "id": 1111111111111431,
+        "code": "GEX102",
+        "name": "GEX102 - Engenharia de software I",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "raquel.pegoraro"
         ],
         "weekDay": 5,
         "period": 4
     },
     {
-        "id": 1111111111111412,
-        "code": "GEX110",
-        "name": "GEX110 - Sistemas operacionais",
+        "id": 111111111436,
+        "code": "GCH290",
+        "name": "GCH290 - Inicia\u00e7\u00e3o \u00e0 pr\u00e1tica cient\u00edfica",
+        "credits": 4,
+        "slots": 2,
+        "group": 4,
+        "members": [
+            "marta"
+        ],
+        "weekDay": 2,
+        "period": 6
+    },
+    {
+        "id": 111111111111141,
+        "code": "GEX613",
+        "name": "GEX613 - Programa\u00e7\u00e3o II",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "giancarlo",
+            "jefferson.caramori"
+        ],
+        "weekDay": 5,
+        "period": 5
+    },
+    {
+        "id": 1111111111111430,
+        "code": "GEX613",
+        "name": "GEX613 - Programa\u00e7\u00e3o II",
+        "credits": 4,
+        "slots": 1,
+        "group": 4,
+        "members": [
+            "giancarlo",
+            "jefferson.caramori"
+        ],
+        "weekDay": 6,
+        "period": 4
+    },
+    {
+        "id": 1111111111111414,
+        "code": "GEX101",
+        "name": "GEX101 - Linguagens formais e aut\u00f4matos",
         "credits": 4,
         "slots": 2,
         "group": 5,
         "members": [
-            "marco.spohn"
+            "andrei.braga"
         ],
-        "weekDay": 5,
+        "weekDay": 2,
         "period": 6
     },
     {
@@ -278,35 +461,9 @@
         "slots": 2,
         "group": 5,
         "members": [
-            "guilherme.dalbianco"
+            "duarte"
         ],
         "weekDay": 3,
-        "period": 6
-    },
-    {
-        "id": 1111111111111414,
-        "code": "GEX101",
-        "name": "GEX101 - Linguagens formais e aut\u00f4matos",
-        "credits": 4,
-        "slots": 2,
-        "group": 5,
-        "members": [
-            "braulio"
-        ],
-        "weekDay": 2,
-        "period": 6
-    },
-    {
-        "id": 1111111111111415,
-        "code": "GEX616",
-        "name": "GEX616 - Engenharia de software II",
-        "credits": 4,
-        "slots": 2,
-        "group": 5,
-        "members": [
-            "marina"
-        ],
-        "weekDay": 6,
         "period": 6
     },
     {
@@ -317,47 +474,37 @@
         "slots": 2,
         "group": 5,
         "members": [
-            "edson.santos"
+            "lucia.menoncini"
         ],
         "weekDay": 4,
         "period": 6
     },
     {
-        "id": 1111111111111417,
-        "code": "GCH292",
-        "name": "GCH292 - Hist\u00f3ria da fronteira Sul",
+        "id": 1111111111111415,
+        "code": "GEX616",
+        "name": "GEX616 - Engenharia de software II",
         "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [],
-        "weekDay": 4,
-        "period": 4
+        "slots": 2,
+        "group": 5,
+        "members": [
+            "marta",
+            "caio.santos"
+        ],
+        "weekDay": 5,
+        "period": 6
     },
     {
-        "id": 1111111111111418,
-        "code": "GEX105",
-        "name": "GEX105 - Redes de computadores",
+        "id": 1111111111111412,
+        "code": "GEX110",
+        "name": "GEX110 - Sistemas operacionais",
         "credits": 4,
-        "slots": 1,
-        "group": 6,
+        "slots": 2,
+        "group": 5,
         "members": [
-            "marco.spohn"
+            "neimar.assmann"
         ],
-        "weekDay": 2,
-        "period": 5
-    },
-    {
-        "id": 1111111111111419,
-        "code": "GCS580",
-        "name": "GCS580 - Planejamento e gest\u00e3o de projetos",
-        "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [
-            "edimar"
-        ],
-        "weekDay": 3,
-        "period": 4
+        "weekDay": 6,
+        "period": 6
     },
     {
         "id": 1111111111111420,
@@ -367,9 +514,35 @@
         "slots": 1,
         "group": 6,
         "members": [
-            "andrei.braga"
+            "samuel.feitosa"
+        ],
+        "weekDay": 2,
+        "period": 4
+    },
+    {
+        "id": 511118811449,
+        "code": "GEX614",
+        "name": "GEX614 - Teoria da computa\u00e7\u00e3o",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "samuel.feitosa"
         ],
         "weekDay": 3,
+        "period": 5
+    },
+    {
+        "id": 1111111111111435,
+        "code": "GEX108",
+        "name": "GEX108 - Constru\u00e7\u00e3o de compiladores",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "braulio"
+        ],
+        "weekDay": 2,
         "period": 5
     },
     {
@@ -382,8 +555,99 @@
         "members": [
             "braulio"
         ],
-        "weekDay": 2,
+        "weekDay": 6,
         "period": 4
+    },
+    {
+        "id": 51119991114421,
+        "code": "GCS580",
+        "name": "GCS580 - Planejamento e gest\u00e3o de projetos",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "raquel.pegoraro"
+        ],
+        "weekDay": 3,
+        "period": 4
+    },
+    {
+        "id": 1111111111111419,
+        "code": "GCS580",
+        "name": "GCS580 - Planejamento e gest\u00e3o de projetos",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "raquel.pegoraro"
+        ],
+        "weekDay": 5,
+        "period": 5
+    },
+    {
+        "id": 1111111111111417,
+        "code": "GCH292",
+        "name": "GCH292 - Hist\u00f3ria da fronteira Sul",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "eliane.taffarel"
+        ],
+        "weekDay": 4,
+        "period": 4
+    },
+    {
+        "id": 11123211144210,
+        "code": "GCH292",
+        "name": "GCH292 - Hist\u00f3ria da fronteira Sul",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "eliane.taffarel"
+        ],
+        "weekDay": 4,
+        "period": 5
+    },
+    {
+        "id": 1111111111111418,
+        "code": "GEX105",
+        "name": "GEX105 - Redes de computadores",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "neimar.assmann"
+        ],
+        "weekDay": 5,
+        "period": 4
+    },
+    {
+        "id": 511123111442,
+        "code": "GEX105",
+        "name": "GEX105 - Redes de computadores",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "neimar.assmann"
+        ],
+        "weekDay": 6,
+        "period": 5
+    },
+    {
+        "id": 1111111111111426,
+        "code": "GEX395",
+        "name": "GEX395 - C\u00e1lculo num\u00e9rico",
+        "credits": 4,
+        "slots": 2,
+        "group": 7,
+        "members": [
+            "vitor.petry"
+        ],
+        "weekDay": 2,
+        "period": 6
     },
     {
         "id": 1111111111111422,
@@ -421,7 +685,7 @@
         "members": [
             "samuel.feitosa"
         ],
-        "weekDay": 6,
+        "weekDay": 5,
         "period": 6
     },
     {
@@ -432,322 +696,114 @@
         "slots": 2,
         "group": 7,
         "members": [
-            "marina"
+            "caio.santos"
         ],
-        "weekDay": 5,
+        "weekDay": 6,
         "period": 6
-    },
-    {
-        "id": 1111111111111426,
-        "code": "GEX395",
-        "name": "GEX395 - C\u00e1lculo num\u00e9rico",
-        "credits": 4,
-        "slots": 2,
-        "group": 7,
-        "members": [
-            "vitor.petry"
-        ],
-        "weekDay": 2,
-        "period": 6
-    },
-    {
-        "id": 1111111111111427,
-        "code": "GEX658",
-        "name": "GEX658 - Trabalho de conclus\u00e3o de curso II",
-        "credits": 12,
-        "slots": 1,
-        "group": 8,
-        "members": [
-            "guilherme.dalbianco"
-        ],
-        "weekDay": 7,
-        "period": 3
     },
     {
         "id": 1111111111111428,
         "code": "GCS239",
         "name": "GCS239 - Direitos e cidadania",
         "credits": 4,
+        "slots": 1,
+        "group": 8,
+        "members": [
+            "leonardo.ev"
+        ],
+        "weekDay": 2,
+        "period": 4
+    },
+    {
+        "id": 1111111111111428,
+        "code": "GCS239",
+        "name": "GCS239 - Direitos e cidadania",
+        "credits": 4,
+        "slots": 1,
+        "group": 8,
+        "members": [
+            "leonardo.ev"
+        ],
+        "weekDay": 2,
+        "period": 5
+    },
+    {
+        "id": 1111111111111428,
+        "code": "GEX112",
+        "name": "GEX112 - SEGURANÇA E AUDITORIA DE SISTEMAS",
+        "credits": 4,
         "slots": 2,
         "group": 8,
         "members": [
-            "andrioli"
+            "felipe.grando"
         ],
-        "weekDay": 2,
+        "weekDay": 3,
         "period": 4
     },
     {
-        "id": 1111111111111429,
-        "code": "GEX213",
-        "name": "GEX213 - Matem\u00e1tica C",
+        "id": 1111111111111428,
+        "code": "GEX112",
+        "name": "GEX112 - SEGURANÇA E AUDITORIA DE SISTEMAS",
         "credits": 4,
         "slots": 2,
-        "group": 1,
+        "group": 8,
         "members": [
-            "lucia.menoncini"
-        ],
-        "weekDay": 3,
-        "period": 6
-    },
-    {
-        "id": 1111111111111430,
-        "code": "GEX613",
-        "name": "GEX613 - Programa\u00e7\u00e3o II 70",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "giancarlo"
-        ],
-        "weekDay": 6,
-        "period": 4
-    },
-    {
-        "id": 1111111111111431,
-        "code": "GEX102",
-        "name": "GEX102 - Engenharia de software I",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "marina"
-        ],
-        "weekDay": 3,
-        "period": 5
-    },
-    {
-        "id": 1111111111111432,
-        "code": "GEX090",
-        "name": "GEX090 - Banco de dados I",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "duarte"
-        ],
-        "weekDay": 6,
-        "period": 5
-    },
-    {
-        "id": 1111111111111433,
-        "code": "GEX612",
-        "name": "GEX612 - Organiza\u00e7\u00e3o de computadores",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "lcaimi"
-        ],
-        "weekDay": 2,
-        "period": 4
-    },
-    {
-        "id": 1111111111111434,
-        "code": "GEX612",
-        "name": "GEX612 - Organiza\u00e7\u00e3o de computadores",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "lcaimi"
+            "felipe.grando"
         ],
         "weekDay": 4,
-        "period": 5
-    },
-    {
-        "id": 1111111111435,
-        "code": "GCH290",
-        "name": "GCH290 - Inicia\u00e7\u00e3o \u00e0 pr\u00e1tica cient\u00edfica",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "marina"
-        ],
-        "weekDay": 4,
-        "period": 6
-    },
-    {
-        "id": 111111111436,
-        "code": "GCH290",
-        "name": "GCH290 - Inicia\u00e7\u00e3o \u00e0 pr\u00e1tica cient\u00edfica",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "marina"
-        ],
-        "weekDay": 4,
-        "period": 7
-    },
-    {
-        "id": 1111111111437,
-        "code": "GEN253",
-        "name": "GEN253 - Circuitos digitais",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "lcaimi",
-            "schreiner.geomar"
-        ],
-        "weekDay": 2,
-        "period": 5
-    },
-    {
-        "id": 1111111111438,
-        "code": "GEX055",
-        "name": "GEX055 - Probabilidade e estat\u00edstica",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "Volante"
-        ],
-        "weekDay": 6,
-        "period": 4
-    },
-    {
-        "id": 1112321111439,
-        "code": "GEX605",
-        "name": "GEX605 - Estruturas de dados 60",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "duarte",
-            "claunir.pavan"
-        ],
-        "weekDay": 3,
-        "period": 5
-    },
-    {
-        "id": 111232111440,
-        "code": "GEX195",
-        "name": "GEX195 - Geometria anal\u00edtica",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "anambasei"
-        ],
-        "weekDay": 4,
-        "period": 4
-    },
-    {
-        "id": 1123211441,
-        "code": "GEX178",
-        "name": "GEX178 - C\u00e1lculo I",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "lucia.menoncini"
-        ],
-        "weekDay": 4,
-        "period": 5
-    },
-    {
-        "id": 1112321111442,
-        "code": "GEN254",
-        "name": "GEN254 - Grafos",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "andrei.braga"
-        ],
-        "weekDay": 3,
-        "period": 4
-    },
-    {
-        "id": 1112321114420,
-        "code": "GEN254",
-        "name": "GEN254 - Grafos",
-        "credits": 4,
-        "slots": 1,
-        "group": 4,
-        "members": [
-            "andrei.braga"
-        ],
-        "weekDay": 5,
-        "period": 5
-    },
-    {
-        "id": 11123211144210,
-        "code": "GCH292",
-        "name": "GCH292 - Hist\u00f3ria da fronteira Sul",
-        "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [],
-        "weekDay": 4,
-        "period": 5
-    },
-    {
-        "id": 511118811449,
-        "code": "GEX614",
-        "name": "GEX614 - Teoria da computa\u00e7\u00e3o",
-        "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [
-            "andrei.braga"
-        ],
-        "weekDay": 6,
-        "period": 4
-    },
-    {
-        "id": 511123111442,
-        "code": "GEX105",
-        "name": "GEX105 - Redes de computadores",
-        "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [
-            "marco.spohn"
-        ],
-        "weekDay": 5,
-        "period": 4
-    },
-    {
-        "id": 51119991114421,
-        "code": "GCS580",
-        "name": "GCS580 - Planejamento e gest\u00e3o de projetos",
-        "credits": 4,
-        "slots": 1,
-        "group": 6,
-        "members": [
-            "edimar"
-        ],
-        "weekDay": 5,
         "period": 5
     },
     {
         "id": 5111991442,
-        "code": "GEX635",
-        "name": "GEX635 - T\u00f3picos especiais em computa\u00e7\u00e3o XIII 40",
+        "code": "GEX642",
+        "name": "GEX642 - T\u00f3picos especiais em computa\u00e7\u00e3o XX",
         "credits": 4,
         "slots": 2,
         "group": 9,
         "members": [
-            "marco.spohn"
+            "raqraquel.pegoraro"
         ],
         "weekDay": 2,
         "period": 6
     },
     {
         "id": 51111311442,
-        "code": "GEX640",
-        "name": "GEX1083 - T\u00f3picos especiais em computa\u00e7\u00e3o XXXIII 40",
+        "code": "GEX1088",
+        "name": "GEX1088 - T\u00f3picos especiais em computa\u00e7\u00e3o XXXVIII",
         "credits": 4,
         "slots": 2,
         "group": 9,
         "members": [
-            "giancarlo"
+            "andrei.braga"
         ],
-        "weekDay": 5,
+        "weekDay": 4,
         "period": 6
+    },
+    {
+        "id": 51111311442,
+        "code": "GEX106",
+        "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
+        "credits": 4,
+        "slots": 1,
+        "group": 9,
+        "members": [
+            "braulio"
+        ],
+        "weekDay": 3,
+        "period": 2
+    },
+    {
+        "id": 51111311442,
+        "code": "GEX106",
+        "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
+        "credits": 4,
+        "slots": 1,
+        "group": 9,
+        "members": [
+            "braulio"
+        ],
+        "weekDay": 3,
+        "period": 3
     },
     {
         "id": 8111111442,
@@ -763,56 +819,16 @@
         "period": 3
     },
     {
-        "id": 1111111324340,
-        "code": "GEX605",
-        "name": "GEX605 - Estruturas de dados 40",
-        "credits": 4,
-        "slots": 2,
-        "group": 2,
-        "members": [
-            "claunir.pavan"
-        ],
-        "weekDay": 2,
-        "period": 6
-    },
-    {
-        "id": 1111111111111435,
-        "code": "GEX108",
-        "name": "GEX108 - Constru\u00e7\u00e3o de compiladores",
-        "credits": 4,
+        "id": 8111111442,
+        "code": "GEX657",
+        "name": "GEX657 - Trabalho de conclus\u00e3o de curso II",
+        "credits": 10,
         "slots": 1,
-        "group": 6,
+        "group": 9,
         "members": [
             "braulio"
         ],
-        "weekDay": 6,
-        "period": 5
+        "weekDay": 7,
+        "period": 2
     },
-    {
-        "id": 1111111111111436,
-        "code": "GEX642",
-        "name": "GEX1082 -  T\u00f3picos especiais em computa\u00e7\u00e3o XXXII 40",
-        "credits": 4,
-        "slots": 1,
-        "group": 8,
-        "members": [
-            "schreiner.geomar"
-        ],
-        "weekDay": 4,
-        "period": 4
-    },
-    {
-        "id": 1111111111111437,
-        "code": "GEX642",
-        "name": "GEX1082 - T\u00f3picos especiais em computa\u00e7\u00e3o XXXII",
-        "credits": 4,
-        "slots": 1,
-        "group": 8,
-        "members": [
-            "schreiner.geomar"
-        ],
-        "weekDay": 5,
-        "period": 5
-    }
 ]
-
