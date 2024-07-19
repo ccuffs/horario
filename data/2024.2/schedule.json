@@ -461,7 +461,8 @@
         "slots": 2,
         "group": 5,
         "members": [
-            "duarte"
+            "duarte",
+            "schreiner.geomar"
         ],
         "weekDay": 3,
         "period": 6
