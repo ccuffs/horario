@@ -783,7 +783,7 @@
     {
         "id": 51111311442,
         "code": "",
-        "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
+        "name": "GEX106 - Computa\u00e7\u00e3o Distribuída (Estudo dirigido)",
         "credits": 4,
         "slots": 1,
         "group": 9,
@@ -791,12 +791,12 @@
             "braulio"
         ],
         "weekDay": 3,
-        "period": 2
+        "period": 6
     },
     {
         "id": 51111311443,
         "code": "",
-        "name": "GEX106 - Computa\u00e7\u00e3o Disatribuida (Estudo dirigido)",
+        "name": "GEX106 - Computa\u00e7\u00e3o Distribuída (Estudo dirigido)",
         "credits": 4,
         "slots": 1,
         "group": 9,
@@ -804,7 +804,7 @@
             "braulio"
         ],
         "weekDay": 3,
-        "period": 3
+        "period": 7
     },
     {
         "id": 8111111442,
