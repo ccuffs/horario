@@ -361,14 +361,14 @@
     {
         "id": 28,
         "code": "",
-        "name": "GEX613 - Programa\u00e7\u00e3o II (Gian) <br/> GEX612 - Organização de computadores T2 (Caimi)",
+        "name": "GEX613 - Programa\u00e7\u00e3o II (Gian/Neimar) <br/> GEX612 - Organização de computadores T2 (Caimi)",
         "credits": 4,
         "slots": 2,
         "group": 4,
-        "members": [
-            "lcaimi",
+        "members": [           
             "gian",
-            "neimar.assmann"
+            "neimar.assmann",
+             "lcaimi"
             
         ],
         "weekDay": 3,
