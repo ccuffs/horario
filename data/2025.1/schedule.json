@@ -34,7 +34,7 @@
         "group": 1,
         "members": [
             "felipe.grando",
-            "lorenzon"
+            "jefferson.caramori"
         ],
         "weekDay": 2,
         "period": 5
@@ -48,7 +48,7 @@
         "group": 1,
         "members": [
             "felipe.grando",
-            "lorenzon"
+            "jefferson.caramori"
         ],
         "weekDay": 3,
         "period": 4
@@ -62,7 +62,7 @@
         "group": 1,
         "members": [
             "gian",
-            "seletivo.ch"
+            "neimar.assmann"
         ],
         "weekDay": 3,
         "period": 5
@@ -76,7 +76,7 @@
         "group": 1,
         "members": [
             "gian",
-            "seletivo.ch"
+            "neimar.assmann"
         ],
         "weekDay": 5,
         "period": 4
@@ -209,7 +209,7 @@
         "group": 3,
         "members": [
             "samuel.feitosa",
-            "lorenzon"
+            "jefferson.caramori"
         ],
         "weekDay": 2,
         "period": 4
@@ -223,7 +223,7 @@
         "group": 3,
         "members": [
             "samuel.feitosa",
-            "lorenzon"
+            "jefferson.caramori"
         ],
         "weekDay": 3,
         "period": 5
@@ -366,8 +366,10 @@
         "slots": 2,
         "group": 4,
         "members": [
+            "lcaimi",
             "gian",
-            "lcaimi"
+            "neimar.assmann"
+            
         ],
         "weekDay": 3,
         "period": 6
