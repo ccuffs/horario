@@ -1,0 +1,17 @@
+{
+    "groups": {},
+    "courses": {
+        "0": {
+            "info": "Em inglês",
+            "warn": "",
+            "alert": "",
+            "notice": "<br>",
+            "hidePeriods": []
+        }
+    },
+    "members": {
+        "sem.professor": {
+            "warn": "Atualmente sem professor"
+        }
+    }
+}

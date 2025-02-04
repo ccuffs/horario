@@ -1,5 +1,5 @@
 [
-     {
+    {
         "id": 1,
         "code": "GEX1163",
         "name": "GEX1163 - Introdu\u00e7\u00e3o \u00e0 Computa\u00e7\u00e3o",
@@ -12,7 +12,7 @@
         "weekDay": 2,
         "period": 4
     },
-     {
+    {
         "id": 2,
         "code": "GEX1163",
         "name": "GEX1163 - Introdu\u00e7\u00e3o \u00e0 Computa\u00e7\u00e3o",
@@ -471,7 +471,9 @@
         "credits": 2,
         "slots": 1,
         "group": 5,
-        "members": ["sem.professor"],
+        "members": [
+            "sem.professor"
+        ],
         "weekDay": 3,
         "period": 6
     },
@@ -612,7 +614,9 @@
         "credits": 4,
         "slots": 2,
         "group": 6,
-        "members": ["sem.professor"],
+        "members": [
+            "sem.professor"
+        ],
         "weekDay": 6,
         "period": 6
     },
