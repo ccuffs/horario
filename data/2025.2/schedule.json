@@ -706,7 +706,7 @@
         "slots": 2,
         "group": 7,
         "members": [
-            "neimar.assmann"
+            "schreiner.geomar"
         ],
         "weekDay": 5,
         "period": 6
@@ -791,8 +791,8 @@
     },
     {
         "id": 63,
-        "code": "GEX623",
-        "name": "GEX623 - TÓPICOS ESPECIAIS EM COMPUTAÇÃO I",
+        "code": "GEX1090",
+        "name": "GEX1090 - TÓPICOS ESPECIAIS EM COMPUTAÇÃO XL",
         "credits": 4,
         "slots": 2,
         "group": 9,
