@@ -42,7 +42,7 @@
     },
     {
         "id": 3,
-        "code": "GEX1163",
+        "code": "",
         "name": "GEX1163 - Introdução à Computação (Felipe/Jefferson)  <br/> GEX1053 - Matemática C (T02) (Lucia)",
         "credits": 4,
         "slots": 2,
@@ -465,7 +465,7 @@
     },
     {
         "id": 41,
-        "code": "GCS238",
+        "code": "",
         "name": "GCS238 - MEIO AMBIENTE, ECONOMIA E SOCIEDADE <br> (Mesma turma para 5°(PPC 2025) e 7° (PPC 2018) fases)",
         "credits": 4,
         "slots": 2,
@@ -491,7 +491,7 @@
     },
     {
         "id": 39,
-        "code": "GCH1740",
+        "code": "",
         "name": "GCH1740 - Introdução à Filosofia (Aguardando Professor) <br> GEX1218 - Linguagens Formais e Autômatos (Braulio)",
         "credits": 4,
         "slots": 2,
@@ -544,7 +544,7 @@
     },
     {
         "id": 45,
-        "code": "GEX395",
+        "code": "",
         "name": "GEX395 - CÁLCULO NUMÉRICO <br> (Mesma turma para 6°(PPC 2025) e 7° (PPC 2018) fases)",
         "credits": 4,
         "slots": 2,
@@ -583,7 +583,7 @@
     },
     {
         "id": 46,
-        "code": "GCS239",
+        "code": "",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
         "slots": 3,
@@ -648,7 +648,7 @@
     },
     {
         "id": 54,
-        "code": "GEX395",
+        "code": "",
         "name": "GEX395 - CÁLCULO NUMÉRICO <br> (Mesma turma para 6°(PPC 2025) e 7° (PPC 2018) fases)",
         "credits": 4,
         "slots": 2,
@@ -661,7 +661,7 @@
     },
     {
         "id": 57,
-        "code": "GCS238",
+        "code": "",
         "name": "GCS238 - MEIO AMBIENTE, ECONOMIA E SOCIEDADE <br> (Mesma turma para 5°(PPC 2025) e 7° (PPC 2018) fases)",
         "credits": 4,
         "slots": 2,
@@ -726,7 +726,7 @@
     },
     {
         "id": 58,
-        "code": "GCS239",
+        "code": "",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
         "slots": 3,
