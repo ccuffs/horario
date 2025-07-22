@@ -1,242 +1,626 @@
 {
-  "GEX208": {
-      "name": "Informática Básica",
-      "description": "Fundamentos de informática. Conhecimentos de sistemas operacionais. Utilização da redemundial de computadores. Ambientes virtuais de aprendizagem."
-  },
-  "GEX213": {
-      "name": "Matemática C",
-      "description": "Utilizar conceitos e procedimentos matemáticos para analisar dados, elaborar modelos e resolver problemas. Sintetizar, deduzir, elaborar hipóteses etc, e argumentar com clareza e coerência utilizando elementos de linguagem matemática."
-  },
-  "GCH293": {
-      "name": "Introdução a Filosofia",
-      "description": "Fundamentos filosóficos da Modernidade. Tópicos de Ética e de Epistemologia."
-  },
-  "GEX003": {
-      "name": "Algoritmos e Programação",
-      "description": "Noções iniciais de programação e criação de software. Desenvolvimento do raciocínio lógico para o desenvolvimento de algoritmos. Compreender como o computador executa programas. Desenvolver algoritmos utilizando os conceitos aprendidos."
-  },
-  "GEX210": {
-      "name": "Estatísca Básica",
-      "description": "Utilizar ferramentas da estatística descritiva para interpretar, analisar e sintetizar dados estatísticos com vistas à compreensão de contextos diversos."
-  },
-  "GEX178": {
-      "name": "Cálculo I",
-      "description": "Introdução as principais ferramentas do cálculo diferencial e integral de funções de uma variável, abordando suas aplicações."
-  },
-  "GEN253": {
-      "name": "Circuitos digitais",
-      "description": "Fundamentos de Eletrônica. Famílias Lógicas. Simulação de Circuitos Lógicos. Álgebra de Boole etc."
-  },
-  "GEX605": {
-      "name": "Estruturas de dados",
-      "description": "Conceitos básicos de complexidade de algoritmos. Alocação dinâmica de memória. Tipos Abstratos de Dados. Listas lineares e suas generalizações."
-  },
-  "GEX055": {
-      "name": "Probabilidade e estatística",
-      "description": "Estudo de elementos estatísticos discretos necessários para alguns tópicos em Ciência da Computação, como a análise do caso médio de algoritmos e os algoritmos probabilísticos."
-  },
-  "GLA104": {
-      "name": "Produção textual acadêmica",
-      "description": "Desenvolvimento da competência textual-discursiva de modo a fomentar a habilidade de leitura e produção de textos orais e escritos na esfera acadêmica."
-  },
-  "GEX195": {
-      "name": "Geometria analítica",
-      "description": "Sistema de coordenadas cartesianas. Vetores no plano e no espaço. Estudo analítico de retas e planos. Distâncias. Cônicas. Superfícies quádricas."
-  },
-  "GEX606": {
-      "name": "Sistemas digitais",
-      "description": "Compreensão de conceitos e do funcionamento de circuitos digitais utilizados em computação, através da apresentação de técnicas de projeto e simulação e implementação usando linguagens de descrição de hardware e tecnologias de prototipação."
-  },
-  "GEX608": {
-      "name": "Matemática discreta",
-      "description": "Compreensão de fundamentos matemáticos necessários às diversas disciplinas da Ciência da Computação. Estudo de elementos matemáticos discretos em aplicações computacionais."
-  },
-  "GEX609": {
-      "name": "Pesquisa e ordenação de dados",
-      "description": "Utilização de estruturas de dados avançadas para ordenação e pesquisa de informações. Construção de algoritmos para persistir dados e tratar dados persistidos. Analise e comparação de métodos de ordenação quadráticos e métodos recursivos."
-  },
-  "GEX098": {
-      "name": "Programação I",
-      "description": "Compreensão de conceitos fundamentais do paradigma de programação orientada a objetos e suas aplicações no desenvolvimento de soluções de software."
-  },
-  "GEX099": {
-    "name": "Programação II",
-    "description": "Conhecer e aplicar as principais técnicas e ferramentas utilizadas no desenvolvimento de sistemas para a Web."
-  },
-  "GEX607": {
-      "name": "Álgebra linear",
-      "description": "Estudo de técnicas de integração de uma função de uma variável e aplicações na resolução de problemas. Introdução às principais ferramentas do cálculo diferencial e integral de funções de várias variáveis."
-  },
-  "GEX392": {
-      "name": "Cálculo II",
-      "description": "Estudo de técnicas de integração de uma função de uma variável e aplicações na resolução de problemas. Introdução às principais ferramentas do cálculo diferencial e integral de funções de várias variáveis."
-  },
-  "GEX612": {
-      "name": "Organização de computadores",
-      "description": "Conhecer os principais conceitos envolvidos na concepção da arquitetura e organização dos computadores, sabendo caracterizar e entender o funcionamento interno de um computador,dada uma certa arquitetura, reconhecendo o impacto de cada alternativa sobre fatores como desempenho e custo."
-  },
-  "GEX090": {
-      "name": "Banco de dados I",
-      "description": "Noçoes iniciais sobre o funcionamento de banco de dados. Executar um projeto de banco de dados relacional e manipular os dados armazenados."
-  },
-  "GEX613": {
-      "name": "Programação II",
-      "description": "Estudo e aplicação das principais técnicas utilizadas para o desenvolvimento de sistemas para a Web."
-  },
-  "GCH290": {
-      "name": "Iniciação à prática científica",
-      "description": "Proporcionar reflexões sobre as relações existentes entre universidade, sociedade e conhecimento científico e fornecer instrumentos para iniciar o acadêmico na prática da atividade científica."
-  },
-  "GEX615": {
-      "name": "Engenharia de software I",
-      "description": "Compreensão do processo completo de desenvolvimento de produtos de software e os procedimentos necessários, com ênfase no planejamento e melhoria contínua."
-  },
-  "GEN254": {
-      "name": "Grafos",
-      "description": "Compreensão de conceitos básicos em Teoria dos Grafos. Modelagem de problemas e situações diversas com grafos. Desenvolvimento da criatividade e das habilidades formais de demonstração através de exercícios sobre grafos e aplicações."
-  },
-  "GCS238": {
-      "name": "Meio ambiente, economia e sociedade",
-      "description": "Compreensão acerca dos principais conceitos que envolvem a Economia Política e a sustentabilidade do desenvolvimento das relações socioeconômicas e do meio ambiente"
-  },
-  "GCS011": {
-    "name": "Meio ambiente, economia e sociedade",
-    "description": "Compreensão acerca dos principais conceitos que envolvem a Economia Política e a sustentabilidade do desenvolvimento das relações socioeconômicas e do meio ambiente"
-  },
-  "GEX091": {
-      "name": "Banco de dados II",
-      "description": "Estudo de como os sistemas gerenciadores de banco de dados relacionais (SGBDR) armazenam fisicamente os dados para acesso. Compreensão dos componentes dos SGBDR."
-  },
-  "GEX106": {
-    "name": "Computação distribuída",
-    "description": "Projetar e desenvolver sistemas computacionais de natureza distribuída."
-  },  
-  "GEX107": {
-      "name": "Computação gráfica",
-      "description": "Dominar os principais conceitos e técnicas da Computação Gráfica 2D e 3D."
-  },
-  "GEX101": {
-      "name": "Linguagens formais e autômatos",
-      "description": "Compreensão e aplicação de conceito de alfabeto, palavra, linguagem, grámatica. Classificação formal de uma linguagem de acordo com hierarquia de Chromsky etc."
-  },
-  "GEX616": {
-      "name": "Engenharia de software II",
-      "description": "Analise e desenvolvimento de software utilizando métricas e conceitos de gestão de projeto. Arquitetura de software. Noções de usabilidade e critérios ergonômicos."
-  },
-  "GEX110": {
-      "name": "Sistemas operacionais",
-      "description": "Estudo e analise da estrutura, funcionalidades, os tipos e a evolução dos sistemas operacionais."
-  },
-  "GEX112": {
-    "name": "Segurança e Auditoria de Sistemas",
-    "description": "Reconhecer e relacionar os principais riscos envolvidos no ambiente de informações e os principais pontos de controle de auditoria da tecnologia da informação no que se refere à auditoria do desenvolvimento e manutenção de sistemas, administração de dados, administração de banco de dados, e administração de redes de computadores."
-  },
-  "GEX119": {
-    "name": "Trabalho de Conclusão de Curso I",
-    "description": "Escrever um projeto científico na área de computação. Defender um projeto perante uma banca."
-  },
-  "GEX120": {
-    "name": "Trabalho de Conclusão de Curso II",
-    "description": "Executar o projeto proposto no TCC I. Desenvolver o produto proposto no TCCI. Defender o resultado obtido perante a uma baca."
-  },
-  "GCH292": {
-      "name": "História da fronteira sul",
-      "description": "Compreender o processo de formação da região sul do Brasil por meio da análise de aspectos históricos do contexto de povoamento, despovoamento e colonização."
-  },
-  "OPTATIVA1": {
-      "name": "Optativa I",
-      "description": ""
-  },
-  "GEX105": {
-      "name": "Redes de computadores",
-      "description": "Compreensão das redes de computadores, conhecendo o modelo de referência OSI, a arquitetura TCP/IP e seus protocolos, equipamentos e principais aplicações."
-  },
-  "GCS580": {
-      "name": "Planejamento e gestão de projetos",
-      "description": "Planejar e gerenciar projetos de software utilizando metodologias de gerenciamento de projetos adequadas."
-  },
-  "GCS107": {
-    "name": "Planejamento e gestão de projetos",
-    "description": "Planejar e gerenciar projetos de software utilizando metodologias de gerenciamento de projetos adequadas."
-},  
-  "GEX614": {
-      "name": "Teoria da computação",
-      "description": "Compreensão da importância da Teoria da Computação para a prática computacional através dos conceitos de Computabilidade, Decidibilidade, Complexidade e Tratabilidade. Desenvolvimento das habilidades de argumentação matemática e formal para demonstrações em Teoria da Computação."
-  },
-  "GEX108": {
-      "name": "Construção de Compiladores",
-      "description": "Compreender a estrutura de compiladores, o processo de compilação no reconhecimento de linguagens e a geração/otimização de código. Construir analisadores léxicos e sintáticos."
-  },
-  "GEX617": {
-      "name": "Linguagens de programação",
-      "description": "Entender a classificação das linguagens de programação e seu contexto histórico.Compreender os aspectos técnicos de implementação dos diferentes recursos oferecidos pelas principais linguagens. Adquirir a experiência de programar em paradigmas não-usuaisde programação a fins de comparação nos mais diversos contextos."
-  },
-  "GEX109": {
-      "name": "Inteligência artificial",
-      "description": "Adquirir o conhecimento básico para trabalhar com as abordagens diferenciadas da Inteligência Artificial, objetivando simular comportamento inteligente através da máquina."
-  },
-  "OPTATIVA2": {
-      "name": "Optativa II",
-      "description": ""
-  },
-  "GEX395": {
-      "name": "Cálculo numérico",
-      "description": "Abordar a resolução não algébrica de problemas matemáticos por meio de métodos numéricos, fazendo uso de ferramentas do cálculo diferencial e integral, da álgebra linear e de equações diferenciais ordinárias."
-  },
-  "OPTATIVA3": {
-      "name": "Optativa III",
-      "description": ""
-  },
-  "GEX657": {
-      "name": "TCC I",
-      "description": "Escrever um projeto científico na área de computação. Defender um projeto perante uma banca."
-  },
-  "OPTATIVA4": {
-      "name": "Optativa IV",
-      "description": ""
-  },
-  "OPTATIVA5": {
-      "name": "Optativa V",
-      "description": ""
-  },
-  "GEX658": {
-      "name": "TCC II",
-      "description": "Executar o projeto proposto no TCC I. Desenvolver o produto proposto no TCC I. Defender o resultado obtido perante uma banca."
-  },
-  "GCS239": {
-      "name": "Direito e cidadania",
-      "description": "Permitir ao estudante uma compreensão adequada acerca dos interesses de classe, das ideologias e das elaborações retórico-discursivas subjacentes à categoria cidadania."
-  },
-  "GCS320": {
-    "name": "Empreendedorismo (Opt I)",
-    "description": "Desenvolver o espírito empreendedor na área da tecnologia da informação. Habilidades de um empreendedor. Jornada do Empreendedor. Ferramentas e práticas para desenvolver o negócio. Desenvolvimento de uma startup seguindo a metodologia do google.<br /><br />Conhecimentos prévios necessários:<br />Nenhum."
-  },
-  "GCH012": {
-      "name": "Fundamentos da crítica social",
-      "description": "Fomentar, através do contato com os principais marcos teóricos da Filosofia Moderna e Contemporânea, a reflexão sobre os alicerces de toda ciência social."
-  },
-  "GCH291": {
-      "name": "Introdução ao pensamento social",
-      "description": ""
-  },
-  "GCH011": {
-    "name": "Introdução ao pensamento social",
-    "description": ""
-  },  
-  "GEX624": {
-    "name": "Tópicos especiais em computação II",
-    "description": "Compreender técnicas para processamento e extração de informações relevantes em textos utilizando abordagens baseadas em aprendizagem de máquina. Uso do Jypyter/Python; recuperação de informação em texto; consultas boolenas; pré-processamento (tokenização, stop words,etc) ; extração de atributos  (BM-25; TF-IDF; Bag-of-words) ; Métricas de avaliação; Algoritmos de classificação (Árvores de decisão, random forests;Naïve Bayes; support vector machines.), agrupamento (k-Nearest Neighbours).<br /><br />Conhecimentos prévios necessários:<br /><br />Banco de dados II."
-  },  
-  "GEX625": {
-    "name": "Tópicos especiais em computação III",
-    "description": "Compreender técnicas para processamento e extração de informações relevantes em textos utilizando abordagens baseadas em aprendizagem de máquina. Uso do Jypyter/Python; recuperação de informação em texto; consultas boolenas; pré-processamento (tokenização, stop words,etc) ; extração de atributos  (BM-25; TF-IDF; Bag-of-words) ; Métricas de avaliação; Algoritmos de classificação (Árvores de decisão, random forests;Naïve Bayes; support vector machines.), agrupamento (k-Nearest Neighbours).<br /><br />Conhecimentos prévios necessários:<br /><br />Banco de dados II."
-  },
-  "GEX635": {
-    "name": "Tópicos especiais em computação XIII",
-    "description": "Modelo de comunicação publish/subscribe na Internet das Coisas (Internet-of-Things, IoT). Explorar os fundamentos do modelo de comunicação publish/subscribe no contexto da Internet das Coisas. a) Fundamentos do padrão de comunicação publish/subscribe (P/S); b) Principais protocolos que adotam o paradigma P/S; c) Estudo de caso com o Message Queuing Telemetry Transport - MQTT (protocolo P/S mais adotado no desenvolvimento de aplicações para Internet das Coisas).<br /><br />Conhecimentos prévios necessários:<br />Redes de Computadores."
-  },
-  "GEX636": {
-    "name": "Tópicos especiais em computação XIV",
-    "description": "Visão geral dos sistemas integrados em chip, com ênfase na comunicação intra-chip e no uso de multi-processamento. Introdução aos SOC. Comunicação intra-chip: barramentos; barramentos hierárquicos; redes intra-chip. Redes intra-chip. MPSoC Memphis. Desenvolvimento e depuração de aplicações no MPSoC Memphis. <br /><br />Conhecimentos prévios necessários:<br />Organização de computadores; Sistemas operacionais."
-  }
+    "GCH290": {
+        "name": "INICIAÇÃO À PRÁTICA CIENTÍFICA",
+        "description": "A instituição Universidade: ensino, pesquisa e extensão. Ciência e tipos de conhecimento. Método científico. Metodologia científica. Ética na prática científica. Constituição de campos e construção do saber. Emergência da noção de ciência. O estatuto de cientificidade e suas problematizações."
+    },
+    "GCH012": {
+        "name": "FUNDAMENTOS DA CRÍTICA SOCIAL",
+        "description": "Elementos de antropologia. Noções de epistemologia, ética e estética. Materialismo e Idealismo. As críticas da modernidade. Tópicos de filosofia contemporânea."
+    },
+    "GCH011": {
+        "name": "INTRODUÇÃO AO PENSAMENTO SOCIAL",
+        "description": "Cultura e processos sociais: senso comum e desnaturalização. As origens da Sociologia e o Positivismo. Os clássicos da Sociologia: Karl Marx, Émile Durkheim e Max Weber. Temas contemporâneos."
+    },
+    "GEX1094": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLIV",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1099": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLIX",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX438": {
+        "name": "ADMINISTRAÇÃO E GERÊNCIA DE REDES",
+        "description": "Princípios, organização e métodos de administração de rede. Tecnologias para operação e gerência de rede. Recursos humanos para administração de rede. Plataformas de gerência de redes. Aplicações de gerência de rede."
+    },
+    "GCS319": {
+        "name": "ADMINISTRAÇÃO E ORGANIZAÇÃO",
+        "description": "O papel da administração geral das organizações, quanto aos seus princípios, desenvolvimento e áreas de conhecimento correlatas. Caracterização da evolução das organizações empresariais, no que se refere aos seus sistemas de produção e à sua organização do trabalho. Mudanças econômicas ocorridas e seus impactos nas organizações. Tratamento dos conceitos de marketing e gestão de marketing nas empresas. Contextualização para a pequena empresa de tecnologia de informática."
+    },
+    "GEX003": {
+        "name": "ALGORITMOS E PROGRAMAÇÃO",
+        "description": "Conceito e construção de algoritmos. Tipos básicos de dados. Comandos de atribuição, condicionais e de repetição. Registros/estruturas. Vetores e Matrizes. Strings. Modulariza- ção. Operações básicas em arquivos. Recursão. Ponteiros."
+    },
+    "GEX1206": {
+        "name": "ALGORITMOS E PROGRAMAÇÃO",
+        "description": "Conceito e construção de algoritmos. Tipos básicos de dados. Operadores. Expressões e diretivas. Comandos condicionais e de repetição. Vetores e matrizes. Funções. Estruturas."
+    },
+    "GEX621": {
+        "name": "ANÁLISE DE ALGORITMOS",
+        "description": "Prova de corretude e de parada de algoritmos. Assintótica: notações O, o, Ω, ω e Θ. Análise de complexidade de tempo e de espaço: melhor caso, pior caso e caso-médio. Recorrências. Análise de algoritmos de ordenação e busca."
+    },
+    "GEX620": {
+        "name": "ARQUITETURA DE COMPUTADORES",
+        "description": "RISC vs. CISC. Arquitetura do Processador MIPS: MIPS Monociclo e MIPS Multiciclo. MIPS Pipeline. Conflitos estruturais de dados e de controle. Processador superescalar. Pro- cessador VLIW. Multicore System on Chip."
+    },
+    "GEX090": {
+        "name": "BANCO DE DADOS I",
+        "description": "Conceitos de banco de dados. Sistemas Gerenciadores de Banco de Dados (SGBDs). Mode- los de dados. Modelagem conceitual e projeto de banco de dados. Modelo relacional: con- ceitos, restrições, linguagens de consulta (álgebra relacional, cálculo relacional, SQL), nor- malização."
+    },
+    "GEX641": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XIX",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX1214": {
+        "name": "BANCO DE DADOS I",
+        "description": "Conceitos de banco de dados. Sistemas Gerenciadores de Banco de Dados (SGBDs). Modelos de dados. Modelagem conceitual e projeto de banco de dados. Modelo relacional: conceitos, restrições, linguagens de consulta (e.g., álgebra relacional e SQL), normalização."
+    },
+    "GEN506": {
+        "name": "BANCO DE DADOS II",
+        "description": "Conceitos avançados de SQL. Gerenciamento de Transações. Processamento e otimização de consultas. Controle de concorrência. Recuperação e Segurança. Integração de banco de dados. Banco de dados não convencionais."
+    },
+    "GEX091": {
+        "name": "BANCO DE DADOS II",
+        "description": "Armazenamento físico. Estruturas de indexação. Processamento e otimização de consultas. Processamento de transações. Controle de concorrência. Recuperação após falhas. Concei- tos avançados de SQL."
+    },
+    "GEN253": {
+        "name": "CIRCUITOS DIGITAIS",
+        "description": "Fundamentos de Eletrônica. Famílias Lógicas. Simulação de Circuitos Lógicos. Álgebra de Boole. Circuitos Combinacionais: codificadores, multiplexadores e aritméticos. Circuitos Sequenciais: Latches, Flip-Flops e Registradores. Memórias."
+    },
+    "GEN504": {
+        "name": "CIRCUITOS DIGITAIS",
+        "description": "Fundamentos de Eletrônica. Famílias Lógicas. Simulação de Circuitos Lógicos. Álgebra de Boole. Circuitos Combinacionais: codificadores, multiplexadores e aritméticos. Circuitos Sequenciais: Latches, Flip-Flops e Registradores. Memórias."
+    },
+    "GEX654": {
+        "name": "COMPUTAÇÃO ALEATORIZADA",
+        "description": "Algoritmos de Monte Carlo e de Las Vegas. Algoritmos probabilísticos para os problemas de satisfatibilidade MAX SAT e MAX 3-SAT. Quicksort aleatorizado. Máquinas de Turing probabilísticas. Classes computacionais probabilísticas. Passeios aleatórios em grafos. Algoritmos distribuídos aleatorizados. Testes de primalidade aleatorizados."
+    },
+    "GEX106": {
+        "name": "COMPUTAÇÃO DISTRIBUÍDA",
+        "description": "Arquitetura de Sistemas Distribuídos. Paradigmas de Computação Distribuída: Troca de Mensagens, Cliente/Servidor, Comunicação em Grupo, Objetos Distribuídos. Comunicação entre Processos Distribuídos. Suporte de SO para Computação Distribuída. Concorrência e Sincronização em Sistemas Distribuídos. Consistência e Replicação de Dados em Sistemas Distribuídos. Sistemas de Arquivo Distribuídos. Computação em grade (grid computing). Arquiteturas e modelos de programação paralela."
+    },
+    "GEX107": {
+        "name": "COMPUTAÇÃO GRÁFICA",
+        "description": "Conceitos básicos. Dispositivos gráficos. Sistemas de cores. Transformações geométricas. Primitivas gráficas. Visibilidade. Rendering (modelos de iluminação, shading, textura, antialiasing)."
+    },
+    "GEX1229": {
+        "name": "COMPUTAÇÃO GRÁFICA",
+        "description": "Conceitos básicos. Dispositivos gráficos. Sistemas de cores. Transformações geométricas. Primitivas gráficas. Visibilidade. Rendering (modelos de iluminação, shading, textura, antialiasing)."
+    },
+    "GEX653": {
+        "name": "COMPUTAÇÃO GRÁFICA AVANÇADA",
+        "description": "Introdução à programação de Shaders. Diversos tipos de mapeamento de textura: mapeamento de rugosidade (bump mapping), mapeamento de ambiente (environment mapping), mapeamento de reflexão (reflection mapping), mapeamento de relevo (relief mapping). Algoritmos para geração de sombras. Equação de Rendering. Modelos de iluminação. Algoritmos de iluminação global. Ray tracing. Radiosidade. Photon mapping. Pre-computed radiance transfer. Rendering baseado em imagens. Iluminação baseada em imagens."
+    },
+    "GEX108": {
+        "name": "CONSTRUÇÃO DE COMPILADORES",
+        "description": "Projeto de especificação de linguagens de programação. Etapas que compreendem o processo de compilação: análise léxica, análise sintática, análise semântica, geração e otimização de código. Evolução e tendências da área de compiladores e linguagens de programação. Implementação de analisadores."
+    },
+    "GEX1223": {
+        "name": "CONSTRUÇÃO DE COMPILADORES",
+        "description": "Projeto de especificação de linguagens de programação. Etapas que compreendem o processo de compilação: análise léxica, análise sintática, análise semântica, geração e otimização de código. Evolução e tendências da área de compiladores e linguagens de programação. Implementação de analisadores léxicos e sintáticos."
+    },
+    "GEX1143": {
+        "name": "CÁLCULO I",
+        "description": "Limite e continuidade de funções de uma variável real. Derivadas. Aplicações da derivada. Integrais definidas e indefinidas. Teorema fundamental do Cálculo. Cálculo de áreas. Aplicações da integral."
+    },
+    "GEX178": {
+        "name": "CÁLCULO I",
+        "description": "Limite e continuidade de funções de uma variável real. Derivadas. Aplicações da derivada. Integrais definidas e indefinidas. Teorema fundamental do Cálculo. Cálculo de áreas. Aplicações da integral."
+    },
+    "GEX1146": {
+        "name": "CÁLCULO II",
+        "description": "Algumas técnicas de integração e aplicações da integral. Funções de várias variáveis. Limite e continuidade de funções de várias variáveis. Derivadas parciais e aplicações. Gradiente. Diferenciabilidade. Multiplicadores de Lagrange. Integrais múltiplas."
+    },
+    "GEX392": {
+        "name": "CÁLCULO II",
+        "description": "Algumas técnicas de integração e aplicações da integral. Funções de várias variáveis. Limi- te e continuidade de funções de várias variáveis. Derivadas parciais e aplicações. Gradiente. Diferenciabilidade. Multiplicadores de Lagrange. Integrais múltiplas."
+    },
+    "GEX1149": {
+        "name": "CÁLCULO NUMÉRICO",
+        "description": "Erros computacionais e aproximação numérica. Cálculo de raízes de funções reais. Resolução de sistemas lineares: métodos diretos e iterativos. Interpolação polinomial. Ajuste de curvas: quadrados mínimos lineares. Integração numérica. Tratamento numérico de equações diferenciais ordinárias."
+    },
+    "GEX395": {
+        "name": "CÁLCULO NUMÉRICO",
+        "description": "Erros computacionais e aproximação numérica. Cálculo de raízes de funções reais. Resolução de sistemas lineares: métodos diretos e iterativos. Interpolação polinomial. Ajuste de curvas: quadrados mínimos lineares. Diferenciação e integração numérica. Tratamento numérico de equações diferenciais ordinárias."
+    },
+    "GEX1215": {
+        "name": "DESENVOLVIMENTO DE SISTEMAS WEB",
+        "description": "Funcionamento de aplicações e sistemas Web: arquitetura cliente-servidor, protocolos de rede, padrões de projeto e servidores de aplicação Web. Desenvolvimento de sistemas Web: frameworks de front-end e back-end. Conceitos e práticas de segurança da informação. Integração de sistemas Web com sistemas gerenciadores de banco de dados. Conceitos e aplicações de web services."
+    },
+    "GCS0877": {
+        "name": "DIREITOS E CIDADANIA",
+        "description": "Origens históricas e teóricas da noção de cidadania. O processo moderno de constituição dos direitos civis, políticos, sociais e culturais. Políticas de reconhecimento e promoção da cidadania. Direitos e cidadania no Brasil."
+    },
+    "GCS239": {
+        "name": "DIREITOS E CIDADANIA",
+        "description": "Origens históricas e teóricas da noção de cidadania. O processo moderno de constituição dos direitos civis, políticos, sociais e culturais. Políticas de reconhecimento e promoção da cidadania. Direitos e cidadania no Brasil."
+    },
+    "GCS320": {
+        "name": "EMPREENDEDORISMO",
+        "description": "A informática como área de negócios: análise dos diversos setores de mercado, suas características e tendências. O empreendimento e o empreendedor. Técnicas de negociação. Desenvolvimento organizacional. Qualidade total. Planejamento de empreendimentos em Informática."
+    },
+    "GEX1090": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XL",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1091": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLI",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GCS815": {
+        "name": "EMPREENDEDORISMO E CRIAÇÃO DE NEGÓCIOS",
+        "description": "Conceito de empreendedorismo e empreendedor. Características empreendedoras. Atividade Empreendedora. Empreendedorismo e educação. Empreendedorismo e criatividade. Vias empreendedoras. Empreendedorismo e empregabilidade. Desenvolvimento de conhecimentos, atitudes e habilidades empreendedoras. Plano de negócios: conceito, composição e elaboração de um plano de negócios."
+    },
+    "GEX435": {
+        "name": "ENGENHARIA DA USABILIDADE",
+        "description": "Fundamentos de interação humano-computador. Usabilidade. Critérios e recomendações ergonômicas. Estilos de interação. Metodologias, técnicas e ferramentas de concepção, projeto e implementação de sistemas interativos. Avaliação de interfaces. Normas técnicas. Acessibilidade. Usabilidade na Web."
+    },
+    "GEX1216": {
+        "name": "ENGENHARIA DE SOFTWARE I",
+        "description": "Engenharia De Software: Histórico, Objetivo, Importância e Principais Desafios. Padrões de processos de desenvolvimento de software. Engenharia de Requisitos. Gerência de Configuração de Software. Qualidade de Software: Qualidade de processos e de produto. Gerenciamento da Qualidade de Software e Métricas."
+    },
+    "GEX615": {
+        "name": "ENGENHARIA DE SOFTWARE I",
+        "description": "Engenharia de software: evolução, conceito e objetivo. Processo e ciclo de vida de desenvolvimento de software. Métodos de análise e de projeto de software. Engenharia de requisitos. Gerenciamento de configuração de software e ferramentas para controle de versão. Verificação, validação e teste. Entrega e manutenção. Medição de software. Garantia da qualidade de software. Métodos ágeis de desenvolvimento de software. Comparação entre métodos ágeis e métodos tradicionais. Ambientes de desenvolvimento de software."
+    },
+    "GEX1222": {
+        "name": "ENGENHARIA DE SOFTWARE II",
+        "description": "Padrões de Projetos. Modelagem de Software Orientada a Objetos: Conceitos e Diagramas da UML. Gerência De Projetos."
+    },
+    "GEX616": {
+        "name": "ENGENHARIA DE SOFTWARE II",
+        "description": "Análise de requisitos. Técnicas para levantamento e representação de requisitos. Modelos de Processos existentes para o desenvolvimento de aplicações orientadas a objetos. O paradigma orientado a objetos. Técnicas de análise orientada a objetos. UML e seus diagramas. Padrões de projeto. Arquitetura de software. Noções de usabilidade e critérios ergonômicos."
+    },
+    "GEX1047": {
+        "name": "ESTATÍSTICA BÁSICA",
+        "description": "Noções básicas de Estatística. Séries e gráficos estatísticos. Distribuições de frequências. Medidas de tendência central. Medidas de dispersão. Medidas separatrizes. Análise de Assimetria. Noções de probabilidade e inferência."
+    },
+    "GEX210": {
+        "name": "ESTATÍSTICA BÁSICA",
+        "description": "Noções básicas de Estatística. Séries e gráficos estatísticos. Distribuições de frequências. Medidas de tendência central. Medidas de dispersão. Medidas separatrizes. Análise de Assimetria. Noções de probabilidade e inferência."
+    },
+    "GEX605": {
+        "name": "ESTRUTURAS DE DADOS",
+        "description": "Conceitos básicos de complexidade de algoritmos. Alocação dinâmica de memória. Tipos Abstratos de Dados. Listas lineares e suas generalizações: listas ordenadas, listas encadea- das, pilhas e filas. Hashing: funções e tratamento de colisões. Árvores: representação, ope- rações e percursos em árvores. Árvores binárias de busca e balanceadas. Heaps. Árvore de Fenwick. Implementações com linguagem imperativa estruturada."
+    },
+    "GEX1207": {
+        "name": "ESTRUTURAS DE DADOS I",
+        "description": "Funções recursivas. Ponteiros. Alocação dinâmica de memória. Tipos Abstratos de Dados. Listas lineares: listas encadeadas, pilhas, filas. Árvores: representação, operações e percursos. Árvores binárias de busca. Heaps."
+    },
+    "GEX1210": {
+        "name": "ESTRUTURAS DE DADOS II",
+        "description": "Organização de arquivos e persistência de dados. Conceitos básicos de complexidade de algoritmos. Ordenação interna. Ordenação externa. Técnicas de pesquisa: busca sequencial, busca binária, tabelas de dispersão (hash), árvores de busca balanceadas (AVL, B, B+)."
+    },
+    "GEX1142": {
+        "name": "GEOMETRIA ANALÍTICA",
+        "description": "Sistema de coordenadas cartesianas. Vetores no plano e no espaço. Estudo analítico de retas e planos. Distâncias. Cônicas. Superfícies quádricas."
+    },
+    "GEX195": {
+        "name": "GEOMETRIA ANALÍTICA",
+        "description": "Sistema de coordenadas cartesianas. Vetores no plano e no espaço. Estudo analítico de retas e planos. Distâncias. Cônicas. Superfícies quádricas."
+    },
+    "GCS813": {
+        "name": "GESTÃO DA INOVAÇÃO",
+        "description": "Conceito de inovação. Tipos de inovação. Evolução conceitual e teórica da relação entre Ciência, Tecnologia e Inovação. Inovação e competitividade. Competências organizacionais e estratégias de inovação. Inovação e especificidades setoriais. Sistemas de inovação. Interação Universidade/Empresa/Governo. Transferência de Tecnologia. Planejamento e gestão do processo de inovação. Implicações da inovação na estrutura da empresa. Difusão de Inovações. Indicadores de inovação. Políticas públicas para inovação. Acumulação de competências tecnológicas"
+    },
+    "GEN254": {
+        "name": "GRAFOS",
+        "description": "Definições básicas de Teoria dos Grafos: vizinhança, isomorfismo, subgrafo, clique e con- junto independente. Representação computacional de grafos. Modelagem de problemas com grafos. Grafos bipartidos e cortes. Caminhos, ciclos, diâmetro e cintura. Conexidade e al- cançabilidade. Grafos biconexos e articulações. Grafos dirigidos e caminho mínimo. Busca. Árvores e árvores geradoras de custo mínimo. Grafos eulerianos e hamiltonianos. Estabili- dade e emparelhamento. Fluxo. Coloração e Planaridade. Problemas da Cobertura e da Tra- vessia."
+    },
+    "GEN505": {
+        "name": "GRAFOS",
+        "description": "Definições básicas de Teoria dos Grafos. Representação computacional de grafos. Modelagem de problemas com grafos. Caminhos e ciclos. Conexidade e alcançabilidade. Grafos dirigidos e caminhos de custo mínimo. Busca. Árvores e árvores geradoras de custo mínimo. Grafos eulerianos e hamiltonianos. Estabilidade e emparelhamento. Fluxo. Coloração e Planaridade."
+    },
+    "GCH1739": {
+        "name": "HISTÓRIA DA FRONTEIRA SUL",
+        "description": "Construção dos sentidos históricos. Noções de Identidade e de Fronteira. Invenção das tradições. Processos de povoamento, despovoamento e colonização. Conflitos econômicos e políticos. Choques culturais no processo de colonização. Questão indígena, cabocla e afrodescendente."
+    },
+    "GEX208": {
+        "name": "INFORMÁTICA BÁSICA",
+        "description": "Fundamentos de informática. Conhecimentos de sistemas operacionais. Utilização da rede mundial de computadores. Ambientes virtuais de aprendizagem. Conhecimentos de softwares de produtividade para criação de projetos educativos e/ou técnicos e/ou multimidiáticos."
+    },
+    "GCS318": {
+        "name": "INFORMÁTICA E SOCIEDADE",
+        "description": "Ética pessoal, profissional e pública na área da informática. Dilemas éticos do profissional da informática: privacidade, vírus, hacking, uso da Internet, direitos autorais, etc. Desemprego e informatização. Responsabilidade social. O profissional e o mercado de trabalho. Trabalho e relações humanas. O empreendedorismo como opção do profissional da informática. Legislação: política nacional e tendências atuais referentes à regulamentação da profissão."
+    },
+    "GCH416": {
+        "name": "INFORMÁTICA NA EDUCAÇÃO",
+        "description": "Histórico, evolução e tendências. Instrumentação computacional do ensino. Sistemas de tutoria. Sistemas de autoria. Ambientes de aprendizagem. Ensino a distância."
+    },
+    "GEX1092": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GCH1992": {
+        "name": "INICIAÇÃO À PRÁTICA DE EXTENSÃO",
+        "description": "Concepções teóricas sobre extensão universitária. Ligação da extensão com as atividades de pesquisa e ensino na formação do discente. Concepção, prática, acompanhamento, sistematização e avaliação das atividades de extensão na área da Ciência da Computação. Elaboração, desenvolvimento e submissão de um projeto nos seguintes eixos temáticos: Comunicação; Cultura; Direitos Humanos e Justiça; Meio Ambiente; Educação; Saúde; Tecnologia e Produção; e Trabalho, que integram o Plano Nacional de Extensão."
+    },
+    "GEX618": {
+        "name": "INTELIGÊNCIA ARTIFICIAL",
+        "description": "Definição e conceitos de Inteligência Artificial. Lógica Nebulosa. Algoritmos Genéticos. Redes Neurais Artificiais. Redes Bayesianas. Agentes lógicos, inferência, planejamento e representação de conhecimento. Aprendizagem de máquina. Técnicas de inteligência artificial aplicadas à resolução de problemas. Representação de conhecimento. Sistemas baseados em conhecimento. Aprendizagem de máquina. Arquiteturas de sistemas de Inteligência Artificial."
+    },
+    "GEX1205": {
+        "name": "INTRODUÇÃO AO DESENVOLVIMENTO WEB",
+        "description": "Introdução à Web: histórico, estrutura e funcionamento. Desenvolvimento front-end para a Web: páginas estáticas com HTML e CSS. Conceitos sobre responsividade, acessibilidade e usabilidade em sistemas Web. Introdução a linguagem Javascript e a frameworks CSS."
+    },
+    "GEX1163": {
+        "name": "INTRODUÇÃO À COMPUTAÇÃO",
+        "description": "Introdução ao Curso de Ciência da Computação e à Universidade Federal da Fronteira Sul: principais estruturas e regulamentos. Introdução à área da Computação: inserção e desenvolvimento profissional, carreira acadêmica e técnica, tecnologias e seus impactos nas relações Étnico-Raciais e culturais. Conhecimentos e comandos básicos em sistemas operacionais abertos. Fundamentos básicos da Computação: história, principais componentes de hardware e software, sistemas de numeração, aritmética binária e suas operações. Principais ferramentas e tecnologias para o desenvolvimento e versionamento de código."
+    },
+    "GCH1740": {
+        "name": "INTRODUÇÃO À FILOSOFIA",
+        "description": "A natureza e especificidade do discurso filosófico e sua relação com outros campos do conhecimento; principais correntes do pensamento filosófico; Fundamentos filosóficos da Modernidade. Tópicos de Ética e de Epistemologia."
+    },
+    "GCH293": {
+        "name": "INTRODUÇÃO À FILOSOFIA",
+        "description": "A natureza e especificidade do discurso filosófico e sua relação com outros campos do conhecimento; principais correntes do pensamento filosófico; Fundamentos filosóficos da Modernidade. Tópicos de Ética e de Epistemologia."
+    },
+    "GEX1224": {
+        "name": "LINGUAGENS DE PROGRAMAÇÃO",
+        "description": "Conceitos e evolução das principais linguagens de programação. Visão geral sobre diferentes paradigmas de programação. Desenvolvimento em paradigmas não usuais de programação. Análise léxica, sintática e semântica. Aspectos de implementação de linguagens de programação: expressões, tipos de dados, operadores, desvios condicionais, subprogramas."
+    },
+    "GEX101": {
+        "name": "LINGUAGENS FORMAIS E AUTÔMATOS",
+        "description": "Alfabeto, palavras, linguagens, autômatos, gramáticas e suas representações. A hierarquia de Chomsky. Linguagens regulares, autômatos finitos, gramáticas regulares e expressões regulares. Linguagens livres de contexto, gramáticas livres do contexto e autômatos de pilha. Linguagens sensíveis ao contexto e irrestritas. Gramáticas: ambiguidade e desambiguação."
+    },
+    "GEX1218": {
+        "name": "LINGUAGENS FORMAIS E AUTÔMATOS",
+        "description": "Alfabeto, palavras, linguagens, autômatos, gramáticas e suas representações. A hierarquia de Chomsky. Linguagens regulares, autômatos finitos, gramáticas regulares e expressões regulares. Linguagens livres de contexto, gramáticas livres do contexto e autômatos de pilha. Linguagens sensíveis ao contexto e irrestritas. Gramáticas: ambiguidade e desambiguação."
+    },
+    "GLA045": {
+        "name": "LÍNGUA BRASILEIRA DE SINAIS (Libras)",
+        "description": "Visão contemporânea da inclusão e da educação especial na área da surdez. Cultura e identidade da pessoa surda. Tecnologias voltadas para a surdez. História da linguagem de movimentos e gestos. Breve introdução aos aspectos clínicos, educacionais e socioantropológicos da surdez. Características básicas da fonologia de Libras: configurações de mão, movimento, locação, orientação da mão, expressões não-manuais. O alfabeto: expressões manuais e não manuais. Sistematização e operacionalização do léxico. Morfologia, sintaxe, semântica e pragmática da Libras; Diálogo e conversação. Didática para o ensino de Libras."
+    },
+    "GEX1053": {
+        "name": "MATEMÁTICA C",
+        "description": "Grandezas proporcionais. Noções de geometria. Conjuntos numéricos. Equações e inequações. Funções."
+    },
+    "GEX213": {
+        "name": "MATEMÁTICA C",
+        "description": "Grandezas proporcionais. Noções de geometria. Conjuntos numéricos. Equações e inequações. Funções."
+    },
+    "GEX1217": {
+        "name": "MATEMÁTICA DISCRETA",
+        "description": "Noções de Lógica proporcional e de predicado e Teoria dos Conjuntos. Relações. Funções. Prova por redução ao absurdo, por indução e por indução generalizada. Recorrências lineares. Combinatória finita: princípios aditivos, multiplicativo e da casa dos pombos, permutações, combinações e binômio de Newton."
+    },
+    "GEX608": {
+        "name": "MATEMÁTICA DISCRETA",
+        "description": "Noções de Lógica e de Teoria dos Conjuntos. Relações. Funções. Prova por redução ao ab- surdo, por indução e por indução generalizada. Recorrências lineares. Combinatória finita: princípios aditivos, multiplicativo e da casa dos pombos, permutações, combinações e binô- mio de Newton. Notação, definições e introdução a lógica matemática e teoria dos conjun- tos. Relações, funções, números naturais, conjuntos contáveis e incontáveis, indução mate- mática, relações de recorrência."
+    },
+    "GCS0686": {
+        "name": "MEIO AMBIENTE, ECONOMIA E SOCIEDADE",
+        "description": "Modos de produção: organização social, Estado, mundo do trabalho, ciência e tecnologia. Elementos de economia ecológica e política. Estado atual do capitalismo. Modelos produtivos e sustentabilidade. Experiências produtivas alternativas."
+    },
+    "GCS238": {
+        "name": "MEIO AMBIENTE, ECONOMIA E SOCIEDADE",
+        "description": "Modos de produção: organização social, Estado, mundo do trabalho, ciência e tecnologia. Elementos de economia ecológica e política. Estado atual do capitalismo. Modelos produtivos e sustentabilidade. Experiências produtivas alternativas."
+    },
+    "GEX1230": {
+        "name": "MODELAGEM E SIMULAÇÃO",
+        "description": "Conceitos e aplicações de modelagem e simulação. Propriedades, classificação e processo de projeto de modelos de simulação. Simulação discreta e contínua. Escalonamento, probabilidade e variabilidade em modelos. Metodologias, técnicas e ferramentas para modelagem e simulação computacional. Verificação e validação de modelos. Simulação paralela e distribuída. Modelos heterogêneos e de sincronização híbrida. Arquiteturas e formalismos de simulação. Estudos de casos e tendências em simulação computacional."
+    },
+    "GEX622": {
+        "name": "MODELAGEM E SIMULAÇÃO",
+        "description": "Conceitos e aplicações de modelagem e simulação. Propriedades, classificação e processo de projeto de modelos de simulação. Simulação discreta e contínua. Escalonamento, probabilidade e variabilidade em modelos. Metodologias, técnicas e ferramentas para modelagem e simulação computacional. Verificação e validação de modelos. Simulação paralela e distribuída. Modelos heterogêneos e de sincronização híbrida. Arquiteturas e formalismos de simulação. Estudos de casos e tendências em simulação computacional."
+    },
+    "GEX1213": {
+        "name": "ORGANIZAÇÃO DE COMPUTADORES",
+        "description": "Tendências tecnológicas de CPUs, memórias e barramentos. CPU: arquitetura do conjunto de instruções, modos de endereçamento, formatos de instruções e linguagem de montagem. Implementação do conjunto de instruções. Hierarquia de memória e associatividade (cache e TLB). Dispositivos de entrada e saída: tipos, características e sua conexão à CPU e à memória. Comunicação com a CPU (polling, interrupção, DMA). Medidas de desempenho."
+    },
+    "GEX612": {
+        "name": "ORGANIZAÇÃO DE COMPUTADORES",
+        "description": "Tendências tecnológicas de CPUs, memórias e barramentos. Hierarquia de memória e asso- ciatividade (cache e TLB). Dispositivos de entrada e saída: tipos, características e sua cone- xão à CPU e à memória. Comunicação com a CPU (polling, interrupção, DMA). CPU: ins- truções e modos de endereçamento. Formatos de instruções e linguagem de montagem. Si- mulador e montador. Exceções e interrupções. Medidas de desempenho."
+    },
+    "GEX609": {
+        "name": "PESQUISA E ORDENAÇÃO DE DADOS",
+        "description": "Métodos de ordenação. Busca linear e binária. Organização de arquivos. Persistência de da- dos. Ordenação externa. Índices (árvores B+ e hashing). Compactação de dados. Implemen- tações com linguagem imperativa estruturada."
+    },
+    "GEX441": {
+        "name": "PESQUISA OPERACIONAL",
+        "description": "Modelagem. Modelos lineares determinísticos contínuos: revisão de álgebra linear, programação linear, simplex e sensibilidade. Modelos determinísticos lineares discretos: problemas simples em redes, programação linear inteira, cortes e branch-and-bound. Processos de decisão sequencial: programação dinâmica e heurística. Cadeias de Markov: estabilidade e otimalidade, aplicação a filas elementares."
+    },
+    "GCS580": {
+        "name": "PLANEJAMENTO E GESTÃO DE PROJETOS",
+        "description": "Projetos. Gerenciamento de projetos. Gerenciamento de projetos de software. Metodologias de planejamento e gestão de projetos. Áreas de conhecimento da gerência de projetos: Escopo, Tempo, Risco, Integração, Comunicação, Custo, Recursos Humanos, Aquisição e Qualidade. Grupos de processos: Iniciação, Planejamento, Execução, Controle, Encerramento. Técnicas de acompanhamento de projetos. Metodologias ágeis para gerenciamento de projetos."
+    },
+    "GCS817": {
+        "name": "PLANEJAMENTO E GESTÃO DE PROJETOS",
+        "description": "Metodologias para planejamento e gestão de projetos. Gerenciamento de projetos de software. Metodologias ágeis para gerenciamento de projetos. Comparação entre PMBOK e Scrum. Técnicas ágeis de monitoramento de projetos. Gerência de requisitos em projetos ágeis. MVP (Mínimo Produto Viável). Kanban. Métricas do Kanban. Estimativas ágeis. Testes de software no desenvolvimento ágil. Princípios da Startup Enxuta (Lean Startup). Business Model Canvas."
+    },
+    "GEX055": {
+        "name": "PROBABILIDADE E ESTATÍSTICA",
+        "description": "Probabilidade. Teorema de Bayes. Variáveis aleatórias discretas e contínuas. Principais dis- tribuições discretas. Principais distribuições contínuas. Estimação de parâmetros. Testes de hipóteses. Correlação e Regressão. Princípios Básicos de Experimentação."
+    },
+    "GEX1212": {
+        "name": "PROBABILIDADE E ESTATÍSTICA",
+        "description": "Probabilidade. Teorema de Bayes. Variáveis aleatórias discretas e contínuas. Principais distribuições discretas. Principais distribuições contínuas. Estimação de parâmetros. Testes de hipóteses. Correlação e Regressão. Princípios Básicos de Experimentação."
+    },
+    "GLA0689": {
+        "name": "PRODUÇÃO TEXTUAL ACADÊMICA",
+        "description": "Língua, linguagem e sociedade. Leitura e produção de textos. Mecanismos de textualização e de argumentação dos gêneros acadêmicos: resumo, resenha, handout, seminário. Estrutura geral e função sociodiscursiva do artigo científico. Tópicos de revisão textual."
+    },
+    "GLA104": {
+        "name": "PRODUÇÃO TEXTUAL ACADÊMICA",
+        "description": "Língua, linguagem e sociedade. Leitura e produção de textos. Mecanismos de textualização e de argumentação dos gêneros acadêmicos: resumo, resenha, handout, seminário. Estrutura geral e função sociodiscursiva do artigo científico. Tópicos de revisão textual."
+    },
+    "GEX432": {
+        "name": "PROGRAMAÇÃO FUNCIONAL E LÓGICA",
+        "description": "Introdução ao paradigma de programação funcional: nomes, funções, tipos, funções de ordem superior, polimorfismos, linguagens funcionais. Introdução ao paradigma de programação lógica: lógica de primeira ordem, lógica clausal, resoluções SLD e Chã, unificação, estratégias de procura, corte e negação, linguagens lógicas."
+    },
+    "GEX098": {
+        "name": "PROGRAMAÇÃO I",
+        "description": "Conceitos de programação orientada a objetos. Classes. Herança. Encapsulamento. Poli- morfismo. Sobreposição e sobrecarga. Associações. Reusabilidade de software. Componen- tes. Criação e uso de bibliotecas de classes. Interface gráfica com o usuário. Persistência de dados e de objetos. Tratamento de exceções e erros. Pacotes. Aspectos de projeto orientado a objetos. Prática de programação usando uma linguagem de programação orientada a obje- tos."
+    },
+    "GEX613": {
+        "name": "PROGRAMAÇÃO II",
+        "description": "Conceitos de aplicações para a Web. Conceitos básicos sobre estrutura cliente/servidor, arquitetura em camadas. Servidores web. Mecanismos de renderização de conteúdo. Linguagens de marcação. Folhas de CSS. Linguagens clientside e server-side. Protocolo HTTP/HTTPS e troca de informa- ções entre clientes e servidores. Cookies, sessões e autenticação. Integração de aplicações web com banco de dados. Padrão MVC e frameworks de desenvolvimento. Desenvolvimento de aplicações para a Web. Noções de segurança em aplicações Web."
+    },
+    "GEX1211": {
+        "name": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+        "description": "Conceitos de programação orientada a objetos. Classes e Interfaces. Abstração. Herança. Encapsulamento. Polimorfismo. Sobrecarga e Sobrescrita. Associações. Reusabilidade de software. Tratamento de exceções. Interface gráfica com o usuário. Coleções, streams, expressões lambda e funções de alta ordem. Prática de programação usando uma linguagem de programação orientada a objetos."
+    },
+    "GCH1993": {
+        "name": "PROJETO DE INTEGRAÇÃO DE EXTENSÃO",
+        "description": "Concepção, prática, acompanhamento, sistematização e avaliação das atividades de extensão na Computação. Elaboração, submissão e execução de atividade de extensão, no formato de programa, projeto, curso, evento, prestação de serviços, publicações ou outros produtos acadêmicos."
+    },
+    "GEX105": {
+        "name": "REDES DE COMPUTADORES",
+        "description": "Fundamentos de transmissão de dados e sistemas de comunicação. Conceitos, classificação e topologias das redes. Modelos de referência: OSI e TCP/IP. Protocolos e serviços de co- municação. Internet e Intranets. Meios de transmissão de dados. Equipamentos de interco- nexão. Avaliação de desempenho."
+    },
+    "GEX1221": {
+        "name": "REDES DE COMPUTADORES",
+        "description": "Fundamentos de sistemas de comunicação de dados. Arquiteturas de redes: modelos OSI e TCP/IP. Protocolos de comunicação na Internet: camadas de aplicação, transporte, rede e enlace. Avaliação de desempenho."
+    },
+    "GEX112": {
+        "name": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+        "description": "Segurança em aplicações: programação segura, detecção de falhas, códigos maliciosos (malware). Segurança em sistemas operacionais: princípios de controle de acesso, sistemas confiáveis. Segurança em redes de computadores: ataques e defesas. Princípios de criptografia: criptografia simétrica e assimétrica, integridade de dados. Protocolos de autenticação: princípios, infraestrutura de chaves públicas e aplicações e protocolos criptográficos."
+    },
+    "GEX1093": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLIII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1228": {
+        "name": "SEGURANÇA E AUDITORIA DE SISTEMAS",
+        "description": "Segurança em aplicações: programação segura, detecção de falhas, códigos maliciosos (malware). Segurança em sistemas operacionais: princípios de controle de acesso, sistemas confiáveis. Segurança em redes de computadores: ataques e defesas. Princípios de criptografia: criptografia simétrica e assimétrica, integridade de dados. Protocolos de autenticação: princípios, infraestrutura de chaves públicas e aplicações e protocolos criptográficos."
+    },
+    "GEX440": {
+        "name": "SISTEMAS DE INFORMAÇÃO",
+        "description": "Conceitos e teoria de sistemas. Classificação, objetivos, funções e componentes dos sistemas de informação. Níveis de sistemas: estratégico, tático e operacional. Dimensões tecnológica, organizacional e humana. Administração de sistemas de informação. Planejamento estratégico de sistemas de informação. Governança de tecnologia de informação. Planejamento estratégico de sistemas de informação."
+    },
+    "GEX437": {
+        "name": "SISTEMAS DE TEMPO REAL",
+        "description": "Conceituação básica e caracterização de um sistema de tempo real. Escalonamento de tempo real: modelo de tarefas; abordagens de escalonamento de tempo real. Controle de acesso a recursos: uso de protocolos de acesso a recursos. Comunicação em tempo real: requisitos, protocolos. Sistemas operacionais de tempo real: aspectos funcionais, aspectos temporais, estudo de casos. Linguagens de programação de tempo real: características, requisitos, software, estudo de casos."
+    },
+    "GEX1209": {
+        "name": "SISTEMAS DIGITAIS",
+        "description": "Dispositivos Lógicos Programáveis. Introdução à Linguagem de Descrição de Hardware. Prototipação de hardware utilizando FPGAs. Circuitos contadores. Máquinas Sequenciais Síncronas (Mealy e Moore). Síntese de Circuitos Sequenciais. Descrição de Sistemas Digitais no nível de RT. Projeto de Sistemas Digitais no nível de RT (datapath x controle)."
+    },
+    "GEX606": {
+        "name": "SISTEMAS DIGITAIS",
+        "description": "Dispositivos Lógicos Programáveis. Introdução à Linguagem de Descrição de Hardware. Prototipação de hardware utilizando FPGAs. Máquinas Sequenciais Síncronas (Mealy e Moore). Síntese de Circuitos Sequenciais. Descrição de Sistemas Digitais no nível de RT. Projeto de Sistemas Digitais no nível de RT (datapath x controle)."
+    },
+    "GEX434": {
+        "name": "SISTEMAS MULTIMÍDIA",
+        "description": "Definição de sistemas multimídia e problemática envolvida. Representação digital de áudio, imagens e vídeos. Técnicas e padrões de compressão. Aplicações de multimídia: caracterização e requisitos. Protocolos de transporte de mídia e de controle-sinalização. Qualidade de Serviço."
+    },
+    "GEX110": {
+        "name": "SISTEMAS OPERACIONAIS",
+        "description": "Histórico de Sistemas Operacionais. Arquitetura de Sistemas Operacionais. Funcionalida- des de Sistemas Operacionais. Gerência de Processos e Threads: Controle e Escalonamen- to. Impasses: Modelagem e Tratamento. Memória: Alocação, Gerência e Memória Virtual. Entrada e Saída: princípios de hardware e software, dispositivos periféricos. Sistema de Ar- quivos: Arquivos, Diretórios e Implementação. Proteção e Segurança. Sistemas com Múlti- plos Processadores."
+    },
+    "GEX1219": {
+        "name": "SISTEMAS OPERACIONAIS",
+        "description": "Histórico de Sistemas Operacionais. Arquitetura de Sistemas Operacionais. Funcionalidades de Sistemas Operacionais. Gerência de Processos e Threads: Controle e Escalonamento. Impasses: Modelagem e Tratamento. Memória: Alocação, Gerência e Memória Virtual. Entrada e Saída: princípios de hardware e software, dispositivos periféricos. Sistema de Arquivos: Arquivos, Diretórios e Implementação. Proteção e Segurança. Sistemas com Múltiplos Processadores."
+    },
+    "GEX656": {
+        "name": "TECNOLOGIA E DESENVOLVIMENTO",
+        "description": "Preceitos e contribuições dos estudos CTS. Definições de ciência, tecnologia e técnica. As imagens da tecnologia. Relações entre ciência, tecnologia e sociedade. Desenvolvimento tecnológico e desenvolvimento social. Difusão de novas tecnologias. Sociedade tecnológica e suas implicações. As noções de risco e de impacto tecnológico. Modelos de produção e modelos de sociedade. Influências da ciência e da tecnologia na organização social. Questões contemporâneas."
+    },
+    "GEX1220": {
+        "name": "TEORIA DA COMPUTAÇÃO",
+        "description": "Máquinas de Turing e variantes. A tese de Church-Turing. Computabilidade. Decidibilidade. Redutibilidade. Teoria da Complexidade. Complexidade de Tempo. As classes P, NP e Np Completude. Complexidade de Espaço. Tópicos avançados em Teoria da Computação."
+    },
+    "GEX614": {
+        "name": "TEORIA DA COMPUTAÇÃO",
+        "description": "Introdução a modelos formais de computação. Máquinas de Turing. Funções Recursivas. Computabilidade. Decidibilidade. Classes de complexidade de problemas computacionais. Circuitos booleanos."
+    },
+    "GEX1226": {
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO I",
+        "description": "Iniciação à Metodologia da Pesquisa. Aspectos de escrita científica. Fontes de Pesquisa em Computação. Normas para elaboração do Trabalho de Conclusão de Curso. Elaboração do projeto de conclusão de curso."
+    },
+    "GEX657": {
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO I",
+        "description": "Conhecimento científico. Metodologia de pesquisa científica. Aspectos de escrita científica. Elaboração de projeto de pesquisa científica na área do conhecimento de ciência da computação."
+    },
+    "GEX1227": {
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO II",
+        "description": "Desenvolvimento das atividades previstas no projeto elaborado em TCC I e produção do texto final do TCC, seguida de defesa perante a banca."
+    },
+    "GEX658": {
+        "name": "TRABALHO DE CONCLUSÃO DE CURSO II",
+        "description": "Desenvolvimento das atividades previstas no projeto de pesquisa elaborada em TCC I e produção do texto final do TCC, seguida de defesa perante banca."
+    },
+    "GEX623": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO I",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX624": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO II",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX625": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO III",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX626": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO IV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX631": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO IX",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX1100": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO L",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX627": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO V",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX628": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO VI",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX629": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO VII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX630": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO VIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX632": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO X",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX633": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XI",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX634": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX635": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX636": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XIV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX1095": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX1096": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLVI",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1097": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLVII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1098": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLVIII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX637": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX638": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XVI",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX639": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XVII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX640": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XVIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX642": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XX",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX643": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXI",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX644": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX645": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX646": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXIV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX651": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXIX",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX647": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXV",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX648": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXVI",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX649": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXVII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX650": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXVIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX652": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXX",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX1081": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXI",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1082": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1083": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXIII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1084": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXIV",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1089": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXIX",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1085": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXV",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1086": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXVI",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1087": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXVII",
+        "description": "Ementa aberta conforme tema a ser trabalhado."
+    },
+    "GEX1088": {
+        "name": "TÓPICOS ESPECIAIS EM COMPUTAÇÃO XXXVIII",
+        "description": "Conteúdo variável respeitando os objetivos mencionados."
+    },
+    "GEX517": {
+        "name": "ÁLGEBRA",
+        "description": "Anéis. Ideais. Corpos. Anéis de polinômios. Grupos."
+    },
+    "GEX1144": {
+        "name": "ÁLGEBRA LINEAR",
+        "description": "Matrizes. Determinantes. Sistemas de equações lineares. Espaços Vetoriais. Espaços com produto interno. Transformações Lineares. Autovalores e autovetores. Diagonalização."
+    },
+    "GEX607": {
+        "name": "ÁLGEBRA LINEAR",
+        "description": "Matrizes. Determinantes. Sistemas de equações lineares. Espaços vetoriais. Transformações lineares. Espaços com produto interno. Autovalores e autovetores. Diagonalização."
+    }
 }

@@ -43,13 +43,14 @@
     {
         "id": 3,
         "code": "GEX1163",
-        "name": "GEX1163 - INTRODUÇÃO À COMPUTAÇÃO (Felipe/Jefferson)  <br/> EX1053 - MATEMÁTICA C (T02) (Lucia)",
+        "name": "GEX1163 - Introdução à Computação (Felipe/Jefferson)  <br/> GEX1053 - Matemática C (T02) (Lucia)",
         "credits": 4,
         "slots": 2,
         "group": 1,
         "members": [
             "felipe.grando",
-            "jefferson.caramori"
+            "jefferson.caramori",
+            "lucia.menoncini"
         ],
         "weekDay": 5,
         "period": 6
@@ -108,20 +109,6 @@
         ],
         "weekDay": 2,
         "period": 5
-    },
-    {
-        "id": 8,
-        "code": "GEN504",
-        "name": "GEN504 - CIRCUITOS DIGITAIS",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "lcaimi",
-            "sem.professor"
-        ],
-        "weekDay": 3,
-        "period": 4
     },
     {
         "id": 16,
@@ -209,20 +196,8 @@
         "slots": 1,
         "group": 2,
         "members": [
-            "lcaimi"
-        ],
-        "weekDay": 5,
-        "period": 4
-    },
-    {
-        "id": 10,
-        "code": "GEN504",
-        "name": "GEN504 - CIRCUITOS DIGITAIS",
-        "credits": 4,
-        "slots": 1,
-        "group": 2,
-        "members": [
-            "sem.professor"
+            "lcaimi",
+             "sem.professor"
         ],
         "weekDay": 5,
         "period": 4
@@ -517,7 +492,7 @@
     {
         "id": 39,
         "code": "GCH1740",
-        "name": "GCH1740 - INTRODUÇÃO À FILOSOFIA (Aguardando Professor) <br> GEX1218 - LINGUAGENS FORMAIS E AUTÔMATOS (Braulio)",
+        "name": "GCH1740 - Introdução à Filosofia (Aguardando Professor) <br> GEX1218 - Linguagens Formais e Autômatos (Braulio)",
         "credits": 4,
         "slots": 2,
         "group": 5,
@@ -611,7 +586,7 @@
         "code": "GCS239",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
-        "slots": 2,
+        "slots": 3,
         "group": 6,
         "members": [
             "matiello"
@@ -754,7 +729,7 @@
         "code": "GCS239",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
-        "slots": 1,
+        "slots": 3,
         "group": 8,
         "members": [
             "matiello"
