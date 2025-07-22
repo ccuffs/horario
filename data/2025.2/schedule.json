@@ -586,13 +586,26 @@
         "code": "",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
-        "slots": 3,
+        "slots": 1,
         "group": 6,
         "members": [
             "matiello"
         ],
         "weekDay": 4,
         "period": 4
+    },
+    {
+        "id": 47,
+        "code": "",
+        "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
+        "credits": 4,
+        "slots": 1,
+        "group": 6,
+        "members": [
+            "matiello"
+        ],
+        "weekDay": 4,
+        "period": 5
     },
     {
         "id": 49,
@@ -729,13 +742,26 @@
         "code": "",
         "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
         "credits": 4,
-        "slots": 3,
+        "slots": 1,
         "group": 8,
         "members": [
             "matiello"
         ],
         "weekDay": 4,
         "period": 4
+    },
+    {
+        "id": 591,
+        "code": "",
+        "name": "GCS239 - DIREITOS E CIDADANIA <br> (Mesma turma para 6°(PPC 2025) e 8° (PPC 2018) fases)",
+        "credits": 4,
+        "slots": 1,
+        "group": 8,
+        "members": [
+            "matiello"
+        ],
+        "weekDay": 4,
+        "period": 5
     },
     {
         "id": 61,
@@ -761,7 +787,7 @@
             "claunir.pavan"
         ],
         "weekDay": 7,
-        "period": 1
+        "period": 2
     },
     {
         "id": 63,
@@ -800,6 +826,6 @@
             "claunir.pavan"
         ],
         "weekDay": 7,
-        "period": 2
+        "period": 3
     }
 ]
