@@ -789,6 +789,32 @@
         "weekDay": 7,
         "period": 2
     },
+     {
+        "id": 66,
+        "code": "GEX1901",
+        "name": "GEX1901 - TÓPICOS ESPECIAIS EM COMPUTAÇÃO XLI",
+        "credits": 4,
+        "slots": 2,
+        "group": 8,
+        "members": [
+            "ricardo.parizotto"
+        ],
+        "weekDay": 2,
+        "period": 6
+    },
+     {
+        "id": 67,
+        "code": "GEX1088",
+        "name": "GEX1088 - Tópicos Especiais em Computação XXXVIII",
+        "credits": 4,
+        "slots": 2,
+        "group": 8,
+        "members": [
+            "andrei.braga"
+        ],
+        "weekDay": 2,
+        "period": 6
+    },
     {
         "id": 63,
         "code": "GEX1090",
