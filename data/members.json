@@ -297,8 +297,24 @@
     "name": "Ricardo Parizotto",
     "email": "ricardo.parizotto@uffs.edu.br"
   },
+  "cristiane.zanini": {
+    "name": "Cristiane Zanini",
+    "email": "cristiane.zanini@uffs.edu.br"
+  },
+  "luiz.cichoski": {
+    "name": "Luiz Paulo da Cas Cichoski",
+    "email": "luiz.cichoski@uffs.edu.br"
+  },
   "sem.professor": {
     "name": "Aguardando professor",
+    "email": ""
+  },
+  "vaga1": {
+    "name": "Aguardando professor (vaga 1)",
+    "email": ""
+  },
+  "vaga2": {
+    "name": "Aguardando professor (vaga 2)",
     "email": ""
   }
 }

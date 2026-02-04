@@ -87,7 +87,7 @@
         "code": "GLA0689",
         "name": "GLA0689 -Produ\u00e7\u00e3o textual acad\u00eamica",
         "credits": 4,
-        "slots": 1,
+        "slots": 2,
         "group": 1,
         "members": [
             "Claudia.rost",
@@ -103,7 +103,7 @@
         "code": "GEX1053",
         "name": "GEX1053 - Matem\u00e1tica C",
         "credits": 4,
-        "slots": 1,
+        "slots": 2,
         "group": 1,
         "members": [
             "sem.professor"
@@ -248,7 +248,7 @@
         "code": "GCS0686",
         "name": "GCS0686 - Meio ambiente, economia e sociedade",
         "credits": 4,
-        "slots": 1,
+        "slots": 2,
         "group": 3,
         "members": [
             "angelo.zanela"
@@ -261,7 +261,7 @@
         "code": "GEX607",
         "name": "GEX607 - \u00c1lgebra linear",
         "credits": 4,
-        "slots": 1,
+        "slots": 2,
         "group": 3,
         "members": [
             "paulo.bosing"
@@ -457,7 +457,7 @@
         "code": "GEX1146",
         "name": "GEX1146 - C\u00e1lculo II",
         "credits": 4,
-        "slots": 1,
+        "slots": 2,
         "group": 5,
         "members": [
             "milton.kist"
@@ -793,7 +793,7 @@
     {
         "id": 62,
         "code": "GCS239",
-        "name": "GCS239 - DIREITOS E CIDADANIA",
+        "name": "GCS239 - Direitos e cidadania",
         "credits": 4,
         "slots": 2,
         "group": 8,
